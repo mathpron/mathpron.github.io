@@ -1021,23 +1021,19 @@ table.ipa-chart .rotate {
     }
 
     .content {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     span.center-dot {
         margin: 0 2px;
     }
 
-    .expander {
-        font-size: 14px;
-    }
-
     span.text-tag, span.text-tag-red, span.text-tag-green, span.lang-code-light {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     footer {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     ul {
@@ -1053,9 +1049,9 @@ table.ipa-chart .rotate {
     }
 
     #lang-list-container {
-        width: 120px;
+        width: 100px;
         padding: 5px 0;
-        font-size: 14px;
+        font-size: 12px;
     }
     
     .lang-list-item {
@@ -1063,19 +1059,19 @@ table.ipa-chart .rotate {
     }
 
     .alternative-spellings {
-        font-size: 14px;
+        font-size: 12px;
         margin-left: 60px;
         text-indent: -30px;
         margin-top: -10px;
     }
 
     .under-header {
-        font-size: 14px;
+        font-size: 12px;
         margin-top: 30px;
     }
 
     #ipa-explainer {
-        font-size: 14px;
+        font-size: 12px;
     }
 }
 
