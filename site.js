@@ -199,7 +199,7 @@ function initialise() {
         $(this).attr('data-composing', null).trigger('input');
     });
     
-    $('#search-input').on('input focus', function () {
+    $('#search-input').on('input focus change', function () {
         if ($(this).attr('data-composing')) return;
         let text = $(this).val();
         if (searchText !== text) {
