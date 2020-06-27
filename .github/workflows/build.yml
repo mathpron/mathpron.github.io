@@ -1,0 +1,35 @@
+# This workflow will do a clean install of node dependencies, and build the source code.
+
+name: Build
+
+on:
+  push:
+    branches: [ dev ]
+  pull_request:
+    branches: [ dev ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    - name: Git config
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+    - name: Setup Node.js
+      uses: actions/setup-node@v1
+      with:
+        node-version: '12'
+    - name: Install dependencies
+      run: yarn install
+    - name: Build
+      run: npm run build --if-present
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        branch: 'master'
+        github_token: ${{ secrets.GITHUB_TOKEN }}
