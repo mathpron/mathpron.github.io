@@ -188,7 +188,7 @@
                         "type": "full-name",
                         "text": "George Biddell Airy",
                         "prons": [
-                            "{{en|orig}} {{ipb|en|ˈd͡ʒɔːd͡ʒ ˈbɪd.əl ˈɛər.i}}",
+                            "{{en|orig}} {{ipb|en|ˈd͡ʒɔrd͡ʒ ˈbɪd.əl ˈɛər.i}}",
                             "> {{en-GB}} {{ipa|en-GB|ˈd͡ʒɔːd͡ʒ ˈbɪd.l̩ ˈɛːɹ.i}} {{audio|en-GB-george-biddell-airy.mp3}}"
                         ]
                     }
@@ -4590,7 +4590,7 @@
                         "type": "family-name",
                         "text": "Galerkin",
                         "prons": [
-                            "{{ru|orig}} {{lang|ru|Галёркин|Galyorkin}} or.kʲɪn}} {{audio|ru-RU-galerkin.mp3}}",
+                            "{{ru|orig}} {{lang|ru|Галёркин|Galyorkin}} {{ipa|ru|ɡɐ.ˈlʲor.kʲɪn}} {{audio|ru-RU-galerkin.mp3}}",
                             "{{en|aprx}} {{ipb|en|ɡə.ˈljɔr.kɪn}}",
                             "* {{ja|tran}} {{lang|ja|ガレルキン|Garerukin}}",
                             "* {{zh|tran}} {{lang|zh|伽辽金|Gāliáojīn}}"
@@ -4600,7 +4600,7 @@
                         "type": "full-name",
                         "text": "Boris Grigoryevich Galerkin",
                         "prons": [
-                            "{{ru|orig}} {{lang|ru|Борис Григорьевич Галёркин|Boris Grigoryevich Galyorkin}} or.kʲɪn}} {{audio|ru-RU-boris-grigoryevich-galerkin.mp3}}"
+                            "{{ru|orig}} {{lang|ru|Борис Григорьевич Галёркин|Boris Grigoryevich Galyorkin}} {{ipa|ru|bɐ.ˈrʲis ɡrʲi.ˈɡo.rʲi.vʲit͡ɕ ɡɐ.ˈlʲor.kʲɪn}} {{audio|ru-RU-boris-grigoryevich-galerkin.mp3}}"
                         ]
                     }
                 ],
@@ -4951,7 +4951,7 @@
                         "type": "family-name",
                         "text": "Gram",
                         "prons": [
-                            "{{da|orig}} {{ipa|da|kʁɑmˀ}} {{audio|da-DK-gram.mp3}}",
+                            "{{da|orig}} {{ipa|da|ˈkʁɑmˀ}} {{audio|da-DK-gram.mp3}}",
                             "{{en|aprx}} {{ipb|en|ˈɡrɑːm}}",
                             "* {{ja|tran}} {{lang|ja|グラム|Guramu}}",
                             "* {{ru|tran}} {{lang|ru|Грам|Gram}}",
@@ -6567,7 +6567,7 @@
                         "type": "family-name",
                         "text": "Kan",
                         "prons": [
-                            "{{nl|orig}} {{ipa|nl|kɑn}} {{audio|nl-NL-kan.mp3}}",
+                            "{{nl|orig}} {{ipa|nl|ˈkɑn}} {{audio|nl-NL-kan.mp3}}",
                             "{{en|aprx}} {{ipb|en|ˈkɑːn}}",
                             "* {{ja|tran}} {{lang|ja|カン|Kan}}",
                             "* {{ru|tran}} {{lang|ru|Кан|Kan}}",
@@ -6578,7 +6578,7 @@
                         "type": "full-name",
                         "text": "Daniel Marinus Kan",
                         "prons": [
-                            "{{nl|orig}} {{ipa|nl|ˈdaː.ni.jɛɫ ma.ˈɾi.nʏs kɑn}} {{audio|nl-NL-daniel-marinus-kan.mp3}}"
+                            "{{nl|orig}} {{ipa|nl|ˈdaː.ni.jɛɫ ma.ˈɾi.nʏs ˈkɑn}} {{audio|nl-NL-daniel-marinus-kan.mp3}}"
                         ]
                     }
                 ],
@@ -10758,7 +10758,7 @@
                         "type": "family-name",
                         "text": "Schur",
                         "prons": [
-                            "{{he|orig}} {{lang|he|שור|Shor}} {{ipa|he|ʃoʁ}} {{audio|he-IL-shor.mp3}} {{ref|forvo|שור|he|{{lang|he|שור}}}}",
+                            "{{he|orig}} {{lang|he|שור|Shor}} {{ipa|he|ˈʃoʁ}} {{audio|he-IL-shor.mp3}} {{ref|forvo|שור|he|{{lang|he|שור}}}}",
                             "{{de|orig}} {{ipa|de|ˈʃuːʁ}} {{audio|de-DE-schur.mp3}}",
                             "{{en|aprx}} {{ipb|en|ˈʃʊr}}",
                             "* {{ja|tran}} {{lang|ja|シューア|Shūa}}",
@@ -10770,7 +10770,7 @@
                         "type": "full-name",
                         "text": "Issai Schur",
                         "prons": [
-                            "{{he|orig}} {{lang|he|ישי שור|Yishai Shor}} {{ipa|he|i.ˈʃai ʃoʁ}}",
+                            "{{he|orig}} {{lang|he|ישי שור|Yishai Shor}} {{ipa|he|i.ˈʃai ˈʃoʁ}}",
                             "{{de|orig}} {{ipa|de|ˈʔɪ.saɪ ˈʃuːʁ}} {{audio|de-DE-issai-schur.mp3}}"
                         ]
                     }
