@@ -190,17 +190,7 @@ function initialise() {
     });
 
     // search box
-    // work with IME
-    $('#search-input').on('compositionstart', function () {
-        $(this).attr('data-composing', true);
-    });
-    
-    $('#search-input').on('compositionend', function () {
-        $(this).attr('data-composing', null).trigger('input');
-    });
-    
-    $('#search-input').on('input focus change', function () {
-        if ($(this).attr('data-composing')) return;
+    $('#search-input').on('input focus', function () {
         let text = $(this).val();
         if (searchText !== text) {
             searchText = text;
