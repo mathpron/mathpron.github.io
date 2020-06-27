@@ -14,7 +14,7 @@ const cjkLanguages = ['zh'];
 // from https://stackoverflow.com/q/990904
 const diacriticsRemovalMap = [{'base':'a','letters':'ⱥ'},{'base':'aa','letters':'ꜳ'},{'base':'ae','letters':'æ'},{'base':'ao','letters':'ꜵ'},{'base':'au','letters':'ꜷ'},{'base':'av','letters':'ꜹꜻ'},{'base':'ay','letters':'ꜽ'},{'base':'b','letters':'ƀƃɓ'},{'base':'c','letters':'ƈȼ'},{'base':'d','letters':'đƌɖɗꝺ'},{'base':'e','letters':'ɇ'},{'base':'f','letters':'ƒꝼ'},{'base':'g','letters':'ǥɠꞡᵹ'},{'base':'h','letters':'ħⱨ'},{'base':'hv','letters':'ƕ'},{'base':'i','letters':'ɨı'},{'base':'j','letters':'ɉ'},{'base':'k','letters':'ƙⱪꝁꝃꝅꞣ'},{'base':'l','letters':'łƚɫⱡꝉꞁꝇ'},{'base':'m','letters':'ɱ'},{'base':'n','letters':'ƞɲꞑꞥ'},{'base':'o','letters':'øøꝋꝍɵ'},{'base':'oi','letters':'ƣ'},{'base':'ou','letters':'ȣ'},{'base':'oo','letters':'ꝏ'},{'base':'p','letters':'ƥᵽꝑꝓꝕ'},{'base':'q','letters':'ɋꝗꝙ'},{'base':'r','letters':'ɍɽꝛꞧꞃ'},{'base':'s','letters':'ȿꞩꞅ'},{'base':'ss','letters':'ß'},{'base':'t','letters':'ŧƭʈⱦꞇ'},{'base':'tz','letters':'ꜩ'},{'base':'u','letters':'ʉ'},{'base':'v','letters':'ʋꝟ'},{'base':'vy','letters':'ꝡ'},{'base':'w','letters':'ⱳ'},{'base':'y','letters':'ƴɏỿ'},{'base':'z','letters':'ƶȥɀⱬꝣ'},{'base':"'",'letters':'‘’'}];
 
-$.getJSON('./data.json', function (json) {
+$.getJSON('./data.json?_v=' + Math.floor(Date.now() / 86400000 - 1 / 6), function (json) { // bust cache at 4am
     data = json;
     if (loaded) initialise();
 });
