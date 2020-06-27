@@ -1,0 +1,26 @@
+{
+  "name": "mathpron",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathpron/mathpron.github.io.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mathpron/mathpron.github.io/issues"
+  },
+  "homepage": "https://github.com/mathpron/mathpron.github.io#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.8.0",
+    "cssnano": "^4.1.10",
+    "html-minifier": "^4.0.0",
+    "postcss": "^7.0.32",
+    "simple-git": "^2.6.0",
+    "terser": "^4.7.0"
+  }
+}

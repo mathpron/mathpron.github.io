@@ -1,0 +1,746 @@
+<style>
+    table.ipa-chart .rotate {
+        height: 4em; width: 1.5em;
+    }
+</style>
+<p>本文解释项目中使用的精确音标。</p>
+
+<h2>IPA 的使用</h2>
+<p>IPA 是世界上广泛使用的音标系统，但它并不是一套科学、精确的系统。它使用的符号并没有良好地定义，这导致某些符号，例如
+    {{ipc|ə}} 和 {{ipc|ɹ}}，被用来表示几十种不同的声音，而某些声音却对应了好几个符号。</p>
+<p>这并不怪它。IPA 的初衷不是为了精确地表示语音，而是为了大致地表出世界上每个语言的音素。但问题在于，它是唯一受广泛认可的音标系统，这导致本该精确的语音描述丧失了精确性。不仅如此，在一个实验{{ref|2}}
+    中，18 名语音学家听了一组单词的录音，然后各自判断单词中出现的是元音是什么。结果，不同的语音学家给出的答案差异巨大。这些问题导致了一个奇怪的现象：任找一种语言，它的语音到底都是什么音，语音学家们永远无法商量出定论。</p>
+<p>显然，这是需要改变的。解决问题的方法很简单：精确地定义每个符号的含义，然后训练自己的听力，来分辨每种声音的细微区别。这正是语音学家 L. Canepari
+    的研究所致力的方向。我们使用他的工作{{ref|1}} 作为这个项目的语音学指引。他使用人的整个发声腔的形状来精确地定义每种语音，并设计了一套新的符号系统。在这个项目中，我们使用他的理论，但保留大部分的 IPA 符号。</p>
+
+<h2>元音</h2>
+<p>这个元音表相较官方的 IPA 做了一些小调整。使用变音号的字母标为灰色。灰点表示那个元音发音时唇、舌处于反常的位置，几乎没有语言在日常说话中使用它们。</p>
+<div class="table-container">
+    <table class="ipa-chart alt-bg-from-4th-mobile">
+        <colgroup>
+            <col>
+            <col style="width:1em">
+            <col style="width:2.5em">
+            <col style="width:2.5em">
+            <col style="width:1em">
+            <col style="width:1em">
+            <col style="width:2.5em">
+            <col style="width:2.5em">
+            <col style="width:1em">
+            <col style="width:1em">
+            <col style="width:2.5em">
+            <col style="width:2.5em">
+            <col style="width:1em">
+            <col style="width:1em">
+            <col style="width:2.5em">
+            <col style="width:2.5em">
+            <col style="width:1em">
+            <col style="width:1em">
+            <col style="width:2.5em">
+            <col style="width:2.5em">
+            <col style="width:1em">
+        </colgroup>
+        <tbody>
+            <tr>
+                <th></th>
+                <th colspan="4">前</th>
+                <th colspan="4">半前</th>
+                <th colspan="4">央</th>
+                <th colspan="4">半后</th>
+                <th colspan="4">后</th>
+            </tr>
+            <tr class="rule-below">
+                <td>圆唇:</td>
+                <td></td>
+                <td>−</td>
+                <td>+</td>
+                <td></td>
+                <td></td>
+                <td>−</td>
+                <td>+</td>
+                <td></td>
+                <td></td>
+                <td>−</td>
+                <td>+</td>
+                <td></td>
+                <td></td>
+                <td>−</td>
+                <td>+</td>
+                <td></td>
+                <td></td>
+                <td>−</td>
+                <td>+</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th class="rule-right">闭</th>
+                <td></td>
+                <td>{{ipd|i}}</td>
+                <td class="grey">{{ipd|y̟}}</td>
+                <td></td>
+                <td></td>
+                <td class="grey">{{ipd|i̠}}</td>
+                <td>{{ipd|y}}</td>
+                <td></td>
+                <td></td>
+                <td>{{ipd|ɨ}}</td>
+                <td>{{ipd|ʉ}}</td>
+                <td></td>
+                <td></td>
+                <td>{{ipd|ɯ}}</td>
+                <td class="grey">{{ipd|u̟}}</td>
+                <td></td>
+                <td></td>
+                <td>{{ipd|.}}</td>
+                <td>{{ipd|u}}</td>
+            </tr>
+            <tr>
+                <th class="rule-right">近闭</th>
+                <td></td>
+                <td>{{ipd|ɪ}}</td>
+                <td class="grey">{{ipd|ʏ̟}}</td>
+                <td></td>
+                <td></td>
+                <td class="grey">{{ipd|ɪ̠}}</td>
+                <td>{{ipd|ʏ}}</td>
+                <td></td>
+                <td></td>
+                <td>{{ipd|ᵻ}}</td>
+                <td>{{ipd|ᵿ}}</td>
+                <td></td>
+                <td></td>
+                <td>{{ipd|ω}}</td>
+                <td class="grey">{{ipd|ʊ̟}}</td>
+                <td></td>
+                <td></td>
+                <td>{{ipd|.}}</td>
+                <td>{{ipd|ʊ}}</td>
+            </tr>
+            <tr>
+                <th class="rule-right">半闭</th>
+                <td></td>
+                <td>{{ipd|e}}</td>
+                <td class="grey">{{ipd|ø̟}}</td>
+                <td></td>
+                <td></td>
+                <td class="grey">{{ipd|e̠}}</td>
+                <td>{{ipd|ø}}</td>
+                <td></td>
+                <td></td>
+                <td>{{ipd|ɘ}}</td>
+                <td>{{ipd|ɵ}}</td>
+                <td></td>
+                <td></td>
+                <td>{{ipd|ɤ}}</td>
+                <td class="grey">{{ipd|o̟}}</td>
+                <td></td>
+                <td></td>
+                <td>{{ipd|.}}</td>
+                <td>{{ipd|o}}</td>
+            </tr>
+            <tr>
+                <th class="rule-right">中</th>
+                <td></td>
+                <td class="grey">{{ipd|e̞}}</td>
+                <td>{{ipd|.}}</td>
+                <td></td>
+                <td></td>
+                <td class="grey">{{ipd|ə̟}}</td>
+                <td class="grey">{{ipd|ø̞}}</td>
+                <td></td>
+                <td></td>
+                <td>{{ipd|ə}}</td>
+                <td class="grey">{{ipd|ɵ̞}}</td>
+                <td></td>
+                <td></td>
+                <td class="grey">{{ipd|ɤ̞}}</td>
+                <td class="grey">{{ipd|o͓}}</td>
+                <td></td>
+                <td></td>
+                <td>{{ipd|.}}</td>
+                <td class="grey">{{ipd|o̞}}</td>
+            </tr>
+            <tr>
+                <th class="rule-right">半开</th>
+                <td></td>
+                <td>{{ipd|ɛ}}</td>
+                <td>{{ipd|.}}</td>
+                <td></td>
+                <td></td>
+                <td class="grey">{{ipd|ɛ̠}}</td>
+                <td>{{ipd|œ}}</td>
+                <td></td>
+                <td></td>
+                <td>{{ipd|ɜ}}</td>
+                <td>{{ipd|ɞ}}</td>
+                <td></td>
+                <td></td>
+                <td>{{ipd|ʌ}}</td>
+                <td class="grey">{{ipd|ɔ̟}}</td>
+                <td></td>
+                <td></td>
+                <td class="grey">{{ipd|ʌ̠}}</td>
+                <td>{{ipd|ɔ}}</td>
+            </tr>
+            <tr>
+                <th class="rule-right">近开</th>
+                <td></td>
+                <td class="grey">{{ipd|ɛ̞}}</td>
+                <td>{{ipd|.}}</td>
+                <td></td>
+                <td></td>
+                <td class="grey">{{ipd|ɐ̟}}</td>
+                <td class="grey">{{ipd|œ̞}}</td>
+                <td></td>
+                <td></td>
+                <td>{{ipd|ɐ}}</td>
+                <td class="grey">{{ipd|ɞ̞}}</td>
+                <td></td>
+                <td></td>
+                <td class="grey">{{ipd|ʌ̞}}</td>
+                <td class="grey">{{ipd|ɒ͓}}</td>
+                <td></td>
+                <td></td>
+                <td class="grey">{{ipd|ʌ̠̞}}</td>
+                <td class="grey">{{ipd|ɔ̞}}</td>
+            </tr>
+            <tr>
+                <th class="rule-right">开</th>
+                <td></td>
+                <td>{{ipd|æ}}</td>
+                <td>{{ipd|.}}</td>
+                <td></td>
+                <td></td>
+                <td class="grey">{{ipd|a̟}}</td>
+                <td>{{ipd|ɶ}}</td>
+                <td></td>
+                <td></td>
+                <td>{{ipd|a}}</td>
+                <td class="grey">{{ipd|ɶ̠}}</td>
+                <td></td>
+                <td></td>
+                <td>{{ipd|ɑ}}</td>
+                <td class="grey">{{ipd|ɒ̟}}</td>
+                <td></td>
+                <td></td>
+                <td class="grey">{{ipd|ɑ̠}}</td>
+                <td>{{ipd|ɒ}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<h3>注释</h3>
+<ul>
+    <li>所有可能的元音构成一个无穷维空间。但是，可以找到三个重要的参数，即开闭、前后、圆唇，它们是决定音色的主要因素，如表中所示。
+        其他的参数也影响着元音的音色，它们需要使用变音号来指定。见下表。</li>
+    <li>准确地说，上表的矩形形状代表舌头上一个固定的点的位置，大概在舌背的中心。记录下这个点的位置，元音空间大概是一个平行四边形。通过线性变换，我们把它变成矩形，然后等分为
+        7 × 5 网格。当然，如果伸出舌头，就可以超出这个矩形的范围，但 (一般情况下) 这不算元音。</li>
+    <li>标准的 IPA 元音表把 {{ipc|i}} — {{ipc|æ}} — {{ipc|a̟}} 看作一条直边，这样矩形就变成了梯形，看起来专业多了。另外，IPA
+        在 2012 年拒绝了增加表示 “啊” 音的符号 (上表的 {{ipc|a}}) 的提议…… 所以现在 IPA 仍然没有表示 “啊” 的字母。</li>
+</ul>
+    
+<h3>变音号</h3>
+<div class="table-container">
+    <table class="ipa-chart alt-bg-from-3rd-mobile">
+        <tbody>
+            <col>
+            <col style="width:30em">
+            <tr class="rule-below">
+                <th style="line-height:1.5">符号</th>
+                <th style="line-height:1.5">含义</th>
+            </tr>
+            <tr>
+                <td class="rule-right">{{ipd|◌̝ ◌̞ ◌̟ ◌̠ ◌͓}}</td>
+                <td class="left">向上、下、左、右移动一个单位；朝着 {{ipc|ə}} 斜移 (1, 1) 单位。</td>
+            </tr>
+            <tr>
+                <td class="rule-right">{{ipd|◌̹ ◌̜}}</td>
+                <td class="left">更圆唇；少圆唇。只用来表示半圆唇的元音。</td>
+            </tr>
+            <tr>
+                <td class="rule-right">{{ipd|◌˞}}</td>
+                <td class="left">边化，即儿化音。发音时舌两侧向下收。</td>
+            </tr>
+            <tr>
+                <td class="rule-right">{{ipd|◌ʴ ◌ʵ ◌ʶ ◌ˤ}}</td>
+                <td class="left">龈化；龈后化；小舌化；咽化。</td>
+            </tr>
+            <tr>
+                <td class="rule-right">{{ipd|◌̤ ◌̰}}</td>
+                <td class="left">边喘气边发音；紧喉声，听起来像乌鸦。</td>
+            </tr>
+            <tr>
+                <td class="rule-right">{{ipd|◌̥ ◌̥̥}}</td>
+                <td class="left">部分清化 (低声语)；清元音 (悄悄话)。</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<h2>辅音</h2>
+<p>辅音表与标准 IPA 有些许不同。使用变音号的字母标为灰色，灰点表示没有符号表示的辅音。空的格子表示一般人发不出的声音。</p>
+<div class="table-container">
+    <table class="ipa-chart ipa-consonant-chart">
+        <colgroup>
+            <col>
+            <col style="width:2.5em">
+            <col style="width:2.5em">
+            <col style="width:2.5em">
+            <col style="width:2.5em">
+            <col style="width:2.5em">
+            <col style="width:2.5em">
+            <col style="width:2.5em">
+            <col style="width:2.5em">
+            <col style="width:2.5em">
+            <col style="width:2.5em">
+            <col style="width:2.5em">
+            <col style="width:2.5em">
+            <col style="width:2.5em">
+            <col style="width:2.5em">
+        </colgroup>
+        <tbody>
+            <tr class="rule-below">
+                <th></th>
+                <td>
+                    <div class="rotate"></div>
+                </td>
+                <th>
+                    <div class="rotate">双唇</div>
+                </th>
+                <th>
+                    <div class="rotate">唇齿</div>
+                </th>
+                <th>
+                    <div class="rotate">齿</div>
+                </th>
+                <th>
+                    <div class="rotate">龈</div>
+                </th>
+                <th>
+                    <div class="rotate">龈后</div>
+                </th>
+                <th>
+                    <div class="rotate">腭龈</div>
+                </th>
+                <th>
+                    <div class="rotate">硬腭前</div>
+                </th>
+                <th>
+                    <div class="rotate">硬腭</div>
+                </th>
+                <th>
+                    <div class="rotate">软腭</div>
+                </th>
+                <th>
+                    <div class="rotate">小舌</div>
+                </th>
+                <th>
+                    <div class="rotate">咽前</div>
+                </th>
+                <th>
+                    <div class="rotate">咽</div>
+                </th>
+                <th>
+                    <div class="rotate">声门</div>
+                </th>
+            </tr>
+            <tr>
+                <th class="right rule-lt-below">鼻音</th>
+                <td class="rule-right rule-lt-below">浊</td>
+                <td>{{ipd|m}}</td>
+                <td>{{ipd|ɱ}}</td>
+                <td class="grey">{{ipd|n̪}}</td>
+                <td>{{ipd|n}}</td>
+                <td>{{ipd|ɳ}}</td>
+                <td>{{ipd|ɲ}}</td>
+                <td>{{ipd|ȵ}}</td>
+                <td>{{ipd|ꬼ}}</td>
+                <td>{{ipd|ŋ}}</td>
+                <td>{{ipd|ɴ}}</td>
+            </tr>
+            <tr>
+                <th class="right rule-lt-below" rowspan="2">塞音</th>
+                <td class="rule-right">清</td>
+                <td>{{ipd|p}}</td>
+                <td class="grey">{{ipd|p̪}}</td>
+                <td class="grey">{{ipd|t̪}}</td>
+                <td>{{ipd|t}}</td>
+                <td>{{ipd|ʈ}}</td>
+                <td class="grey">{{ipd|t̻}}</td>
+                <td>{{ipd|ȶ}}</td>
+                <td>{{ipd|c}}</td>
+                <td>{{ipd|k}}</td>
+                <td>{{ipd|q}}</td>
+                <td>{{ipd|ꞯ}}</td>
+                <td>{{ipd|ʡ}}</td>
+                <td>{{ipd|ʔ}}</td>
+            </tr>
+            <tr>
+                <td class="rule-right rule-lt-below">浊</td>
+                <td>{{ipd|b}}</td>
+                <td class="grey">{{ipd|b̪}}</td>
+                <td class="grey">{{ipd|d̪}}</td>
+                <td>{{ipd|d}}</td>
+                <td>{{ipd|ɖ}}</td>
+                <td class="grey">{{ipd|d̻}}</td>
+                <td>{{ipd|ȡ}}</td>
+                <td>{{ipd|ɟ}}</td>
+                <td>{{ipd|ɡ}}</td>
+                <td>{{ipd|ɢ}}</td>
+            </tr>
+            <tr>
+                <th class="right rule-lt-below" rowspan="2">咝塞擦音</th>
+                <td class="rule-right">清</td>
+                <td></td>
+                <td></td>
+                <td class="grey">{{ipd|t͡s̪}}</td>
+                <td>{{ipd|t͡s}}</td>
+                <td>{{ipd|t͡ʂ}}</td>
+                <td>{{ipd|t͡ʆ}}</td>
+                <td>{{ipd|t͡ɕ}}</td>
+            </tr>
+            <tr>
+                <td class="rule-right rule-lt-below">浊</td>
+                <td></td>
+                <td></td>
+                <td class="grey">{{ipd|d͡z̪}}</td>
+                <td>{{ipd|d͡z}}</td>
+                <td>{{ipd|d͡ʐ}}</td>
+                <td>{{ipd|d͡ʓ}}</td>
+                <td>{{ipd|d͡ʑ}}</td>
+            </tr>
+            <tr>
+                <th class="right rule-lt-below" rowspan="2">咝擦音</th>
+                <td class="rule-right">清</td>
+                <td></td>
+                <td></td>
+                <td class="grey">{{ipd|s̪}}</td>
+                <td>{{ipd|s}}</td>
+                <td>{{ipd|ʂ}}</td>
+                <td>{{ipd|ʆ}}</td>
+                <td>{{ipd|ɕ}}</td>
+            </tr>
+            <tr>
+                <td class="rule-right rule-lt-below">浊</td>
+                <td></td>
+                <td></td>
+                <td class="grey">{{ipd|z̪}}</td>
+                <td>{{ipd|z}}</td>
+                <td>{{ipd|ʐ}}</td>
+                <td>{{ipd|ʓ}}</td>
+                <td>{{ipd|ʑ}}</td>
+            </tr>
+            <tr>
+                <th class="right rule-lt-below" rowspan="2">塞擦音</th>
+                <td class="rule-right">清</td>
+                <td>{{ipd|p͡ɸ}}</td>
+                <td>{{ipd|p͡f}}</td>
+                <td>{{ipd|t͡θ}}</td>
+                <td>{{ipd|t͡s̸}}</td>
+                <td>{{ipd|t͡ʂ̸}}</td>
+                <td>{{ipd|.}}</td>
+                <td>{{ipd|.}}</td>
+                <td>{{ipd|c͡ç}}</td>
+                <td>{{ipd|k͡x}}</td>
+                <td>{{ipd|q͡χ}}</td>
+            </tr>
+            <tr>
+                <td class="rule-right rule-lt-below">浊</td>
+                <td>{{ipd|b͡β}}</td>
+                <td>{{ipd|b͡v}}</td>
+                <td>{{ipd|d͡ð}}</td>
+                <td>{{ipd|d͡z̸}}</td>
+                <td>{{ipd|d͡ʐ̸}}</td>
+                <td>{{ipd|.}}</td>
+                <td>{{ipd|.}}</td>
+                <td>{{ipd|ɟ͡ʝ}}</td>
+                <td>{{ipd|ɡ͡ɣ}}</td>
+                <td>{{ipd|ɢ͡ʁ}}</td>
+            </tr>
+            <tr>
+                <th class="right rule-lt-below" rowspan="2">擦音</th>
+                <td class="rule-right">清</td>
+                <td>{{ipd|ɸ}}</td>
+                <td>{{ipd|f}}</td>
+                <td>{{ipd|θ}}</td>
+                <td>{{ipd|s̸}}</td>
+                <td>{{ipd|ʂ̸}}</td>
+                <td>{{ipd|.}}</td>
+                <td>{{ipd|.}}</td>
+                <td>{{ipd|ç}}</td>
+                <td>{{ipd|x}}</td>
+                <td>{{ipd|χ}}</td>
+                <td>{{ipd|ħ}}</td>
+                <td>{{ipd|ʜ}}</td>
+                <td>{{ipd|h}}</td>
+            </tr>
+            <tr>
+                <td class="rule-right rule-lt-below">浊</td>
+                <td>{{ipd|β}}</td>
+                <td>{{ipd|v}}</td>
+                <td>{{ipd|ð}}</td>
+                <td>{{ipd|z̸}}</td>
+                <td>{{ipd|ʐ̸}}</td>
+                <td>{{ipd|.}}</td>
+                <td>{{ipd|.}}</td>
+                <td>{{ipd|ʝ}}</td>
+                <td>{{ipd|ɣ}}</td>
+                <td>{{ipd|ʁ}}</td>
+                <td rowspan="2">{{ipd|ʕ}}</td>
+                <td rowspan="2">{{ipd|ʢ}}</td>
+                <td rowspan="2">{{ipd|ɦ}}</td>
+            </tr>
+            <tr>
+                <th class="right rule-lt-below">近音</th>
+                <td class="rule-right rule-lt-below">浊</td>
+                <td class="grey">{{ipd|β̞}}</td>
+                <td>{{ipd|ʋ}}</td>
+                <td class="grey">{{ipd|ð̞}}</td>
+                <td class="grey">{{ipd|z̸̞}}</td>
+                <td class="grey">{{ipd|ʐ̸̞}}</td>
+                <td>{{ipd|.}}</td>
+                <td>{{ipd|.}}</td>
+                <td>{{ipd|j}}</td>
+                <td>{{ipd|ɰ}}</td>
+                <td>{{ipd|ᴚ}}</td>
+            </tr>
+            <tr>
+                <th class="right rule-lt-below" style="font-size:70%;">边化 (儿化) 近音</th>
+                <td class="rule-right rule-lt-below">浊</td>
+                <td></td>
+                <td></td>
+                <td class="grey">{{ipd|ɹ̪}}</td>
+                <td>{{ipd|ɹ}}</td>
+                <td>{{ipd|ɻ}}</td>
+                <td>{{ipd|.}}</td>
+                <td>{{ipd|.}}</td>
+                <td class="grey">{{ipd|j˞}}</td>
+                <td class="grey">{{ipd|ɰ˞}}</td>
+                <td class="grey">{{ipd|ᴚ˞}}</td>
+            </tr>
+            <tr>
+                <th class="right rule-lt-below">颤音</th>
+                <td class="rule-right rule-lt-below">浊</td>
+                <td>{{ipd|ʙ}}</td>
+                <td>{{ipd|.}}</td>
+                <td class="grey">{{ipd|r̪}}</td>
+                <td>{{ipd|r}}</td>
+                <td>{{ipd|ɽ}}</td>
+                <td>{{ipd|.}}</td>
+                <td>{{ipd|r̡}}</td>
+                <td>{{ipd|.}}</td>
+                <td class="grey">{{ipd|ʀ̟}}</td>
+                <td>{{ipd|ʀ}}</td>
+            </tr>
+            <tr>
+                <th class="right rule-lt-below">闪音</th>
+                <td class="rule-right rule-lt-below">浊</td>
+                <td>{{ipd|.}}</td>
+                <td>{{ipd|ⱱ}}</td>
+                <td class="grey">{{ipd|ɾ̪}}</td>
+                <td>{{ipd|ɾ}}</td>
+                <td>{{ipd|ɾ̢}}</td>
+                <td>{{ipd|.}}</td>
+                <td>{{ipd|ɾ̡}}</td>
+                <td>{{ipd|.}}</td>
+                <td>{{ipd|.}}</td>
+                <td>{{ipd|.}}</td>
+            </tr>
+            <tr>
+                <th class="right rule-lt-below">弹音</th>
+                <td class="rule-right rule-lt-below">浊</td>
+                <td></td>
+                <td>{{ipd|.}}</td>
+                <td class="grey">{{ipd|ɿ̪}}</td>
+                <td>{{ipd|ɿ}}</td>
+                <td>{{ipd|ʅ}}</td>
+            </tr>
+            <tr>
+                <th class="right rule-lt-below">边近音</th>
+                <td class="rule-right rule-lt-below">浊</td>
+                <td></td>
+                <td></td>
+                <td class="grey">{{ipd|l̪}}</td>
+                <td>{{ipd|l}}</td>
+                <td>{{ipd|ɭ}}</td>
+                <td>{{ipd|ʎ}}</td>
+                <td>{{ipd|ȴ}}</td>
+                <td>{{ipd|ᴌ}}</td>
+                <td>{{ipd|ʟ}}</td>
+                <td class="grey">{{ipd|ʟ̠}}</td>
+            </tr>
+            <tr>
+                <th class="right rule-lt-below" rowspan="2">边擦音</th>
+                <td class="rule-right">清</td>
+                <td></td>
+                <td></td>
+                <td class="grey">{{ipd|ɬ̪}}</td>
+                <td>{{ipd|ɬ}}</td>
+                <td>{{ipd|.}}</td>
+                <td>{{ipd|.}}</td>
+                <td>{{ipd|.}}</td>
+                <td>{{ipd|.}}</td>
+                <td>{{ipd|.}}</td>
+                <td>{{ipd|.}}</td>
+            </tr>
+            <tr>
+                <td class="rule-right rule-lt-below">浊</td>
+                <td></td>
+                <td></td>
+                <td class="grey">{{ipd|ɮ̪}}</td>
+                <td>{{ipd|ɮ}}</td>
+                <td>{{ipd|.}}</td>
+                <td>{{ipd|.}}</td>
+                <td>{{ipd|.}}</td>
+                <td>{{ipd|.}}</td>
+                <td>{{ipd|.}}</td>
+                <td>{{ipd|.}}</td>
+            </tr>
+            <tr>
+                <th class="right rule-lt-below">边闪音</th>
+                <td class="rule-right rule-lt-below">浊</td>
+                <td></td>
+                <td></td>
+                <td class="grey">{{ipd|ɺ̪}}</td>
+                <td>{{ipd|ɺ}}</td>
+                <td>{{ipd|.}}</td>
+                <td>{{ipd|.}}</td>
+                <td>{{ipd|.}}</td>
+                <td>{{ipd|.}}</td>
+                <td>{{ipd|.}}</td>
+                <td>{{ipd|.}}</td>
+            </tr>
+            <tr>
+                <th class="right">边弹音</th>
+                <td class="rule-right">浊</td>
+                <td></td>
+                <td></td>
+                <td class="grey">{{ipd|ɿ˞̪}}</td>
+                <td>{{ipd|ɿ˞}}</td>
+                <td>{{ipd|.}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<h3>注释</h3>
+<ul>
+    <li>一些位置，如齿龈、软腭前，没有在表中。这些位置的辅音用表中的字母加变音号表示。</li>
+    <li><b>龈后</b>音是舌尖龈后音，即汉语的卷舌音，在 IPA 中也叫卷舌音，即舌尖向后卷至硬腭。老北京人的确如此发音，但现代汉语和世界的多数语言中，发卷舌音时舌尖只抬至牙槽嵴之后，故名舌尖龈后音。</li>
+    <li><b>腭龈</b>音的准确描述是硬腭化的<b>舌叶龈后音</b>。也有其他的<b>舌叶龈后音</b>，通常是软腭前化或软腭化的，见于多数斯拉夫语言，也见于法语。但
+        IPA 没有符号表示这种辅音，所以大家只好用腭龈或卷舌音的符号表示它们。我们使用
+        {{ipc|ʆ̠}}, {{ipc|ʓ̠}}, {{ipc|ʆ̠ˠ}}, {{ipc|ʓ̠ˠ}}, 等等，来表示这些辅音。</li>
+</ul>
+<h3>其他符号和变音号</h3>
+<div class="table-container">
+    <table class="ipa-chart alt-bg-from-3rd-mobile">
+        <tbody>
+            <col>
+            <col style="width:30em">
+            <tr class="rule-below">
+                <th style="line-height:1.5">符号</th>
+                <th style="line-height:1.5">含义</th>
+            </tr>
+            <tr>
+                <td class="rule-right">{{ipd|tˢ, kˣ}} etc.</td>
+                <td class="left">塞音，但经常是塞擦音。</td>
+            </tr>
+            <tr>
+                <td class="rule-right">{{ipd|ᵗs, ᵏx}} etc.</td>
+                <td class="left">擦音，但经常是塞擦音。</td>
+            </tr>
+            <tr>
+                <td class="rule-right">{{ipd|ʃ, ʒ, t͡ʃ, d͡ʒ}}</td>
+                <td class="left">撮唇的 {{ipc|ʆ, ʓ, t͡ʆ, d͡ʓ}}。</td>
+            </tr>
+            <tr>
+                <td class="rule-right">{{ipd|ş, z̧, t͡ş, d͡z̧}}</td>
+                <td class="left">硬腭前咝音，听起来像 {{ipc|s̪j, z̪j, t͡s̪j, d͡z̪j}}；见下面的解释。</td>
+            </tr>
+            <tr>
+                <td class="rule-right">{{ipd|ɥ, w}}</td>
+                <td class="left">圆唇的 {{ipc|j, ɰ}}，即 {{ipc|jʷ, ɰʷ}}。</td>
+            </tr>
+            <tr class="rule-lt-below">
+                <td class="rule-right">{{ipd|ɫ}}</td>
+                <td class="left">软腭化的 {{ipc|l}}，即 {{ipc|lˠ}}。</td>
+            </tr>
+            <tr>
+                <td class="rule-right">{{ipd|◌̝ ◌̞ ◌̟ ◌̠}}</td>
+                <td class="left">向上、下、左、右移动一个单位 (注意有的位置不在表中)。</td>
+            </tr>
+            <tr>
+                <td class="rule-right">{{ipd|◌ʷ ◌ᵝ ◌ʴ ◌ʵ}}</td>
+                <td class="left">圆唇；双唇化；龈化；龈后化。</td>
+            </tr>
+            <tr>
+                <td class="rule-right">{{ipd|◌ʲ ◌ˠ ◌ʶ ◌ˤ}}</td>
+                <td class="left">硬腭化；软腭化；小舌化；咽化。</td>
+            </tr>
+            <tr>
+                <td class="rule-right">{{ipd|◌ʰ ◌ʱ}}</td>
+                <td class="left">送气音。等价于 {{ipc|◌h}} 和 {{ipc|◌ɦ}}。</td>
+            </tr>
+            <tr>
+                <td class="rule-right">{{ipd|◌˞}}</td>
+                <td class="left">边化，即儿化音。发音时舌两侧向下收。</td>
+            </tr>
+            <tr>
+                <td class="rule-right">{{ipd|◌̚ ◌⁎}}</td>
+                <td class="left">无释放；有释放。仅当不同于平常时才标注。</td>
+            </tr>
+            <tr>
+                <td class="rule-right">{{ipd|◌̥ ◌̥̥}}</td>
+                <td class="left">部分清化；清辅音。后者用于表示清鼻音、清近音等。</td>
+            </tr>
+            <tr>
+                <td class="rule-right">{{ipd|◌̩}}</td>
+                <td class="left">像元音一样占音节，或者成为音节核的一部分。</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<h3>咝音的原理</h3>
+<p>发咝音时，舌两侧略抬，中部略沉，作隧道状，气流通过后，撞击口腔上壁而产生高频噪声，即嘶嘶声。</p>
+<p>论其音色，咝音可分两类：其一有 {{ipa|xx|s̪ s ş}}，声尖而细；其二有 {{ipa|xx|ʂ ʆ ʃ ɕ}}，声暗而广。其中
+    {{ipa|xx|ş}} 与 {{ipa|xx|ɕ}} 发音时，舌在同一位置，而其音色不同，其原因在下面解释。</p>
+<p>此二类的区别，在于气流撞击口腔壁的位置。若在牙槽嵴之前，则声尖细，为第一类；若在之后，则声暗广，为第二类。故
+    {{ipa|xx|ş}} 与 {{ipa|xx|ɕ}} 的区别，在于前者隧道长，将气流引至牙槽嵴前；后者隧道短，气流撞在牙槽嵴的背面。</p>
+
+<h2>音高、音调、重音、音长</h2>
+<p>在这个项目中，我通常不在音标里给出精确的音高、音调，只给出重音的位置，或者第几声调。这是因为我对各种语言了解甚浅，并且，也没有一套公认的记号系统，能够精确地将
+(例如一段话的) 语调记录下来。</p>
+
+<h3>符号</h3>
+<div class="table-container">
+    <table class="ipa-chart alt-bg-from-3rd-mobile">
+        <tbody>
+            <col>
+            <col style="width:30em">
+            <tr class="rule-below">
+                <th style="line-height:1.5">符号</th>
+                <th style="line-height:1.5">含义</th>
+            </tr>
+            <tr>
+                <td class="rule-right">{{ipd|ˈ ˌ}}</td>
+                <td class="left">重音；次重音</td>
+            </tr>
+            <tr>
+                <td class="rule-right">{{ipd|◌ː ◌ˑ}}</td>
+                <td class="left">长 (2 ×)；半长 (1.5 ×，与乐谱记号相同)。</td>
+            </tr>
+            <tr>
+                <td class="rule-right">{{ipd|ꜛ ꜜ}}</td>
+                <td class="left">音调升高；音调下降。用于日语，并非标准记号。</td>
+            </tr>
+            <tr>
+                <td class="rule-right">{{ipd|¹ ²}} …</td>
+                <td class="left">第一、二声调，等等。用于挪威语、瑞典语。</td>
+            </tr>
+            <tr>
+                <td class="rule-right">{{ipd|˩ ˨ ˧ ˦ ˥}}</td>
+                <td class="left">音调符号，由低到高。用于汉语。</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
