@@ -29,8 +29,8 @@ async function build() {
     }
 
     console.log('Checking out files...');
-    await git.checkout('gh-pages');
     await git.checkout('master');
+    await git.checkout('dev');
     let commitId = (await git.revparse('@')).trim();
     
     let files = fs.readdirSync('.').concat(fs.readdirSync('./content').map(file => 'content/' + file));
@@ -43,7 +43,7 @@ async function build() {
         }
     });
 
-    execSync('git symbolic-ref HEAD refs/heads/gh-pages');
+    execSync('git symbolic-ref HEAD refs/heads/master');
     execSync('git reset');
 
     for (let i = 0; i < exclude.length; i++) {
@@ -102,7 +102,7 @@ async function build() {
     }
 
     if (!hasErrors) {
-        console.log('Committing to \'gh-pages\'...');
+        console.log('Committing to \'master\'...');
         await git.add('./*').commit(`Update to ${commitId}`);
         console.log('Done!');
     }
