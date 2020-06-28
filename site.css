@@ -360,11 +360,10 @@ ul li::before {
 
 ol {
     margin: .5em;
-    padding-left: 2.5em;
+    padding-left: 1.5em;
 }
-
-ul li, ol li {
-    padding-left: .5em;
+ol li {
+    padding-left: 1em;
 }
 
 li.level-1 {
@@ -950,6 +949,10 @@ table.ipa-chart .rotate {
     color: #aaa;
 }
 
+.nowrap {
+    white-space: nowrap;
+}
+
 @media (hover: none) {
     .tabs-container .tab:hover {
         background-color: transparent !important;
@@ -1037,15 +1040,10 @@ table.ipa-chart .rotate {
     }
 
     ul {
-        padding-left: 1em;
+        padding-left: 1.5em;
     }
-
     ol {
         padding-left: 1em;
-    }
-
-    ul li::before {
-        margin-right: .5em;
     }
 
     #lang-list-container {
