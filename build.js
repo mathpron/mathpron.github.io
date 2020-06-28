@@ -88,7 +88,6 @@ async function build() {
                         removeRedundantAttributes: true,
                         useShortDoctype: true,
                         removeEmptyAttributes: true,
-                        removeOptionalTags: true,
                         minifyCSS: true
                     });
                     fs.writeFileSync(file, htmlResult);
