@@ -1272,7 +1272,7 @@
                         "text": "Bianchi",
                         "prons": [
                             "{{it|orig}} {{ipa|it|ˈbjaŋ.ki}} {{audio|it-IT-bianchi.mp3}}",
-                            "{{en|aprx}} {{ipb|en|bi.ˈæŋ.ki}}",
+                            "{{en|aprx}} {{ipb|en|biː.ˈæŋ.ki}}",
                             "* {{ja|tran}} {{lang|ja|ビアンキ|Bianki}}",
                             "* {{ru|tran}} {{lang|ru|Бьянки|Byanki}}",
                             "* {{zh|tran}} {{lang|zh|比安基|Bǐ’ānjī}}"
@@ -2373,7 +2373,7 @@
                         "text": "Castelnuovo",
                         "prons": [
                             "{{it|orig}} {{ipa|it|kas.tɛl.ˈnwɔ.vo}} {{ref|dipi|Castelnuovo}} {{audio|it-IT-castelnuovo.mp3}}",
-                            "{{en|aprx}} {{ipb|en|ˌkæs.tɛl.nʊ.ˈəʊ.vəʊ}}",
+                            "{{en|aprx}} {{ipb|en|ˌkæs.tɛl.nuː.ˈəʊ.vəʊ}}",
                             "* {{ja|tran}} {{lang|ja|カステルヌオボ|Kasuterunuobo}}",
                             "* {{ru|tran}} {{lang|ru|Кастельнуово|Kastelnuovo}}",
                             "* {{zh|tran}} {{lang|zh|卡斯泰尔诺沃|Kǎsītài’ěrnuòwò}}"
@@ -3407,6 +3407,38 @@
                 ]
             },
             {
+                "title": "Dirac|, Paul",
+                "wd": "Q47480",
+                "desc": "m|p|ENG|1902|1984",
+                "forms": [
+                    {
+                        "type": "family-name",
+                        "text": "Dirac",
+                        "prons": [
+                            "{{fr|orig}} {{ipa|fr|di.ˈʁak}} {{audio|fr-FR-dirac.mp3}}",
+                            "{{en|orig}} {{ipb|en|dɪ.ˈræk}}",
+                            "> {{en-GB|orig*}} {{ipa|en-GB|dɪ.ˈræʔk}} {{audio|en-GB-dirac.mp3}}",
+                            "* {{ja|tran}} {{lang|ja|ディラック|Dirakku}}",
+                            "* {{ru|tran}} {{lang|ru|Дирак|Dirak}}",
+                            "* {{zh|tran}} {{lang|zh|狄拉克|Dílākè}}"
+                        ]
+                    },
+                    {
+                        "type": "full-name",
+                        "text": "Paul Adrien Maurice Dirac",
+                        "prons": [
+                            "{{fr|orig}} {{ipa|fr|ˈpɔl a.dʁi.ˈjɛ̃ mɔ.ˈʁi<z/s> di.ˈʁak}} {{audio|fr-FR-paul-dirac.mp3}}",
+                            "{{en|orig}}",
+                            "> {{en-GB}} {{ipa|en-GB|ˈpɔːl ˈeɪ.driən ˈmɒr.ɪs dɪ.ˈræʔk}} {{audio|en-GB-paul-dirac.mp3}}"
+                        ]
+                    }
+                ],
+                "links": [
+                    "{{wiki|Paul_Dirac}}",
+                    "{{mgp|18524|Paul Dirac}}"
+                ]
+            },
+            {
                 "title": "Dirichlet|, Peter Gustav Lejeune",
                 "wd": "Q29193",
                 "desc": "m|m|DE|1805|1859",
@@ -4122,6 +4154,38 @@
                 ],
                 "links": [
                     "{{wiki|Pierre_de_Fermat}}"
+                ]
+            },
+            {
+                "title": "Feynman|, Richard",
+                "wd": "Q39246",
+                "desc": "m|p|US|1918|1988",
+                "forms": [
+                    {
+                        "type": "family-name",
+                        "text": "Feynman",
+                        "prons": [
+                            "{{en|orig}} {{ipb|en|ˈfaɪn.mən}}",
+                            "> {{en-GB}} {{ipa|en-GB|ˈfaɪn.mən}} {{audio|en-GB-feynman.mp3}}",
+                            "> {{en-US|orig*}} {{ipa|en-US|ˈfaɪn.mən}} {{audio|en-US-feynman.mp3}}",
+                            "* {{ja|tran}} {{lang|ja|ファインマン|Fainman}}",
+                            "* {{ru|tran}} {{lang|ru|Фейнман|Feynman}}",
+                            "* {{zh|tran}} {{lang|zh|费曼|Fèimàn}}"
+                        ]
+                    },
+                    {
+                        "type": "full-name",
+                        "text": "Richard Phillips Feynman",
+                        "prons": [
+                            "{{en|orig}} {{ipb|en|ˈrɪt͡ʃ.ərd ˈfɪl.ɪps ˈfaɪn.mən}}",
+                            "> {{en-GB}} {{ipa|en-GB|ˈɹɪt͡ʃ.əd ˈfɪl.ɪʔps ˈfaɪn.mən}} {{audio|en-GB-richard-feynman.mp3}}",
+                            "> {{en-US}} {{ipa|en-US|ˈɹɪt͡ʃ.ɚd ˈfɪl.əps ˈfaɪn.mən}} {{audio|en-US-richard-feynman.mp3}}"
+                        ]
+                    }
+                ],
+                "links": [
+                    "{{wiki|Richard_Feynman}}",
+                    "{{mgp|91222|Richard Feynman}}"
                 ]
             },
             {
@@ -7854,7 +7918,7 @@
                         "text": "Lyapunov",
                         "prons": [
                             "{{ru|orig}} {{lang|ru|Ляпунов|Lyapunov}} {{ipa|ru|lʲi.pu.ˈnof}} {{audio|ru-RU-lyapunov.mp3}}",
-                            "{{en|aprx}} {{ipb|en|ˌli.ˈæ.pə.nəf}}",
+                            "{{en|aprx}} {{ipb|en|ˌliː.ˈæ.pə.nəf}}",
                             "* {{ja|tran}} {{lang|ja|リャプノフ|Ryapunofu}}",
                             "* {{zh|tran}} {{lang|zh|李雅普诺夫|Lǐyǎpǔnuòfū}}"
                         ]
@@ -12081,6 +12145,35 @@
                 ]
             },
             {
+                "title": "’t Hooft|, Gerard",
+                "wd": "Q184592",
+                "desc": "m|p|NL|1946|",
+                "forms": [
+                    {
+                        "type": "family-name",
+                        "text": "’t Hooft",
+                        "prons": [
+                            "{{nl|orig}} {{ipa|nl|ət ˈɦoːft}} {{audio|nl-NL-t-hooft.mp3}}",
+                            "{{en|aprx}} {{ipb|en|ət ˈhuːft}}",
+                            "* {{ja|tran}} {{lang|ja|トホーフト|Tohōfuto}}",
+                            "* {{ru|tran}} {{lang|ru|’т Хоофт|’t Khooft}}",
+                            "* {{zh|tran}} {{lang|zh|特·胡夫特|Tè Húfūtè}}"
+                        ]
+                    },
+                    {
+                        "type": "full-name",
+                        "text": "Gerard ’t Hooft",
+                        "prons": [
+                            "{{nl|orig}} {{ipa|nl|ˈxeː.ɾɑɹt ət ˈɦoːft}} {{audio|nl-NL-gerard-t-hooft.mp3}}"
+                        ]
+                    }
+                ],
+                "links": [
+                    "{{wiki|Gerard_'t_Hooft}}",
+                    "{{mgp|23240|Gerardus 't Hooft}}"
+                ]
+            },
+            {
                 "title": "Thue|, Axel",
                 "wd": "Q372010",
                 "desc": "m|m|NO|1863|1922",
@@ -13090,6 +13183,33 @@
                 "links": [
                     "{{wiki|Hassler_Whitney}}",
                     "{{mgp|4956|Hassler Whitney}}"
+                ]
+            },
+            {
+                "title": "Wick|, Gian Carlo",
+                "wd": "Q1522269",
+                "desc": "m|p|IT|1909|1992",
+                "forms": [
+                    {
+                        "type": "family-name",
+                        "text": "Wick",
+                        "prons": [
+                            "{{it|orig}} {{ipa|it|ˈvik}} {{ref|treccani|gian-carlo-wick|Wick, Gian Carlo}} {{audio|it-IT-wick.mp3}}",
+                            "{{en|aprx}} {{ipb|en|ˈvɪk}}",
+                            "* {{ru|tran}} {{lang|ru|Вик|Vik}}",
+                            "* {{zh|tran}} {{lang|zh|威克|Wēikè}}"
+                        ]
+                    },
+                    {
+                        "type": "full-name",
+                        "text": "Gian Carlo Wick",
+                        "prons": [
+                            "{{it|orig}} {{ipa|it|ˈd͡ʒan ˈkar.lo ˈvik}} {{audio|it-IT-gian-carlo-wick.mp3}}"
+                        ]
+                    }
+                ],
+                "links": [
+                    "{{wiki|Gian_Carlo_Wick}}"
                 ]
             },
             {
@@ -14380,7 +14500,7 @@
             "std": [
                 ["ṇ", ""],
                 ["ɛɪ", "ɛ̞#I#"],
-                ["œʏ", "ɞ̞ᵿ"],
+                ["œʏ", "ɐᵿ"],
                 ["ʌʊ", "ʌ̠̞ʊ"],
                 ["eː", "e̞#I#"],
                 ["øː", "ø̞#Y#"],
@@ -14406,6 +14526,8 @@
             "std": [
                 ["([tds])̪?", "$1̪"],
                 ["([nl])(?=[.ˌ¹²]*[tds]̪)", "$1̪"],
+                ["k(?=$)", "c"],
+                ["ɡ(?=$)", "ɟ"],
                 ["ə(?=$| )", "ɜ̟"],
                 ["ə", "ɘ̟"],
                 ["eː", "eə̟"],
