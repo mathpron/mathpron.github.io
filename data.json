@@ -7761,6 +7761,35 @@
                     "{{wiki|Nikolai_Lobachevsky}}",
                     "{{mgp|146776|Nikolai Lobachevsky}}"
                 ]
+            },            {
+                "title": "Lubin|, Jonathan",
+                "wd": "Q6273737",
+                "desc": "m|m|US|1936|",
+                "forms": [
+                    {
+                        "type": "family-name",
+                        "text": "Lubin",
+                        "prons": [
+                            "{{en|orig}} {{ipb|en|ˈluː.bɪn}}",
+                            "> {{en-GB}} {{ipa|en-GB|ˈluː.bɪn}}",
+                            "> {{en-US|orig*}} {{ipa|en-US|ˈluː.bɪn}} {{audio|en-US-lubin.mp3}}",
+                            "* {{zh|tran}} {{lang|zh|卢宾|Lúbīn}}"
+                        ]
+                    },
+                    {
+                        "type": "full-name",
+                        "text": "Jonathan Darby Lubin",
+                        "prons": [
+                            "{{en|orig}} {{ipb|en|ˈd͡ʒɒn.ə.θən ˈdɑr.bi ˈluː.bɪn}}",
+                            "> {{en-GB}} {{ipa|en-GB|ˈd͡ʒɒn.ə.θən ˈdɑː.bi ˈluː.bɪn}}",
+                            "> {{en-US}} {{ipa|en-US|ˈd͡ʒɑː.nə.θən ˈdɑɹ.bi ˈluː.bɪn}} {{audio|en-US-jonathan-darby-lubin.mp3}}"
+                        ]
+                    }
+                ],
+                "links": [
+                    "{{wiki|Jonathan_Lubin}}",
+                    "{{mgp|11723|Jonathan Lubin}}"
+                ]
             },
             {
                 "title": "Lucas|, Édouard",
@@ -8291,6 +8320,67 @@
                 ]
             },
             {
+                "title": "Mazur|, Barry",
+                "wd": "Q809076",
+                "desc": "m|m|US|1937|",
+                "forms": [
+                    {
+                        "type": "family-name",
+                        "text": "Mazur",
+                        "prons": [
+                            "{{en|orig}} {{ipb|en|ˈmeɪ.zər}} {{ref|As is pronounced in this {{link|https://www.youtube.com/watch?v=30xeLy9tKX8|video}}.}}",
+                            "> {{en-GB}} {{ipa|en-GB|ˈmeɪ.zə}}",
+                            "> {{en-US|orig*}} {{ipa|en-US|ˈmeɪ.zɚ}} {{audio|en-US-mazur.mp3}}",
+                            "* {{ja|tran}} {{lang|ja|メイザー|Meizā}}",
+                            "* {{ru|tran}} {{lang|ru|Мазур|Mazur}}",
+                            "* {{zh|tran}} {{lang|zh|马祖尔|Mǎzǔ’ěr}}"
+                        ]
+                    },
+                    {
+                        "type": "full-name",
+                        "text": "Barry Charles Mazur",
+                        "prons": [
+                            "{{en|orig}} {{ipb|en|ˈbær.i ˈt͡ʃɑrlz ˈmeɪ.zər}}",
+                            "> {{en-GB}} {{ipa|en-GB|ˈbæɹ.i ˈt͡ʃɑːlz ˈmeɪ.zə}}",
+                            "> {{en-US}} {{ipa|en-US|ˈbɛɹ.i ˈt͡ʃɑːɹlz ˈmeɪ.zɚ}} {{audio|en-US-barry-mazur.mp3}}"
+                        ]
+                    }
+                ],
+                "links": [
+                    "{{wiki|Barry_Mazur}}",
+                    "{{mgp|11730|Barry Mazur}}"
+                ]
+            },
+            {
+                "title": "Mazur|, Stanisław",
+                "wd": "Q637176",
+                "desc": "m|m|PL|1905|1981",
+                "forms": [
+                    {
+                        "type": "family-name",
+                        "text": "Mazur",
+                        "prons": [
+                            "{{pl|orig}} {{ipa|pl|ˈma.zuɾ}} {{audio|pl-PL-mazur.mp3}}",
+                            "{{en|aprx}} {{ipb|en|ˈmɑː.ˌzʊər}} {{ref|webster|Mazur}}",
+                            "* {{ja|tran}} {{lang|ja|マズール|Mazūru}}",
+                            "* {{ru|tran}} {{lang|ru|Мазур|Mazur}}",
+                            "* {{zh|tran}} {{lang|zh|马祖尔|Mǎzǔ’ěr}}"
+                        ]
+                    },
+                    {
+                        "type": "full-name",
+                        "text": "Stanisław Mieczysław Mazur",
+                        "prons": [
+                            "{{pl|orig}} {{ipa|pl|sta.ˈɲi.swaf mjɛ̠ˈt͡ʂɨ.swaf ˈma.zuɾ}} {{audio|pl-PL-stanislaw-mazur.mp3}}"
+                        ]
+                    }
+                ],
+                "links": [
+                    "{{wiki|Stanisław_Mazur}}",
+                    "{{mgp|13056|Stanislaw Mazur}}"
+                ]
+            },
+            {
                 "title": "Menelaus| of Alexandria",
                 "wd": "Q451572",
                 "desc": "m|m ast|GRC|c 70|c 140",
@@ -8648,6 +8738,36 @@
                 "links": [
                     "{{wiki|E._H._Moore}}",
                     "{{mgp|806|E. H. Moore}}"
+                ]
+            },
+            {
+                "title": "Mordell|, Louis",
+                "wd": "Q726833",
+                "desc": "m|m|US GB|1888|1972",
+                "forms": [
+                    {
+                        "type": "family-name",
+                        "text": "Mordell",
+                        "prons": [
+                            "{{en|orig}} {{ipb|en|ˈmɔr.ˌdɛl}}",
+                            "> {{en-GB|orig*}} {{ipa|en-GB|ˈmɔː.ˌdɛl}} {{audio|en-GB-mordell.mp3}}",
+                            "* {{ja|tran}} {{lang|ja|モーデル|Mōderu}}",
+                            "* {{ru|tran}} {{lang|ru|Морделл|Mordell}}",
+                            "* {{zh|tran}} {{lang|zh|莫德尔|Mòdé’ěr}}"
+                        ]
+                    },
+                    {
+                        "type": "full-name",
+                        "text": "Louis Joel Mordell",
+                        "prons": [
+                            "{{en|orig|need-ver}} {{ipb|en|ˈluː.i ˈd͡ʒəʊl ˈmɔr.ˌdɛl}}",
+                            "> {{en-GB|need-ver}} {{ipa|en-GB|ˈluː.i ˈd͡ʒəʊl ˈmɔː.ˌdɛl}} {{audio|en-GB-louis-joel-mordell.mp3}}"
+                        ]
+                    }
+                ],
+                "links": [
+                    "{{wiki|Louis_J._Mordell}}",
+                    "{{mgp|44940|Louis Mordell}}"
                 ]
             },
             {
@@ -11262,7 +11382,7 @@
                         "type": "family-name",
                         "text": "Sierpiński",
                         "prons": [
-                            "{{pl|orig}} {{ipa|pl|ɕɛɾ.ˈpʲiɲ.skʲi}} {{audio|pl-PL-sierpinski.mp3}}",
+                            "{{pl|orig}} {{ipa|pl|ɕɛɾ.ˈpiȷ̃.skʲi}} {{audio|pl-PL-sierpinski.mp3}}",
                             "{{en|aprx}} {{ipb|en|ʃɛr.ˈpɪn.ski}}",
                             "* {{ja|tran}} {{lang|ja|シェルピニスキ|Sherupinisuki}}",
                             "* {{ru|tran}} {{lang|ru|Серпинский|Serpinsky}}",
@@ -11273,7 +11393,7 @@
                         "type": "full-name",
                         "text": "Wacław Franciszek Sierpiński",
                         "prons": [
-                            "{{pl|orig}} {{ipa|pl|ˈvat͡s.waf fɾaɲ.ˈt͡ɕi.ʂɛk ɕɛɾ.ˈpʲiɲ.skʲi}} {{audio|pl-PL-waclaw-franciszek-sierpinski.mp3}}"
+                            "{{pl|orig}} {{ipa|pl|ˈvat͡s.waf fɾaɲ.ˈt͡ɕi.ʂɛk ɕɛɾ.ˈpʲiȷ̃.skʲi}} {{audio|pl-PL-waclaw-franciszek-sierpinski.mp3}}"
                         ]
                     }
                 ],
@@ -12203,6 +12323,38 @@
                 ]
             },
             {
+                "title": "Thurston|, William",
+                "wd": "Q333927",
+                "desc": "m|m|US|1946|2012",
+                "forms": [
+                    {
+                        "type": "family-name",
+                        "text": "Thurston",
+                        "prons": [
+                            "{{en|orig}} {{ipb|en|ˈθɜːr.stən}}",
+                            "> {{en-GB}} {{ipa|en-GB|ˈθɜː.stən}}",
+                            "> {{en-US|orig*}} {{ipa|en-US|ˈθɚː.stən}} {{audio|en-US-thurston.mp3}}",
+                            "* {{ja|tran}} {{lang|ja|サーストン|Sāsuton}}",
+                            "* {{ru|tran}} {{lang|ru|Тёрстон|Tyorston}}",
+                            "* {{zh|tran}} {{lang|zh|瑟斯顿|Sèsīdùn}}"
+                        ]
+                    },
+                    {
+                        "type": "full-name",
+                        "text": "William Thurston",
+                        "prons": [
+                            "{{en|orig}} {{ipb|en|ˈwɪl.jəm ˈpɔːl ˈθɜːr.stən}}",
+                            "> {{en-GB}} {{ipa|en-GB|ˈwɪl.jəm ˈpɔːl ˈθɜː.stən}}",
+                            "> {{en-US}} {{ipa|en-US|ˈwɪl.jəm ˈpɔːl ˈθɚː.stən}} {{audio|en-US-william-thurston.mp3}}"
+                        ]
+                    }
+                ],
+                "links": [
+                    "{{wiki|William_Thurston}}",
+                    "{{mgp|11749|William Thurston}}"
+                ]
+            },
+            {
                 "title": "Tietze|, Heinrich",
                 "wd": "Q84554",
                 "desc": "m|m|AT|1880|1964",
@@ -12919,6 +13071,35 @@
                 ]
             },
             {
+                "title": "Weber|, Heinrich",
+                "wd": "Q77512",
+                "desc": "m|m|DE|1842|1913",
+                "forms": [
+                    {
+                        "type": "family-name",
+                        "text": "Weber",
+                        "prons": [
+                            "{{de|orig}} {{ipa|de|ˈveː.bɐ}} {{audio|de-DE-weber.mp3}}",
+                            "{{en|aprx}} {{ipb|en|ˈveɪ.bər}}",
+                            "* {{ja|tran}} {{lang|ja|ウェーバー|Wēbā}}",
+                            "* {{ru|tran}} {{lang|ru|Вебер|Veber}}",
+                            "* {{zh|tran}} {{lang|zh|韦伯|Wéibó}}"
+                        ]
+                    },
+                    {
+                        "type": "full-name",
+                        "text": "Heinrich Martin Weber",
+                        "prons": [
+                            "{{de|orig}} {{ipa|de|ˈhaɪn.ʁɪç ˈmaʁ.tiːn ˈveː.bɐ}} {{audio|de-DE-heinrich-weber.mp3}}"
+                        ]
+                    }
+                ],
+                "links": [
+                    "{{wiki|Heinrich_Martin_Weber}}",
+                    "{{mgp|16915|Heinrich Weber}}"
+                ]
+            },
+            {
                 "title": "Wedderburn|, Joseph",
                 "wd": "Q667683",
                 "desc": "m|m|GB|1882|1948",
@@ -12927,8 +13108,8 @@
                         "type": "family-name",
                         "text": "Wedderburn",
                         "prons": [
-                            "{{en|orig}} {{ipb|en|ˈwɛd.ər.bɜrn}}",
-                            "> {{en-GB|orig*}} {{ipa|en-GB|ˈwɛd.ə.bɜːn}} {{audio|en-GB-wedderburn.mp3}}",
+                            "{{en|orig}} {{ipb|en|ˈwɛd.ər.ˌbɜrn}}",
+                            "> {{en-GB|orig*}} {{ipa|en-GB|ˈwɛd.ə.ˌbɜːn}} {{audio|en-GB-wedderburn.mp3}}",
                             "* {{ja|tran}} {{lang|ja|ウェダーバーン|Wedābān}}",
                             "* {{ru|tran}} {{lang|ru|Веддербёрн|Vedderbyorn}}",
                             "* {{zh|tran}} {{lang|zh|韦德伯恩|Wéidébó’ēn}}"
@@ -12938,8 +13119,8 @@
                         "type": "full-name",
                         "text": "Joseph Henry Maclagan Wedderburn",
                         "prons": [
-                            "{{en|orig}} {{ipb|en|ˈd͡ʒəʊ.zəf ˈhɛn.ri mə.ˈklæɡ.ən ˈwɛd.ər.bɜrn}}",
-                            "> {{en-GB}} {{ipa|en-GB|ˈd͡ʒəʊ.zəf ˈhɛn.ɹi mə.ˈklæɡ.ən ˈwɛd.ə.bɜːn}} {{audio|en-GB-joseph-wedderburn.mp3}}"
+                            "{{en|orig}} {{ipb|en|ˈd͡ʒəʊ.zəf ˈhɛn.ri mə.ˈklæɡ.ən ˈwɛd.ər.ˌbɜrn}}",
+                            "> {{en-GB}} {{ipa|en-GB|ˈd͡ʒəʊ.zəf ˈhɛn.ɹi mə.ˈklæɡ.ən ˈwɛd.ə.ˌbɜːn}} {{audio|en-GB-joseph-wedderburn.mp3}}"
                         ]
                     }
                 ],
@@ -13076,7 +13257,7 @@
                         "type": "family-name",
                         "text": "Weitzenböck",
                         "prons": [
-                            "{{de|orig}} {{ipa|de|ˈvaɪ.t͡sn̩.bœk}} {{audio|de-DE-weitzenbock.mp3}}",
+                            "{{de|orig}} {{ipa|de|ˈvaɪ.t͡sn̩.ˌbœk}} {{audio|de-DE-weitzenbock.mp3}}",
                             "{{en|aprx}} {{ipb|en|ˈvaɪ.tsən.bɜːk}}",
                             "* {{zh|tran}} {{lang|zh|外森比克|Wàisēnbǐkè}}"
                         ]
@@ -13132,8 +13313,8 @@
                         "type": "family-name",
                         "text": "Whitehead",
                         "prons": [
-                            "{{en|orig}} {{ipb|en|ˈhwaɪt.hɛd}}",
-                            "> {{en-GB|orig*}} {{ipa|en-GB|ˈwɑɪʔt.hɛd}} {{audio|en-GB-whitehead.mp3}}",
+                            "{{en|orig}} {{ipb|en|ˈhwaɪt.ˌhɛd}}",
+                            "> {{en-GB|orig*}} {{ipa|en-GB|ˈwɑɪʔt.ˌhɛd}} {{audio|en-GB-whitehead.mp3}}",
                             "* {{ja|tran}} {{lang|ja|ホワイトヘッド|Howaitoheddo}}",
                             "* {{ru|tran}} {{lang|ru|Уайтхед|Uatkhed}}",
                             "* {{zh|tran}} {{lang|zh|怀特海德|Huáitèhǎidé}}"
@@ -13143,8 +13324,8 @@
                         "type": "full-name",
                         "text": "John Henry Constantine Whitehead",
                         "prons": [
-                            "{{en|orig}} {{ipb|en|ˈd͡ʒɒn ˈhɛn.ri ˈkɒn.stən.ˌtaɪn ˈhwaɪt.hɛd}}",
-                            "> {{en-GB}} {{ipa|en-GB|ˈd͡ʒɒn ˈhɛn.ɹi ˈkɒn.stn̩.ˌtɑɪn ˈwɑɪʔt.hɛd}} {{audio|en-GB-john-whitehead.mp3}}"
+                            "{{en|orig}} {{ipb|en|ˈd͡ʒɒn ˈhɛn.ri ˈkɒn.stən.ˌtaɪn ˈhwaɪt.ˌhɛd}}",
+                            "> {{en-GB}} {{ipa|en-GB|ˈd͡ʒɒn ˈhɛn.ɹi ˈkɒn.stn̩.ˌtɑɪn ˈwɑɪʔt.ˌhɛd}} {{audio|en-GB-john-whitehead.mp3}}"
                         ]
                     }
                 ],
@@ -13650,7 +13831,7 @@
                         "text": "Zorich",
                         "prons": [
                             "{{ru|orig}} {{lang|ru|Зорич|Zorich}} {{ipa|ru|ˈzo.rʲit͡ɕ}} {{audio|ru-RU-zorich.mp3}}",
-                            "{{en|aprx}} {{ipb|en|zɔːr.ɪt͡ʃ}}",
+                            "{{en|aprx}} {{ipb|en|ˈzɔːr.ɪt͡ʃ}}",
                             "* {{zh|tran}} {{lang|zh|卓里奇|Zhuólǐqí}}"
                         ]
                     },
@@ -14205,6 +14386,7 @@
                 ["[ʔʰʷ̠̯]", ""],
                 ["ɫ", "l"],
                 ["ʉ", "u"],
+                ["uː?", "uː"],
                 ["ɑɪ", "aɪ"],
                 ["[əɔo]ʊ", "oʊ"],
                 ["ɱ", "m"],
@@ -14213,7 +14395,7 @@
             ],
             "std": [
                 ["r", "ɹ"],
-                ["((^|[ ˈˌ])[^. iɪeɛæaɑɒɔoʊuyᵻəɜɐʉᵿɵɯʌɚjw̩]*([ptk]|t͡ʃ))", "$1ʰ"],
+                ["((^|[ ˈˌ])[^. iɪeɛæaɑɒɔoʊuyᵻəɜɐʉᵿɵɯʌɚjw̩]*([ptk](͡ʃ)?))", "$1ʰ"],
                 ["([sʃ][.ˈˌ]*([ptk]|t͡ʃ))ʰ", "$1"],
                 ["([bvðdzʒɡ])̥?(?=((d͡)?[bvðdzʒɡ])*($|\\.w|\\.*[pfθtsʃkbvðdzʒɡ]| [ˈˌ]*[^ˈˌiɪeɛæaɑɒɔoʊuyᵻəɜɐʉᵿɵɯʌɚ]))", "$1̥"],
                 ["([ptʃk]ʰ[.ˈˌ]*[lɹw])̥?(?!̩)", "$1̥"],
@@ -14245,12 +14427,12 @@
                 ["iː", "#I%i"],
                 ["([ɪɛæʌɒʊ])(?=[^ .%ːˑiɪeɛæaɑɒɔoʊuyᵻəɜɐʉᵿɵɯʌɚ]*[bvðdzʒɡ])", "$1%"],
                 ["ɪ%ŋ", "#Iŋ"],
-                ["ɪ", "ɪ̠"],
+                ["ɪ", "ɘ̟"],
                 ["ɛː", "e̞%ˑ"],
                 ["ʊ%ɫ", "#U̟ɫ"],
                 ["ʊ", "ɤ̹"],
-                ["j[ʊuʉ]", "jʉ%u̟"],
-                ["[ʊuʉ]%?", "ʉ%"],
+                ["j[ʊuʉ]ː?", "jʉ%u̟"],
+                ["[ʊuʉ]%?ː?", "ʉ%u̟"],
                 ["ə(?=[.ˈˌ]*[kɡŋwɫ])", "ɤ"],
                 ["([kɡŋwɫ][ʰ.]*)ə", "$1ɤ"],
                 ["ʌ%ɫ", "ɔɫ"],
@@ -14560,7 +14742,8 @@
                 ["((^|[ .])[^ .ˈ]*)ɔ", "$1o̞"],
                 ["ɨ", "ɘ̟"],
                 ["([tdsz])(?![̥̊]*̪|͡)", "$1̪"],
-                ["n(?=[.ˈˌ]*([td]͡)?[ɕʑ])", "n̻"],
+                ["ɲ", "ȵ"],
+                ["[nȵ](?=[.ˈˌ]*([td]͡)?[ɕʑʂʐ])", "ɲ"],
                 ["n(?=[.ˈˌ]*([td]͡)?[tdsz]̪)", "n̪"],
                 ["kʲ", "c"],
                 ["ɡʲ", "ɟ"],
