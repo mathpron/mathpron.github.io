@@ -449,7 +449,7 @@
                         "type": "family-name",
                         "text": "Arf",
                         "prons": [
-                            "{{tr|orig}} {{ipa|tr|ˈaɹf|ˈarf}} {{audio|tr-TR-arf.mp3}}",
+                            "{{tr|orig}} {{ipa|tr|ˈaz̸̞f|ˈarf}} {{audio|tr-TR-arf.mp3}}",
                             "{{en|aprx}} {{ipb|en|ˈɑrf}}",
                             "* {{ja|tran}} {{lang|ja|アルフ|Arufu}}",
                             "* {{ru|tran}} {{lang|ru|Арф|Arf}}",
@@ -7627,7 +7627,7 @@
                         "text": "Lions",
                         "prons": [
                             "{{fr|orig}} {{ipa|fr|ˈljɔ̃s}} {{ref|wiki|Pierre-Louis_Lions}} {{audio|fr-FR-lions.mp3}}",
-                            "{{en|aprx}} {{ipb|en|li.ˈɔːns}}",
+                            "{{en|aprx}} {{ipb|en|liː.ˈɔːns}}",
                             "* {{ja|tran}} {{lang|ja|リオンス|Rionsu}}",
                             "* {{ru|tran}} {{lang|ru|Лионс|Lions}}",
                             "* {{zh|tran}} {{lang|zh|里昂斯|Lǐ’ángsī}}"
@@ -10717,7 +10717,7 @@
                         "type": "full-name",
                         "text": "Jan Arnoldus Schouten",
                         "prons": [
-                            "{{nl|orig}} {{ipa|nl|ˈjɑn ɑɹ.ˈnɔɫ.dʏs ˈs<x//ʀ̟̊>ʌʊ.təṇ}} {{audio|nl-NL-jan-arnoldus-schouten.mp3}}"
+                            "{{nl|orig}} {{ipa|nl|ˈjɑn ɑɹ.ˈnɔɫ.dʏs ˈs<x//ʀ̟̊̊>ʌʊ.təṇ}} {{audio|nl-NL-jan-arnoldus-schouten.mp3}}"
                         ]
                     }
                 ],
@@ -14255,7 +14255,7 @@
                 ["([kɡŋwɫ][ʰ.]*)ə", "$1ɤ"],
                 ["ʌ%ɫ", "ɔɫ"],
                 ["([^ˑ])ɹ(?![̥̊]*ʷ)", "$1ɚ"],
-                ["ɚ", "ɯ˞ʵ"],
+                ["ɚ", "ω˞ʵ"],
                 ["%(?=[mnŋɫ])", ""],
                 ["(ˈ[^. ]*)%(?=[^. ]*[pfθtsʃk])", "$1"],
                 ["(ˈ[^. ]*)%(?=.[.ˑ̝̞̟̠]*[iɪeɛæaɑɒɔoʊuyᵻəɜɐʉᵿɵɯʌɚ])", "$1"],
@@ -14280,7 +14280,7 @@
                 ["[ʰˠ]", ""]
             ],
             "std": [
-                ["ð", "ð̞ˠ"],
+                ["ð", "ɹ̪"],
                 ["æ", "ɛ̞"],
                 ["œ", "ɞ"],
                 ["ɐ", "ʌ"]
@@ -14646,6 +14646,7 @@
             "std": [
                 ["([tds])(?![̥̊]*̪|͡)", "$1̪"],
                 ["([pbtdkɡ])([̪]*)(?=\\.[ˈˌ]*\\1)", "$1$2̚"],
+                ["ɹ", "z̸̞"],
                 ["iː", "iʴː"],
                 ["yː", "y̜ʴː"],
                 ["ʉː", "ʉy"],
@@ -14660,7 +14661,7 @@
                 ["ʊ", "u"],
                 ["ə̟?", "ə̟"],
                 ["œ", "ɞ"],
-                ["ɛ(?=[.ˈˌ]*[ɹʈɖʂɳɭ])", "ɛ̠"]
+                ["ɛ(?=[.ˈˌ]*([ɹʈɖʂɳɭ]|z̸̞))", "ɛ̠"]
             ]
         },
         "uk": {
@@ -14716,7 +14717,7 @@
                 ["jau", "jao̞"],
                 ["au", "ɑo̞"],
                 ["(s̪ʰ?)ɯ", "$1ɯʴ"],
-                ["(ʂʰ?)ɯ", "$1ɯʵ"],
+                ["(ʂʰ?)ɯ", "$1ɯ˞ʵ"],
                 ["ɻ", "ʐ̸̞"],
                 ["n(?=[ .ˈˌ˩˨˧˦˥]*[mp])", "m"],
                 ["n(?=[ .ˈˌ˩˨˧˦˥]*[f])", "ɱ"],
@@ -15903,8 +15904,8 @@
             "zh": "鼻化元音"
         },
         "ipa-symbol-after-consonant-˞": {
-            "en": "lateralized (rhotic) consonant",
-            "zh": "边化（儿化）辅音"
+            "en": "lateralized consonant",
+            "zh": "边化辅音"
         },
         "ipa-symbol-after-vowel-˞": {
             "en": "lateralized (rhotic) vowel",
