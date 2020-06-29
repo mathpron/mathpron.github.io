@@ -759,6 +759,15 @@ rt {
     margin: 3em 0 .7em 0;
     min-height: 2em;
     color: #666;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.under-header span {
+    flex-shrink: 0;
 }
 
 span.under-header-separator::before {
@@ -767,6 +776,10 @@ span.under-header-separator::before {
 
 span.under-header-separator {
     margin: 0 1em;
+}
+
+.under-header-grow {
+    flex-grow: 1;
 }
 
 span.fake-link.ipa-selector.selected {
@@ -847,7 +860,8 @@ span.fake-link.ipa-selector.selected {
     background-color: #f0f2f4;
 }
 
-#lang-list-container {
+#lang-list-container,
+#report-button-container {
     display: none;
     position: absolute;
     width: 200px;
@@ -857,6 +871,14 @@ span.fake-link.ipa-selector.selected {
     box-shadow: 0 0 15px #00000020;
     z-index: 1000;
     font-size: 16px;
+}
+
+#report-button-container {
+    line-height: 1.5;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
 }
 
 .lang-list-item {
@@ -1046,10 +1068,15 @@ table.ipa-chart .rotate {
         padding-left: 1em;
     }
 
-    #lang-list-container {
-        width: 100px;
+    #lang-list-container,
+    #report-button-container {
+        width: 120px;
         padding: 5px 0;
         font-size: 12px;
+    }
+    
+    #report-button-container {
+        padding: 5px 10px;
     }
     
     .lang-list-item {

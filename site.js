@@ -6,7 +6,7 @@ let langLong = navigator.language || 'en-US';
 let langShort = langLong.replace(/-.+/, '');
 let setTimeoutHide, explainerShowing;
 let searchTimeout, searchText, searchListHasTouch;
-let langButtonPressed;
+let langButtonPressed, reportButtonPressed;
 const hashes = {}, allEntries = [], stats = {}, idx = [];
 const diacriticsMap = {}, diacriticsRegex = /[\u0300-\u036F]/g, diacriticsAtStartRegex = /^[\u0300-\u036F]*/;
 const cjkLanguages = ['zh'];
@@ -279,9 +279,19 @@ function initialise() {
         }, 1000);
     });
 
+    $('#report-button-container').click(function() {
+        reportButtonPressed = true;
+        setTimeout(() => {
+            reportButtonPressed = false;
+        }, 1000);
+    });
+
     $('body').click(function () {
         if ($langContainer.is(':visible') && !langButtonPressed) {
             $langContainer.hide();
+        }
+        if ($('#report-button-container').is(':visible') && !reportButtonPressed) {
+            $('#report-button-container').hide();
         }
     });
 
@@ -716,6 +726,37 @@ function getIpaSelectors(isIndex) {
     return $ipaSelectors;
 }
 
+function getReportButtons() {
+    const $buttons = $('<div>');
+        
+    $buttons.append($('<span class="fake-link" data-long-string="report-an-error-long" data-href="https://github.com/mathpron/mathpron.github.io/issues/new?template=correct-an-error.md">').text(getString('report-an-error-short')));
+    $buttons.append($('<span class="under-header-separator">'));
+    $buttons.append($('<span class="fake-link" data-long-string="suggest-a-new-entry-long" data-href="https://github.com/mathpron/mathpron.github.io/issues/new?template=suggest-a-new-entry.md">').text(getString('suggest-a-new-entry-short')));
+
+    $buttons.find('span.fake-link').click(function () {
+        reportButtonPressed = true;
+        setTimeout(() => {
+            reportButtonPressed = false;
+        }, 1000);
+
+        const $container = $('#report-button-container');
+        $container.html('').append(
+            $('<span>').text( getString($(this).data('long-string') + '-before') )
+        ).append(
+            $('<a target="_blank" href="' + $(this).data('href') + '">').text( 'GitHub' )
+        ).append(
+            $('<span>').text( getString($(this).data('long-string') + '-after') )
+        );
+
+        let containerWidth = $container.outerWidth(), windowWidth = $(window).width();
+        let left = $(this).position().left + $(this).outerWidth() / 2 - containerWidth / 2;
+        if (left + containerWidth > windowWidth - 10) { left = windowWidth - 10 - containerWidth; }
+        $container.css('left', left).show(200);
+    });
+
+    return $buttons;
+}
+
 function loadIndex(initial) {
     if (!data.items[initial]) return;
 
@@ -726,7 +767,7 @@ function loadIndex(initial) {
     activeInitial = initial;
     document.title = getString('title') + ' – ' + getString('title-text');
 
-    $('.under-header').html(getIpaSelectors(true));
+    $('.under-header').html(getIpaSelectors(true)).append($('<div class="under-header-grow">')).append(getReportButtons());
 
     const translit = getTranslitRegex();
 
@@ -806,6 +847,8 @@ function loadActiveItem() {
         if (activeItem.forms) {
             $underHeader.append($('<span class="under-header-separator">'));
             $underHeader.append(getIpaSelectors());
+            $underHeader.append($('<div class="under-header-grow">'));
+            $underHeader.append(getReportButtons());
         }
     }
 

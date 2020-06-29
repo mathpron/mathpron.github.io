@@ -16126,6 +16126,30 @@
             "en": "Loading content...",
             "zh": "正在加载内容..."
         },
+        "report-an-error-short": {
+            "en": "Report",
+            "zh": "报错"
+        },
+        "report-an-error-long-before": {
+            "en": "Report a wrong pronunciation or a wrong spelling on ",
+            "zh": "前往 "
+        },
+        "report-an-error-long-after": {
+            "en": ".",
+            "zh": " 报告条目中的错误，如读音、拼写错误等。"
+        },
+        "suggest-a-new-entry-short": {
+            "en": "New entry",
+            "zh": "新条目"
+        },
+        "suggest-a-new-entry-long-before": {
+            "en": "Suggest a new entry on ",
+            "zh": "前往 "
+        },
+        "suggest-a-new-entry-long-after": {
+            "en": ".",
+            "zh": " 提议增加一个新条目。"
+        },
         "remark-norwegian-pitch": {
             "en": "Superscript numbers indicate the pitch accent. See Wikipedia: {{link|https://en.wikipedia.org/wiki/Norwegian_phonology#Accent|Norwegian phonology – Accent}}.",
             "zh": "上标数字表示声调。参见英语维基百科：{{link|https://en.wikipedia.org/wiki/Norwegian_phonology#Accent|Norwegian phonology – Accent}}."
