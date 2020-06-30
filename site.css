@@ -760,7 +760,7 @@ rt {
     min-height: 2em;
     color: #666;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
@@ -779,6 +779,7 @@ span.under-header-separator {
 }
 
 .under-header-grow {
+    min-width: 2em;
     flex-grow: 1;
 }
 

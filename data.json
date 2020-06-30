@@ -16126,17 +16126,17 @@
             "en": "Loading content...",
             "zh": "正在加载内容..."
         },
-        "report-an-error-short": {
-            "en": "Report",
-            "zh": "报错"
+        "propose-an-edit-short": {
+            "en": "Edit",
+            "zh": "编辑"
         },
-        "report-an-error-long-before": {
-            "en": "Report a wrong pronunciation or a wrong spelling on ",
+        "propose-an-edit-long-before": {
+            "en": "Propose changes to this entry on ",
             "zh": "前往 "
         },
-        "report-an-error-long-after": {
+        "propose-an-edit-long-after": {
             "en": ".",
-            "zh": " 报告条目中的错误，如读音、拼写错误等。"
+            "zh": " 提议编辑这个条目。"
         },
         "suggest-a-new-entry-short": {
             "en": "New entry",

@@ -617,7 +617,7 @@ function backtrackSearch(text, words, fuzzy, wordLimit, computeHl) {
 } 
 
 function onHashChange() {
-    if (decodeURI(window.location.hash) === selfHashChange) { // change made by code
+    if (decodeURI(window.location.hash) === selfHashChange && selfHashChange) { // change made by code
         return;
     }
     selfHashChange = '';
@@ -726,11 +726,14 @@ function getIpaSelectors(isIndex) {
     return $ipaSelectors;
 }
 
-function getReportButtons() {
+function getReportButtons(title) {
     const $buttons = $('<div>');
         
-    $buttons.append($('<span class="fake-link" data-long-string="report-an-error-long" data-href="https://github.com/mathpron/mathpron.github.io/issues/new?template=correct-an-error.md">').text(getString('report-an-error-short')));
-    $buttons.append($('<span class="under-header-separator">'));
+    if (title) {
+        title = title.replace(/[ _]/g, '+').replace(/[‘’]/g, "'");
+        $buttons.append($('<span class="fake-link" data-long-string="propose-an-edit-long" data-href="https://github.com/mathpron/mathpron.github.io/issues/new?template=propose-an-edit.md&title=' + encodeURIComponent('Edit:+' + title) + '">').text(getString('propose-an-edit-short')));
+        $buttons.append($('<span class="under-header-separator">'));
+    }
     $buttons.append($('<span class="fake-link" data-long-string="suggest-a-new-entry-long" data-href="https://github.com/mathpron/mathpron.github.io/issues/new?template=suggest-a-new-entry.md">').text(getString('suggest-a-new-entry-short')));
 
     $buttons.find('span.fake-link').click(function () {
@@ -848,7 +851,7 @@ function loadActiveItem() {
             $underHeader.append($('<span class="under-header-separator">'));
             $underHeader.append(getIpaSelectors());
             $underHeader.append($('<div class="under-header-grow">'));
-            $underHeader.append(getReportButtons());
+            $underHeader.append(getReportButtons(activeItem.title.replace('|', '')));
         }
     }
 
