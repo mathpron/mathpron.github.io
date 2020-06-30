@@ -730,7 +730,7 @@ function getReportButtons(title) {
     const $buttons = $('<div>');
         
     if (title) {
-        title = title.replace(/[ _]/g, '+').replace(/[‘’]/g, "'");
+        title = title.replace(/[ _]/g, ' ').replace(/[‘’]/g, "'");
         $buttons.append($('<span class="fake-link" data-long-string="propose-an-edit-long" data-href="https://github.com/mathpron/mathpron.github.io/issues/new?template=propose-an-edit.md&title=' + encodeURIComponent('Edit:+' + title) + '">').text(getString('propose-an-edit-short')));
         $buttons.append($('<span class="under-header-separator">'));
     }
