@@ -731,10 +731,10 @@ function getReportButtons(title) {
         
     if (title) {
         title = title.replace(/[ _]/g, ' ').replace(/[‘’]/g, "'");
-        $buttons.append($('<span class="fake-link" data-long-string="propose-an-edit-long" data-href="https://github.com/mathpron/mathpron.github.io/issues/new?template=propose-an-edit.md&title=' + encodeURIComponent('Edit:+' + title) + '">').text(getString('propose-an-edit-short')));
+        $buttons.append($('<span class="fake-link" data-long-string="propose-an-edit-long" data-href="https://github.com/mathpron/mathpron.github.io/issues/new?template=propose-an-edit.md&title=' + encodeURIComponent('Edit: ' + title) + '">').text(getString('propose-an-edit-short')));
         $buttons.append($('<span class="under-header-separator">'));
     }
-    $buttons.append($('<span class="fake-link" data-long-string="suggest-a-new-entry-long" data-href="https://github.com/mathpron/mathpron.github.io/issues/new?template=suggest-a-new-entry.md">').text(getString('suggest-a-new-entry-short')));
+    $buttons.append($('<span class="fake-link" data-long-string="suggest-a-new-entry-long" data-href="https://github.com/mathpron/mathpron.github.io/issues/new?template=suggest-a-new-entry.md&title=' + encodeURIComponent('New entry: ') + '">').text(getString('suggest-a-new-entry-short')));
 
     $buttons.find('span.fake-link').click(function () {
         reportButtonPressed = true;
