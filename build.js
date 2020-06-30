@@ -7,6 +7,8 @@ const cssnano = require('cssnano');
 const postcss = require('postcss');
 const htmlMinifier = require('html-minifier');
 
+const googleAnalytics = '<script async src="https://www.googletagmanager.com/gtag/js?id=UA-171059628-1"></script><script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-171059628-1")</script>';
+
 function minifyCssAsync(css) {
     return new Promise((resolve, reject) => {
         postcss([ autoprefixer, cssnano ]).process(css, {
@@ -80,6 +82,9 @@ async function build() {
                     break;
 
                 case 'html':
+                    if (file === 'index.html') {
+                        content = content.replace('<head>', '<head>' + googleAnalytics);
+                    }
                     let htmlResult = htmlMinifier.minify(content, {
                         removeComments: true,
                         collapseWhitespace: true,
