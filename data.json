@@ -935,6 +935,35 @@
                 ]
             },
             {
+                "title": "Beltrami|, Eugenio",
+                "wd": "Q371918",
+                "desc": "m|m|IT|1835|1900",
+                "forms": [
+                    {
+                        "type": "family-name",
+                        "text": "Beltrami",
+                        "prons": [
+                            "{{it|orig}} {{ipa|it|bel.ˈtra.mi}} {{ref|dipi|Beltrami}} {{audio|it-IT-beltrami.mp3}}",
+                            "{{en|aprx}} {{ipb|en|bɛl.ˈtrɑː.mi}}",
+                            "* {{ja|tran}} {{lang|ja|ベルトラミ|Berutorami}}",
+                            "* {{ru|tran}} {{lang|ru|Бельтрами|Beltrami}}",
+                            "* {{zh|tran}} {{lang|zh|贝尔特拉米|Bèi’ěrtèlāmǐ}}"
+                        ]
+                    },
+                    {
+                        "type": "full-name",
+                        "text": "Eugenio Beltrami",
+                        "prons": [
+                            "{{it|orig}} {{ipa|it|eu.ˈd͡ʒɛ.njo bel.ˈtra.mi}} {{audio|it-IT-eugenio-beltrami.mp3}}"
+                        ]
+                    }
+                ],
+                "links": [
+                    "{{wiki|Eugenio_Beltrami}}",
+                    "{{mgp|41759|Eugenio Beltrami}}"
+                ]
+            },
+            {
                 "title": "Berezin|, Felix",
                 "wd": "Q915301",
                 "desc": "m|m p|SU|1931|1980",
@@ -2184,6 +2213,35 @@
                 "links": [
                     "{{wiki|Constantin_Carathéodory}}",
                     "{{mgp|7517|Constantin Carathéodory}}"
+                ]
+            },
+            {
+                "title": "Carleson|, Lennart",
+                "wd": "Q343420",
+                "desc": "m|m|SE|1928|",
+                "forms": [
+                    {
+                        "type": "family-name",
+                        "text": "Carleson",
+                        "prons": [
+                            "{{sv|orig}} {{ipa|sv|²kɑː.ɭə.sɔn}} {{audio|sv-SE-carleson.mp3}}",
+                            "{{en|aprx}} {{ipb|en|ˌkɑːr.lə.ˈsɔːn}}",
+                            "* {{ja|tran}} {{lang|ja|カルレソン|Karureson}}",
+                            "* {{ru|tran}} {{lang|ru|Карлесон|Karleson}}",
+                            "* {{zh|tran}} {{lang|zh|卡尔松|Kǎ’ěrsōng}}"
+                        ]
+                    },
+                    {
+                        "type": "full-name",
+                        "text": "Lennart Axel Edvard Carleson",
+                        "prons": [
+                            "{{sv|orig}} {{ipa|sv|¹lɛ.naʈ ¹ak.səl ¹eːd.vaɖ ²kɑː.ɭə.sɔn}} {{audio|sv-SE-lennart-carleson.mp3}}"
+                        ]
+                    }
+                ],
+                "links": [
+                    "{{wiki|Lennart_Carleson}}",
+                    "{{mgp|19781|Lennart Carleson}}"
                 ]
             },
             {
@@ -5679,7 +5737,7 @@
                         "text": "Hausdorff",
                         "prons": [
                             "{{de|orig}} {{ipa|de|ˈhaʊs.dɔʁf}} {{ref|duden-6}} {{audio|de-DE-hausdorff.mp3}}",
-                            "{{en|aprx}} {{ipb|en|ˈhaʊs.dɔrf}} {{ref|wikt|Hausdorff|English}}",
+                            "{{en|aprx}} {{ipb|en|ˈhaʊs.ˌdɔrf}} {{ref|wikt|Hausdorff|English}}",
                             "* {{ja|tran}} {{lang|ja|ハウスドルフ|Hausudorufu}}",
                             "* {{ru|tran}} {{lang|ru|Хаусдорф|Khausdorf}}",
                             "* {{zh|tran}} {{lang|zh|豪斯多夫|Háosīduōfū}}"
@@ -7761,7 +7819,37 @@
                     "{{wiki|Nikolai_Lobachevsky}}",
                     "{{mgp|146776|Nikolai Lobachevsky}}"
                 ]
-            },            {
+            },
+            {
+                "title": "Lorentz|, Hendrik",
+                "wd": "Q41688",
+                "desc": "m|p|NL|1853|1928",
+                "forms": [
+                    {
+                        "type": "family-name",
+                        "text": "Lorentz",
+                        "prons": [
+                            "{{nl|orig}} {{ipa|nl|ˈlɔ.ɾənt͡s}} {{audio|nl-NL-lorentz.mp3}}",
+                            "{{en|aprx}} {{ipb|en|ˈlɒr.ənt͡s}}",
+                            "* {{ja|tran}} {{lang|ja|ローレンツ|Rōrentsu}}",
+                            "* {{ru|tran}} {{lang|ru|Лоренц|Lorents}}",
+                            "* {{zh|tran}} {{lang|zh|洛伦兹|Luòlúnzī}}"
+                        ]
+                    },
+                    {
+                        "type": "full-name",
+                        "text": "Hendrik Antoon Lorentz",
+                        "prons": [
+                            "{{nl|orig}} {{ipa|nl|ˈɦɛn.dɾɪk ˈɑn.toːn ˈlɔ.ɾənt͡s}} {{audio|nl-NL-hendrik-lorentz.mp3}}"
+                        ]
+                    }
+                ],
+                "links": [
+                    "{{wiki|Hendrik_Lorentz}}",
+                    "{{mgp|105756|Hendrik Lorentz}}"
+                ]
+            },
+            {
                 "title": "Lubin|, Jonathan",
                 "wd": "Q6273737",
                 "desc": "m|m|US|1936|",
@@ -8509,7 +8597,7 @@
                         "type": "family-name",
                         "text": "Milnor",
                         "prons": [
-                            "{{en|orig}} {{ipb|en|ˈmɪl.nə}}", 
+                            "{{en|orig}} {{ipb|en|ˈmɪl.nər}}", 
                             "> {{en-GB}} {{ipa|en-GB|ˈmɪl.nɐ}}, {{ipa|en-GB|ˈmɪw.nɐ}} {{audio|en-GB-milnor.mp3}}",
                             "> {{en-US|orig*}} {{ipa|en-US|ˈmɪl.nɚ}}",
                             "* {{ja|tran}} {{lang|ja|ミルナー|Mirunā}}",
@@ -11728,6 +11816,35 @@
                 ]
             },
             {
+                "title": "Steinhaus|, Hugo",
+                "wd": "Q226072",
+                "desc": "m|m|PL|1887|1972",
+                "forms": [
+                    {
+                        "type": "family-name",
+                        "text": "Steinhaus",
+                        "prons": [
+                            "{{pl|orig}} {{ipa|pl|ˈʂtain.xaus}} {{audio|pl-PL-steinhaus.mp3}}",
+                            "{{en|aprx}} {{ipb|en|ˈstaɪn.ˌhaʊs}}",
+                            "* {{ja|tran}} {{lang|ja|シュタインハウス|Shutainhausu}}",
+                            "* {{ru|tran}} {{lang|ru|Штейнгауз|Shteyngauz}}",
+                            "* {{zh|tran}} {{lang|zh|斯坦豪斯|Sītǎnháosī}}"
+                        ]
+                    },
+                    {
+                        "type": "full-name",
+                        "text": "Władysław Hugo Dionizy Steinhaus",
+                        "prons": [
+                            "{{pl|orig}} {{ipa|pl|vwa.ˈdɨs.waf ˈxu.ɡɔ djɔ.ˈɲi.zɨ ˈʂtain.xaus}} {{audio|pl-PL-hugo-steinhaus.mp3}}"
+                        ]
+                    }
+                ],
+                "links": [
+                    "{{wiki|Hugo_Steinhaus}}",
+                    "{{mgp|7383|Hugo Steinhaus}}"
+                ]
+            },
+            {
                 "title": "Stiefel|, Eduard",
                 "wd": "Q122724",
                 "desc": "m|m|CH|1909|1978",
@@ -14598,6 +14715,8 @@
                 ["l̻", "ʎ"],
                 ["([td])͡[sz]̪̚", "$1̪̚"],
                 ["([td])͡[ʃʒ]̚", "$1̻̚"],
+                ["r", "ɾ"],
+                ["((^|ɾ)[ .ˈˌːˑ]*)ɾ", "$1r"],
                 ["((^|[ .])[^ .ˈˌ]*)ɛ", "$1e̞"],
                 ["((^|[ .])[^ .ˈˌ]*)ɔ", "$1o̞"],
                 ["(ˈ[^ .ieɛaɔou]*[iu][^ .ieɛaɔou]*\\.[^ .]*[eo])(?=[^ .]*($| ))", "$1̞"],
@@ -14687,7 +14806,8 @@
                 ["eː", "e̞#I#"],
                 ["øː", "ø̞#Y#"],
                 ["oː", "o̞ʊ"],
-                ["ɪ", "ɘ"],
+                ["ɔ", "o̞"],
+                ["ɪ", "e̠"],
                 ["ʏ", "ɵ"],
                 ["#I#", "ɪ"],
                 ["#Y#", "ʏ"],
@@ -14829,6 +14949,7 @@
             "std": [
                 ["([tds])(?![̥̊]*̪|͡)", "$1̪"],
                 ["([pbtdkɡ])([̪]*)(?=\\.[ˈˌ]*\\1)", "$1$2̚"],
+                ["((^| |[ˈ¹²])[^ .sʃiyɪʏeøɛœəauʉɵoɔɑ]*[ptk]̪?)ʰ?(?!͡)", "$1ʰ"],
                 ["ɹ", "z̸̞"],
                 ["iː", "iʴː"],
                 ["yː", "y̜ʴː"],
