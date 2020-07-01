@@ -2950,6 +2950,34 @@
                 ]
             },
             {
+                "title": "Cramer|, Gabriel",
+                "wd": "Q122331",
+                "desc": "m|m|GNV|1704|1752",
+                "forms": [
+                    {
+                        "type": "family-name",
+                        "text": "Cramer",
+                        "prons": [
+                            "{{fr|orig}} {{ipa|fr|kʁa.ˈmɛʁ}} {{audio|fr-FR-cramer.mp3}}",
+                            "{{en|aprx}} {{ipb|en|ˈkrɑː.mər}}",
+                            "* {{ja|tran}} {{lang|ja|クラメール|Kuramēru}}",
+                            "* {{ru|tran}} {{lang|ru|Крамер|Kramer}}",
+                            "* {{zh|tran}} {{lang|zh|克拉默|Kèlāmò}}"
+                        ]
+                    },
+                    {
+                        "type": "full-name",
+                        "text": "Gabriel Cramer",
+                        "prons": [
+                            "{{fr|orig}} {{ipa|fr|ɡa.bʁi.ˈjɛl kʁa.ˈmɛʁ}} {{audio|fr-FR-gabriel-cramer.mp3}}"
+                        ]
+                    }
+                ],
+                "links": [
+                    "{{wiki|Gabriel_Cramer}}"
+                ]
+            },
+            {
                 "title": "Cremona|, Luigi",
                 "wd": "Q548266",
                 "desc": "m|m|IT|1830|1903",
@@ -4268,6 +4296,36 @@
                 ]
             },
             {
+                "title": "Fischer|, Ernst Sigismund",
+                "wd": "Q85268",
+                "desc": "m|m|AT|1875|1954",
+                "forms": [
+                    {
+                        "type": "family-name",
+                        "text": "Fischer",
+                        "alt": [ "Fisher" ],
+                        "prons": [
+                            "{{de|orig}} {{ipa|de|ˈfɪ.ʃɐ}} {{audio|de-DE-fischer.mp3}}",
+                            "{{en|aprx}} {{ipb|en|ˈfɪʃ.ər}}",
+                            "* {{ja|tran}} {{lang|ja|フィッシャー|Fisshā}}",
+                            "* {{ru|tran}} {{lang|ru|Фишер|Fisher}}",
+                            "* {{zh|tran}} {{lang|zh|费舍尔|Fèishě’ěr}}"
+                        ]
+                    },
+                    {
+                        "type": "full-name",
+                        "text": "Ernst Sigismund Fischer",
+                        "prons": [
+                            "{{de|orig}} {{ipa|de|ˈʔɛʁnst ˈziː.ɡɪs.mʊnt ˈfɪ.ʃɐ}} {{audio|de-DE-ernst-sigismund-fischer.mp3}}"
+                        ]
+                    }
+                ],
+                "links": [
+                    "{{wiki|Ernst_Sigismund_Fischer}}",
+                    "{{mgp|49499|Ernst Fischer}}"
+                ]
+            },
+            {
                 "title": "Floer|, Andreas",
                 "wd": "Q77507",
                 "desc": "m|m|DE|1956|1991",
@@ -5065,6 +5123,35 @@
                 ]
             },
             {
+                "title": "Goursat|, Édouard",
+                "wd": "Q274322",
+                "desc": "m|m|FR|1858|1936",
+                "forms": [
+                    {
+                        "type": "family-name",
+                        "text": "Goursat",
+                        "prons": [
+                            "{{fr|orig}} {{ipa|fr|ɡuʁ.ˈsa}} {{audio|fr-FR-goursat.mp3}}",
+                            "{{en|aprx}} {{ipb|en|ɡʊər.ˈsɑː}}",
+                            "* {{ja|tran}} {{lang|ja|グルサ|Gurusa}}",
+                            "* {{ru|tran}} {{lang|ru|Гурса|Gursa}}",
+                            "* {{zh|tran}} {{lang|zh|古尔萨|Gǔ’ěrsà}}"
+                        ]
+                    },
+                    {
+                        "type": "full-name",
+                        "text": "Édouard Jean-Baptiste Goursat",
+                        "prons": [
+                            "{{fr|orig}} {{ipa|fr|e.ˈdwaʁ ˈʒɑ̃ ba.ˈtis°tᵊ ɡuʁ.ˈsa}} {{audio|fr-FR-edouard-goursat.mp3}}"
+                        ]
+                    }
+                ],
+                "links": [
+                    "{{wiki|Édouard_Goursat}}",
+                    "{{mgp|96283|???}}"
+                ]
+            },
+            {
                 "title": "Gram|, Jørgen Pedersen",
                 "wd": "Q957238",
                 "desc": "m|m|DK|1850|1916",
@@ -5664,6 +5751,34 @@
                 "links": [
                     "{{wiki|Joe_Harris_(mathematician)}}",
                     "{{mgp|18748|Joseph Harris}}"
+                ]
+            },
+            {
+                "title": "Hartogs|, Friedrich",
+                "wd": "Q68545",
+                "desc": "m|m|DE|1874|1943",
+                "forms": [
+                    {
+                        "type": "family-name",
+                        "text": "Hartogs",
+                        "prons": [
+                            "{{de|orig}} {{ipa|de|ˈhaʁ.tɔks}} {{audio|de-DE-hartogs.mp3}}",
+                            "{{en|aprx}} {{ipb|en|ˈhɑːr.ˌtɒɡz}}",
+                            "* {{ja|tran}} {{lang|ja|ハルトークス|Harutōkusu}}",
+                            "* {{zh|tran}} {{lang|zh|哈托格斯|Hātuōgésī}}"
+                        ]
+                    },
+                    {
+                        "type": "full-name",
+                        "text": "Friedrich Moritz Hartogs",
+                        "prons": [
+                            "{{de|orig}} {{ipa|de|ˈfʁiː.dʁɪç ˈmoː.ʁɪt͡s ˈhaʁ.tɔks}} {{audio|de-DE-friedrich-moritz-hartogs.mp3}}"
+                        ]
+                    }
+                ],
+                "links": [
+                    "{{wiki|Friedrich_Hartogs}}",
+                    "{{mgp|52361|Friedrich Hartogs}}"
                 ]
             },
             {
@@ -7177,6 +7292,34 @@
                 "links": [
                     "{{wiki|Joseph-Louis_Lagrange}}",
                     "{{mgp|17864|Joseph Lagrange}}"
+                ]
+            },
+            {
+                "title": "Laguerre|, Edmond",
+                "wd": "Q560815",
+                "desc": "m|m|FR|1834|1886",
+                "forms": [
+                    {
+                        "type": "family-name",
+                        "text": "Laguerre",
+                        "prons": [
+                            "{{fr|orig}} {{ipa|fr|la.ˈɡɛʁ}} {{audio|fr-FR-laguerre.mp3}}",
+                            "{{en|aprx}} {{ipb|en|lə.ˈɡɛər}}",
+                            "* {{ja|tran}} {{lang|ja|ラゲール|Ragēru}}",
+                            "* {{ru|tran}} {{lang|ru|Лагерр|Lagerr}}",
+                            "* {{zh|tran}} {{lang|zh|拉盖尔|Lāgài’ěr}}"
+                        ]
+                    },
+                    {
+                        "type": "full-name",
+                        "text": "Edmond Nicolas Laguerre",
+                        "prons": [
+                            "{{fr|orig}} {{ipa|fr|ɛd.ˈmɔ̃ ni.kɔ.ˈla la.ˈɡɛʁ}} {{audio|fr-FR-edmond-laguerre.mp3}}"
+                        ]
+                    }
+                ],
+                "links": [
+                    "{{wiki|Edmond_Laguerre}}"
                 ]
             },
             {
@@ -15346,6 +15489,10 @@
         "dem-GB": {
             "en": "British",
             "zh": "英国"
+        },
+        "dem-GNV": {
+            "en": "Genevan",
+            "zh": "日内瓦"
         },
         "dem-GR": {
             "en": "Greek",
