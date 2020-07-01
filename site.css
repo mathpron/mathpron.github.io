@@ -157,7 +157,9 @@ header {
 
 .hidden-text {
     position: absolute;
-    left: -1000000px;
+    left: -100000px;
+    font-size: 0;
+    color: transparent;
 }
 
 .banner-container {
