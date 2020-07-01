@@ -96,7 +96,7 @@ async function build() {
                                 if (entry.title) { allEntries += ' | ' + entry.title.replace(/^([^,]+)\|, ([^,]+)$/, '$2 $1').replace('|', ''); }
                             });
                         }
-                        allEntries = allEntries.substr(3);
+                        allEntries = allEntries.substr(3).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
                         content = content.replace('$$$$$', allEntries);
                     }
