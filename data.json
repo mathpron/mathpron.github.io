@@ -3298,6 +3298,35 @@
                 ]
             },
             {
+                "title": "Denjoy|, Arnaud",
+                "wd": "Q691340",
+                "desc": "m|m|FR|1884|1974",
+                "forms": [
+                    {
+                        "type": "family-name",
+                        "text": "Denjoy",
+                        "prons": [
+                            "{{fr|orig}} {{ipa|fr|dɑ̃.ˈʒwa}} {{audio|fr-FR-denjoy.mp3}}",
+                            "{{en|aprx}} {{ipb|en|ˈdɑːn.ˌʒwɑː}}",
+                            "* {{ja|tran}} {{lang|ja|ダンジョワ|Danjowa}}",
+                            "* {{ru|tran}} {{lang|ru|Данжуа|Danzhua}}",
+                            "* {{zh|tran}} {{lang|zh|当茹瓦|Dāngrúwǎ}}"
+                        ]
+                    },
+                    {
+                        "type": "full-name",
+                        "text": "Arnaud Denjoy",
+                        "prons": [
+                            "{{fr|orig}} {{ipa|fr|aʁ.ˈno dɑ̃.ˈʒwa}} {{audio|fr-FR-arnaud-denjoy.mp3}}"
+                        ]
+                    }
+                ],
+                "links": [
+                    "{{wiki|Arnaud_Denjoy}}",
+                    "{{mgp|24548|Arnaud Denjoy}}"
+                ]
+            },
+            {
                 "title": "de Rham|, Georges",
                 "wd": "Q116966",
                 "desc": "m|m|CH|1903|1990",
@@ -5148,7 +5177,7 @@
                 ],
                 "links": [
                     "{{wiki|Édouard_Goursat}}",
-                    "{{mgp|96283|???}}"
+                    "{{mgp|96283|Édouard Goursat}}"
                 ]
             },
             {
@@ -5869,6 +5898,35 @@
                 "links": [
                     "{{wiki|Felix_Hausdorff}}",
                     "{{mgp|46991|Felix Hausdorff}}"
+                ]
+            },
+            {
+                "title": "Heaviside|, Oliver",
+                "wd": "Q154345",
+                "desc": "m|eng m p|ENG|1850|1925",
+                "forms": [
+                    {
+                        "type": "family-name",
+                        "text": "Heaviside",
+                        "prons": [
+                            "{{en|orig}} {{ipb|en|ˈhɛv.i.ˌsaɪd}}",
+                            "> {{en-GB|orig*}} {{ipa|en-GB|ˈhɛv.i.ˌsaɪd}} {{audio|en-GB-heaviside.mp3}}",
+                            "* {{ja|tran}} {{lang|ja|ヘヴィサイド|Hevisaido}}",
+                            "* {{ru|tran}} {{lang|ru|Хевисайд|Khevisaid}}",
+                            "* {{zh|tran}} {{lang|zh|赫维赛德|Hèwéisàidé}}"
+                        ]
+                    },
+                    {
+                        "type": "full-name",
+                        "text": "Oliver Heaviside",
+                        "prons": [
+                            "{{en|orig}} {{ipb|en|ˈɒl.ɪ.vər ˈhɛv.i.ˌsaɪd}}",
+                            "> {{en-GB}} {{ipa|en-GB|ˈɒl.ɪ.və ˈhɛv.i.ˌsaɪd}} {{audio|en-GB-oliver-heaviside.mp3}}"
+                        ]
+                    }
+                ],
+                "links": [
+                    "{{wiki|Oliver_Heaviside}}"
                 ]
             },
             {
@@ -6855,6 +6913,36 @@
                 ]
             },
             {
+                "title": "Khinchin|, Aleksandr",
+                "wd": "Q723638",
+                "desc": "m|m|SU|1894|1959",
+                "forms": [
+                    {
+                        "type": "family-name",
+                        "text": "Khinchin",
+                        "alt": [ "Khintchine" ],
+                        "prons": [
+                            "{{ru|orig}} {{lang|ru|Хинчин|Khinchin}} {{ipa|ru|ˈxʲin.t͡ɕin}} {{audio|ru-RU-khinchin.mp3}}",
+                            "{{en|aprx}} {{ipb|en|ˈkɪn.t͡ʃɪn}}",
+                            "* {{ja|tran}} {{lang|ja|ヒンチン|Hinchin}}",
+                            "* {{zh|tran}} {{lang|zh|辛钦|Xīnqīn}}"
+                        ]
+                    },
+                    {
+                        "type": "full-name",
+                        "text": "Aleksandr Khinchin",
+                        "alt": [ "Alexandre Khintchine" ],
+                        "prons": [
+                            "{{ru|orig}} {{lang|ru|Александр Яковлевич Хинчин|Aleksandr Yakovlevich Khinchin}} {{ipa|ru|ɐ.lʲik.ˈsandr ˈja.kəv.lʲi.vʲit͡ɕ ˈxʲin.t͡ɕin}} {{audio|ru-RU-alexandr-khinchin.mp3}}"
+                        ]
+                    }
+                ],
+                "links": [
+                    "{{wiki|Aleksandr_Khinchin}}",
+                    "{{mgp|56857|Aleksandr Khinchin}}"
+                ]
+            },
+            {
                 "title": "Killing|, Wilhelm",
                 "wd": "Q77304",
                 "desc": "m|m|DE|1847|1923",
@@ -7699,6 +7787,35 @@
                 "links": [
                     "{{wiki|Tullio_Levi-Civita}}",
                     "{{mgp|59054|Tullio Levi-Civita}}"
+                ]
+            },
+            {
+                "title": "Lévy|, Paul",
+                "wd": "Q441127",
+                "desc": "m|m|FR|1886|1971",
+                "forms": [
+                    {
+                        "type": "family-name",
+                        "text": "Lévy",
+                        "prons": [
+                            "{{fr|orig}} {{ipa|fr|le.ˈvi}} {{audio|fr-FR-levy.mp3}}",
+                            "{{en|aprx}} {{ipb|en|ˈlɛv.i}}",
+                            "* {{ja|tran}} {{lang|ja|レヴィ|Revi}}",
+                            "* {{ru|tran}} {{lang|ru|Леви|Levi}}",
+                            "* {{zh|tran}} {{lang|zh|莱维|Láiwéi}}"
+                        ]
+                    },
+                    {
+                        "type": "full-name",
+                        "text": "Paul Pierre Lévy",
+                        "prons": [
+                            "{{fr|orig}} {{ipa|fr|ˈpɔl ˈpjɛʁ le.ˈvi}} {{audio|fr-FR-paul-pierre-levy.mp3}}"
+                        ]
+                    }
+                ],
+                "links": [
+                    "{{wiki|Paul_Lévy_(mathematician)}}",
+                    "{{mgp|33053|Paul Lévy}}"
                 ]
             },
             {
@@ -10102,7 +10219,7 @@
             {
                 "title": "Poisson|, Siméon Denis",
                 "wd": "Q190772",
-                "desc": "m|m|FR|1781|1840",
+                "desc": "m|m p|FR|1781|1840",
                 "forms": [
                     {
                         "type": "family-name",
@@ -13654,6 +13771,38 @@
                 ]
             },
             {
+                "title": "Wiener|, Norbert",
+                "wd": "Q178577",
+                "desc": "m|m|US|1894|1964",
+                "forms": [
+                    {
+                        "type": "family-name",
+                        "text": "Wiener",
+                        "prons": [
+                            "{{en|orig}} {{ipb|en|ˈwiː.nər}}",
+                            "> {{en-GB}} {{ipa|en-GB|ˈwiː.nɐ}}",
+                            "> {{en-US|orig*}} {{ipa|en-US|ˈwiː.nɚ}} {{audio|en-US-wiener.mp3}}",
+                            "* {{ja|tran}} {{lang|ja|ウィーナー|Wīnā}}",
+                            "* {{ru|tran}} {{lang|ru|Винер|Viner}}",
+                            "* {{zh|tran}} {{lang|zh|维纳|Wéinà}}"
+                        ]
+                    },
+                    {
+                        "type": "full-name",
+                        "text": "Norbert Wiener",
+                        "prons": [
+                            "{{en|orig}} {{ipb|en|ˈnɔːr.bərt ˈwiː.nər}}",
+                            "> {{en-GB}} {{ipa|en-GB|ˈnɔː.bət ˈwiː.nɐ}}",
+                            "> {{en-US}} {{ipa|en-US|ˈnɔːɹ.bɚt ˈwiː.nɚ}} {{audio|en-US-norbert-wiener.mp3}}"
+                        ]
+                    }
+                ],
+                "links": [
+                    "{{wiki|Norbert_Wiener}}",
+                    "{{mgp|25222|Norbert Wiener}}"
+                ]
+            },
+            {
                 "title": "Wiles|, Andrew",
                 "wd": "Q184433",
                 "desc": "m|m|GB|1953|",
@@ -15593,6 +15742,10 @@
         "occ-cst": {
             "en": "computer scientist",
             "zh": "计算机科学家"
+        },
+        "occ-eng": {
+            "en": "engineer",
+            "zh": "工程师"
         },
         "occ-ggr": {
             "en": "geographer",
