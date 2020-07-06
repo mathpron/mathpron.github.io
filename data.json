@@ -13286,7 +13286,7 @@
                         "prons": [
                             "{{de|orig}}",
                             "> {{de-DE|orig*}} {{ipa|de|ˌviː.ˈtoː.ʁɪs}} {{audio|de-DE-vietoris.mp3}}",
-                            "> {{de-AT|orig*}} {{ipa|de-AT|ˌviə̟.ˈt̪oː.ʁɪs̪|ˌviə.ˈtoː.ʁɪs}} {{ref|1}}",
+                            "> {{de-AT|orig*}} {{ipa|de-AT|ˌviə̟.ˈt̪oː.ʁɪs̪|viə.ˈtoː.ʁɪs}} {{ref|1}}",
                             "{{en|aprx}} {{ipb|en|ˌviː.ə.ˈtɔːr.ɪs}}, {{ipb|en|ˌviː.ˈtɔːr.ɪs}}",
                             "* {{ja|tran}} {{lang|ja|ヴィートリス|Vītorisu}}",
                             "* {{ru|tran}} {{lang|ru|Фиторис|Fitoris}}",
@@ -13299,7 +13299,7 @@
                         "prons": [
                             "{{de|orig}}",
                             "> {{de-DE}} {{ipa|de|ˈleː.o.ˌpɔlt ˌviː.ˈtoː.ʁɪs}} {{audio|de-DE-leopold-vietoris.mp3}}",
-                            "> {{de-AT}} {{ipa|de-AT|ˈleː.o.ˌpo̞l̪t̪ ˌviə̟.ˈt̪oː.ʁɪs̪|ˈleː.o.pɔlt ˌviə.ˈtoː.ʁɪs}} {{ref|1}}"
+                            "> {{de-AT}} {{ipa|de-AT|ˈleː.o.ˌpo̞l̪t̪ ˌviə̟.ˈt̪oː.ʁɪs̪|ˈleː.o.pɔlt viə.ˈtoː.ʁɪs}} {{ref|1}}"
                         ]
                     }
                 ],
@@ -15581,7 +15581,7 @@
             "zh": "参见"
         },
         "header-references": {
-            "en": "Notes and References",
+            "en": "Notes and references",
             "zh": "注释和参考"
         },
         "back-button": {
@@ -16590,7 +16590,7 @@
         },
         "remark-norwegian-pitch": {
             "en": "Superscript numbers indicate the pitch accent. See Wikipedia: {{link|https://en.wikipedia.org/wiki/Norwegian_phonology#Accent|Norwegian phonology – Accent}}.",
-            "zh": "上标数字表示声调。参见英语维基百科：{{link|https://en.wikipedia.org/wiki/Norwegian_phonology#Accent|Norwegian phonology – Accent}}."
+            "zh": "上标数字表示声调。参见英语维基百科：{{link|https://en.wikipedia.org/wiki/Norwegian_phonology#Accent|Norwegian phonology – Accent}}。"
         },
         "remark-swedish-pitch": {
             "en": "Superscript numbers indicate the pitch accent. The Swedish pitch accent is explained in this {{link|https://www.youtube.com/watch?v=lXp7_Sjgm34|video}}.",
