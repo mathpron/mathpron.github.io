@@ -8,6 +8,7 @@ const postcss = require('postcss');
 const htmlMinifier = require('html-minifier');
 
 const googleAnalytics = '<script async src="https://www.googletagmanager.com/gtag/js?id=UA-171059628-1"></script><script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-171059628-1")</script>';
+const jsDelivr = 'https://cdn.jsdelivr.net/gh/mathpron/mathpron.github.io@master';
 
 function minifyCssAsync(css) {
     return new Promise((resolve, reject) => {
@@ -64,6 +65,13 @@ async function build() {
             let content = fs.readFileSync(file).toString();
             switch (ext) {
                 case 'js':
+                    if (file === 'site.js') {
+                        if (!content.includes("const cdnPrefix = '.';")) {
+                            throw 'site.js: declaration of cdnPrefix expected.'
+                        }
+                        content = content.replace("const cdnPrefix = '.';", `const cdnPrefix = '${jsDelivr}';`);
+                    }
+
                     let jsResult = terser.minify(content);
                     if (jsResult.error) {
                         throw jsResult.error;
@@ -77,6 +85,10 @@ async function build() {
                     break;
 
                 case 'css':
+                    if (file === 'site.css') {
+                        content = content.replace(/(src:\s*url\()\.?(\/fonts\/)/g, `$1${jsDelivr}$2`);
+                    }
+
                     let cssResult = await minifyCssAsync(content);
                     fs.writeFileSync(file, cssResult);
                     break;
@@ -84,6 +96,9 @@ async function build() {
                 case 'html':
                     if (file === 'index.html') {
                         content = content.replace('<head>', '<head>' + googleAnalytics);
+
+                        content = content.replace('src="./site.js"', `src="${jsDelivr}/site.js"`)
+                            .replace('href="./site.css"', `href="${jsDelivr}/site.css"`);
 
                         // write the title of all entries into index.html, for indexing by search engines
                         let dataJson = JSON.parse(fs.readFileSync('data.json')), allEntries = '';
@@ -100,6 +115,7 @@ async function build() {
 
                         content = content.replace('$$$$$', allEntries);
                     }
+
                     let htmlResult = htmlMinifier.minify(content, {
                         removeComments: true,
                         collapseWhitespace: true,
