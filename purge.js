@@ -1,5 +1,4 @@
 const fs = require('fs');
-const git = require('simple-git')();
 const request = require('request');
 
 const jsDelivrPurge = 'https://purge.jsdelivr.net/gh/mathpron/mathpron.github.io@master';
@@ -22,8 +21,6 @@ function purge(file) {
 }
 
 async function purgeAll() {
-    await git.checkout('dev');
-
     let files = fs.readdirSync('.').concat(fs.readdirSync('./content').map(file => 'content/' + file));
     let exclude = [ 'build.js', 'purge.js' ];
     let toPurge = [];

@@ -32,4 +32,6 @@ jobs:
         branch: 'master'
         github_token: ${{ secrets.GITHUB_TOKEN }}
     - name: Purge jsdelivr cache
-      run: npm run purge
+      run: |
+        git checkout dev
+        npm run purge
