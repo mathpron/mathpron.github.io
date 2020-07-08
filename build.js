@@ -6,11 +6,9 @@ const autoprefixer = require('autoprefixer');
 const cssnano = require('cssnano');
 const postcss = require('postcss');
 const htmlMinifier = require('html-minifier');
-const request = require('request');
 
 const googleAnalytics = '<script async src="https://www.googletagmanager.com/gtag/js?id=UA-171059628-1"></script><script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-171059628-1")</script>';
 const jsDelivr = 'https://cdn.jsdelivr.net/gh/mathpron/mathpron.github.io@master';
-const jsDelivrPurge = 'https://purge.jsdelivr.net/gh/mathpron/mathpron.github.io@master';
 
 function minifyCssAsync(css) {
     return new Promise((resolve, reject) => {
@@ -19,24 +17,6 @@ function minifyCssAsync(css) {
         }).then(result => {
             resolve(result.css); 
         }, reject);
-    });
-}
-
-function purge(file) {
-    return new Promise((resolve, reject) => {
-        request({
-            url: jsDelivrPurge + '/' + file,
-            headers: {
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0'
-            }
-        }, (error, response, body) => {
-            if (error) {
-                reject(error);
-            } else {
-                console.log(body);
-                resolve();
-            }
-        });
     });
 }
 
@@ -57,7 +37,7 @@ async function build() {
     let commitId = (await git.revparse('@')).trim();
     
     let files = fs.readdirSync('.').concat(fs.readdirSync('./content').map(file => 'content/' + file));
-    let exclude = [ 'build.js', 'package.json', 'yarn.lock' ],
+    let exclude = [ 'build.js', 'purge.js', 'package.json', 'yarn.lock' ],
         excludeDir = [ '.github' ];
     let toMinify = [];
     files.forEach(file => {
@@ -160,13 +140,6 @@ async function build() {
     if (!hasErrors) {
         console.log('Committing to \'master\'...');
         await git.add('./*').commit(`Update to ${commitId}`);
-
-        // all files on jsdelivr except /fonts/* and /img/* are purged.
-        console.log('Purging jsdelivr cache...');
-        for (let i = 0; i < toMinify.length; i++) {
-            let file = toMinify[i];
-            await purge(file);
-        }
         
         console.log('Done!');
     }
