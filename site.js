@@ -7,6 +7,7 @@ let langShort = langLong.replace(/-.+/, '');
 let setTimeoutHide, explainerShowing;
 let searchTimeout, searchText, searchListHasTouch;
 let langButtonPressed, reportButtonPressed;
+let firedEvents = [];
 const hashes = {}, allEntries = [], stats = {}, idx = [];
 const diacriticsMap = {}, diacriticsRegex = /[\u0300-\u036F]/g, diacriticsAtStartRegex = /^[\u0300-\u036F]*/;
 const cjkLanguages = ['zh'];
@@ -967,6 +968,17 @@ function loadActiveItem() {
     if (originalIpaType) {
         ipaType = originalIpaType;
     }
+
+    if (window.gtag) {
+        let gtagTitle = activeItem.title.replace('|', '');
+        if (!firedEvents.includes(gtagTitle)) {
+            firedEvents.push(gtagTitle);
+            gtag('event', 'page_view', {
+                'event_category': 'pages',
+                'event_label': gtagTitle
+            });
+        }
+    }
 }
 
 function initPage() {
@@ -999,6 +1011,16 @@ function initPage() {
     // audio
     $('span.audio').click(function () {
         $(this).children('audio')[0].play();
+        if (window.gtag) {
+            let gtagTitle = $(this).children('audio').attr('src').replace('/audio/', '');
+            if (!firedEvents.includes(gtagTitle)) {
+                firedEvents.push(gtagTitle);
+                gtag('event', 'audio_play', {
+                    'event_category': 'interaction',
+                    'event_label': gtagTitle
+                });
+            }
+        }
     });
 
     // show ipa
