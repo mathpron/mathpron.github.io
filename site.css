@@ -444,12 +444,12 @@ span.ipa span.ipa-delimiter {
 }
 
 span.ipa span.ipa-stress-mark {
-    margin: 0 2px;
+    margin-right: 2px;
     font-family: var(--text-font), sans-serif;
 }
 
-span.ipa span.ipa-dot + span.ipa-stress-mark {
-    margin-left: 0;
+span.ipa span.ipa-stress-mark.ipa-stress-inside-syllable {
+    margin-right: 0;
 }
 
 span.ipa span.ipa-dot,

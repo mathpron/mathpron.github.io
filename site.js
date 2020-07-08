@@ -1048,7 +1048,8 @@ function onIpaClick() {
             html += '</span><span class="ipa-dot">.</span><span class="ipa-unit">';
             continue;
         } if ('ˈˌ¹²'.includes(ipa[i])) {
-            html += '</span><span class="ipa-stress-mark ipa-unit">' + htmlEncode(ipa[i]) + '</span><span class="ipa-unit">';
+            let stressClass = (html === '' || html.endsWith('.</span><span class="ipa-unit">')) ? 'ipa-stress-mark' : 'ipa-stress-inside-syllable';
+            html += '</span><span class="' + stressClass + ' ipa-unit">' + htmlEncode(ipa[i]) + '</span><span class="ipa-unit">';
             continue;
         } if ('ꜜꜛ'.includes(ipa[i]) && ipa[i + 1] === 'ː') {
             html += '<span class="ipa-embedded-unit ipa-unit">' + ipa[i] + '</span>ː</span><span class="ipa-unit">';
@@ -1528,39 +1529,16 @@ function getIpa(str, lang, mode) {
         });
     }
 
-    for (let i = 0; i < str.length; i++) {
-        switch (str[i]) {
-            case 'ˈ':
-            case 'ˌ':
-            case '¹':
-            case '²':
-                str = str.substring(0, i) + '<span class="ipa-stress-mark">' + str[i] + '</span>' + str.substring(i + 1);
-                i += 37;
-                break;
-            case '.':
-                str = str.substring(0, i) + '<span class="ipa-dot">.</span>' + str.substring(i + 1);
-                i += 29;
-                break;
-            case '=':
-                if (mode === 'std' || mode === 'audio') {
-                    str = str.substring(0, i) + '</span><span class="ipa-liaison">‿</span><span class="ipa-word">' + str.substring(i + 1);
-                    i += 61;
-                } else {
-                    str = str.substring(0, i) + '</span><span class="ipa-liaison">‿</span><span class="ipa-word-non-interactive">' + str.substring(i + 1);
-                    i += 67;
-                }
-                break;
-            case ' ':
-                if (mode === 'std' || mode === 'audio') {
-                    str = str.substring(0, i) + '</span><span class="ipa-space"> </span><span class="ipa-word">' + str.substring(i + 1);
-                    i += 59;
-                } else {
-                    str = str.substring(0, i) + '</span><span class="ipa-space"> </span><span class="ipa-word-non-interactive">' + str.substring(i + 1);
-                    i += 65;
-                }
-                break;
-        }
+    if (mode === 'std' || mode === 'audio') {
+        str = str.replace(/ /g, '</span><span class="ipa-space"> </span><span class="ipa-word">')
+            .replace(/=(?!")/g, '</span><span class="ipa-liaison">‿</span><span class="ipa-word">');
+    } else {
+        str = str.replace(/ /g, '</span><span class="ipa-space"> </span><span class="ipa-word-non-interactive">')
+            .replace(/=(?!")/g, '</span><span class="ipa-liaison">‿</span><span class="ipa-word-non-interactive">');
     }
+    str = str.replace(/\./g, '<span class="ipa-dot">.</span>')
+        .replace(/([^>])([ˈˌ¹²])/g, '$1<span class="ipa-stress-mark ipa-stress-inside-syllable">$2</span>')
+        .replace(/[ˈˌ¹²](?!<\/)/g, '<span class="ipa-stress-mark">$&</span>');
 
     if (mode === 'std' || mode === 'audio') {
         str = '<span class="ipa-word">' + str + '</span>';
