@@ -973,8 +973,8 @@ function loadActiveItem() {
         let gtagTitle = activeItem.title.replace('|', '');
         if (!firedEvents.includes(gtagTitle)) {
             firedEvents.push(gtagTitle);
-            gtag('event', 'page_view', {
-                'event_category': 'pages',
+            gtag('event', 'entry_view', {
+                'event_category': 'entries',
                 'event_label': gtagTitle
             });
         }
