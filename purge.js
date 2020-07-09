@@ -21,7 +21,7 @@ function purge(file) {
 }
 
 async function purgeAll() {
-    let files = fs.readdirSync('.').concat(fs.readdirSync('./content').map(file => 'content/' + file));
+    let files = fs.readdirSync('.');
     let exclude = [ 'build.js', 'purge.js' ];
     let toPurge = [];
     files.forEach(file => {
