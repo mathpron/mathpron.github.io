@@ -434,7 +434,7 @@ ul.pron-list span.ipa {
 }
 
 span.ipa span.ipa-debug {
-    font-family: 'DejaVu Sans Mono', monospace;
+    font-family: Menlo, monospace;
     font-size: 90%;
 }
 
