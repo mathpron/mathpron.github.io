@@ -16579,15 +16579,15 @@
             "en": "Loading content...",
             "zh": "正在加载内容..."
         },
-        "propose-an-edit-short": {
+        "edit-an-entry-short": {
             "en": "Edit",
             "zh": "编辑"
         },
-        "propose-an-edit-long-before": {
+        "edit-an-entry-long-before": {
             "en": "Propose changes to this entry on ",
             "zh": "前往 "
         },
-        "propose-an-edit-long-after": {
+        "edit-an-entry-long-after": {
             "en": ".",
             "zh": " 提议编辑这个条目。"
         },

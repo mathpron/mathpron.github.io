@@ -1,5 +1,5 @@
 ---
-name: Propose an edit
+name: Edit an entry
 about: Propose changes to an existing entry to improve it
 title: ''
 labels: ''
