@@ -419,11 +419,14 @@ function onSearch(text) {
         results.forEach(result => {
             const $item = $('<div class="search-list-item">').data('entry-id', result.entryId);
 
-            let header = allEntries[result.entryId].hash.replaceAll('_', ' ');
+            let entry = allEntries[result.entryId].entry;
+            let header = (entry['alt-title'] ? entry['alt-title'][langLong] || 
+                entry['alt-title'][langShort] || 
+                entry['alt-title']['en'] || 
+                entry.title : entry.title).replace('|', '');
             const $header = $('<div class="search-item-header">').html(makeHighlights(input, header));
             $item.append($header);
 
-            let entry = allEntries[result.entryId].entry;
             const $subheader = $('<div class="search-item-subheader">').html(
                 htmlEncode(getString('form-type-' + entry.forms[result.formId].type)) +
                 htmlEncode(result.lang ? ' (' + getString('lang-' + result.lang) + ')' : '') +

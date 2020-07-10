@@ -2654,6 +2654,9 @@
             },
             {
                 "title": "Chern|, Shiing-Shen",
+                "alt-title": {
+                    "zh": "陈|省身"
+                },
                 "wd": "Q328131",
                 "desc": "m|m|CN US|1911|2004",
                 "forms": [
@@ -2711,6 +2714,9 @@
             },
             {
                 "title": "Chow|, Wei-Liang",
+                "alt-title": {
+                    "zh": "周|炜良"
+                },
                 "wd": "Q2554748",
                 "desc": "m|m|CN|1911|1995",
                 "forms": [
@@ -11997,7 +12003,7 @@
                         "prons": [
                             "{{en|orig}} {{ipb|en|ˈstæʃ.ɛf}}",
                             "> {{en-GB}} {{ipa|en-GB|ˈstæʃ.ɛf}} {{audio|en-GB-stasheff.mp3}}",
-                            "> {{en-US|orig*}} {{ipa|en-US|ˈstæ.ʃɪf}} {{audio|en-US-stasheff.mp3}}",
+                            "> {{en-US|orig*}} {{ipa|en-US|ˈstæʃ.ɪf}} {{audio|en-US-stasheff.mp3}}",
                             "* {{zh|tran}} {{lang|zh|斯塔谢夫|Sītǎxièfū}}"
                         ]
                     },
@@ -12880,6 +12886,9 @@
             },
             {
                 "title": "Tsen|, Chiungtze",
+                "alt-title": {
+                    "zh": "曾|炯之"
+                },
                 "wd": "Q977447",
                 "desc": "m|m|CN|1898|1940",
                 "forms": [
@@ -12915,6 +12924,9 @@
             },
             {
                 "title": "Tu|, Loring",
+                "alt-title": {
+                    "zh": "杜|武亮"
+                },
                 "wd": "Q29477861",
                 "desc": "m|m|TW US|1952|",
                 "forms": [
@@ -13972,6 +13984,9 @@
         "Y": [
             {
                 "title": "Yau|, Shing-Tung",
+                "alt-title": {
+                    "zh": "丘|成桐"
+                },
                 "wd": "Q334760",
                 "desc": "m|m|CN US|1949|",
                 "forms": [
