@@ -914,16 +914,8 @@ span.fake-link.ipa-selector.selected {
     font-size: 90%;
     text-indent: -2.5em;
     margin-top: -.5em;
-    margin-left: 3.5em;
+    margin-left: 2.5em;
     line-height: 1.5;
-}
-
-span.alternative-spelling {
-    transition-duration: 300ms;
-}
-
-span.alternative-spelling:hover {
-    color: #666;
 }
 
 .table-container {
@@ -1116,8 +1108,8 @@ span.orthography:lang(he):not(:lang(he-Latn)) {
 
     .alternative-spellings {
         font-size: 12px;
-        margin-left: 60px;
-        text-indent: -30px;
+        text-indent: -2.5em;
+        margin-left: 2.5em;
         margin-top: -10px;
     }
 
