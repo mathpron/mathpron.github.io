@@ -6250,6 +6250,36 @@
                 ]
             },
             {
+                "title": "Heisenberg|, Werner",
+                "wd": "Q40904",
+                "desc": "m|p|DE|1901|1976",
+                "forms": [
+                    {
+                        "type": "family-name",
+                        "text": "Heisenberg",
+                        "prons": [
+                            "{{de|orig}} {{ipa|de|ˈhaɪ.zn̩.ˌbɛʁk}} {{audio|de-DE-heisenberg.mp3}}",
+                            "{{en|aprx}} {{ipb|en|ˈhaɪ.zən.ˌbɜrɡ}}",
+                            "* {{ja|tran}} {{lang|ja|ハイゼンベルク|Haizenberuku}}",
+                            "* {{ru|tran}} {{lang|ru|Гейзенберг|Geyzenberg}}",
+                            "* {{zh|tran}} {{lang|zh|海森堡|Hǎisēnbǎo}}"
+                        ]
+                    },
+                    {
+                        "type": "full-name",
+                        "text": "Werner Karl Heisenberg",
+                        "prons": [
+                            "{{de|orig}} {{ipa|de|ˈvɛʁ.nɐ ˈkaʁl ˈhaɪ.zn̩.ˌbɛʁk}} {{audio|de-DE-werner-heisenberg.mp3}}"
+                        ]
+                    }
+                ],
+                "links": [
+                    "{{wiki|Werner_Heisenberg}}",
+                    "{{mgp|51469|Werner Heisenberg}}",
+                    "{{mt|Heisenberg|Werner Heisenberg}}"
+                ]
+            },
+            {
                 "title": "Hensel|, Kurt",
                 "wd": "Q61756",
                 "desc": "m|m|DE|1861|1941",
@@ -11752,6 +11782,36 @@
                 ]
             },
             {
+                "title": "Schrödinger|, Erwin",
+                "wd": "Q9130",
+                "desc": "m|p|AT|1887|1961",
+                "forms": [
+                    {
+                        "type": "family-name",
+                        "text": "Schrödinger",
+                        "prons": [
+                            "{{de|orig}} {{ipa|de|ˈʃʁøː.dɪŋ.ɐ}} {{audio|de-DE-schrodinger.mp3}}",
+                            "{{en|aprx}} {{ipb|en|ˈʃrɜː.dɪŋ.ər}}",
+                            "* {{ja|tran}} {{lang|ja|シュレーディンガー|Shurēdingā}}",
+                            "* {{ru|tran}} {{lang|ru|Шрёдингер|Shryodinger}}",
+                            "* {{zh|tran}} {{lang|zh|薛定谔|Xuēdìng’è}}"
+                        ]
+                    },
+                    {
+                        "type": "full-name",
+                        "text": "Erwin Rudolf Josef Alexander Schrödinger",
+                        "prons": [
+                            "{{de|orig}} {{ipa|de|ˈʔɛʁ.viːn ˈʁuː.dɔlf ˈjoː.zɛf ˌʔa.lɛk.ˈsan.dɐ ˈʃʁøː.dɪŋ.ɐ}} {{audio|de-DE-erwin-schrodinger.mp3}}"
+                        ]
+                    }
+                ],
+                "links": [
+                    "{{wiki|Erwin_Schrödinger}}",
+                    "{{mgp|53005|Erwin Schrödinger}}",
+                    "{{mt|Schrodinger|Erwin Schrödinger}}"
+                ]
+            },
+            {
                 "title": "Schubert|, Hermann",
                 "wd": "Q68670",
                 "desc": "m|m|DE|1848|1911",
@@ -15090,7 +15150,18 @@
         "mgp": [
             "",
             "",
-            "{{string|genealogy}}{{string|colon}}{{link|https://www.genealogy.math.ndsu.nodak.edu/id.php?id=$1|$2}}"
+            {
+                "en": "Mathematics Genealogy Project: {{link|https://mathgenealogy.org/id.php?id=$1|$2}}",
+                "zh": "数学谱系项目：{{link|https://mathgenealogy.org/id.php?id=$1|$2}}"
+            }
+        ],
+        "mt": [
+            "",
+            "",
+            {
+                "en": "MacTutor biography: {{link|https://mathshistory.st-andrews.ac.uk/Biographies/$1|$2}}",
+                "zh": "MacTutor 传记：{{link|https://mathshistory.st-andrews.ac.uk/Biographies/$1|$2}}"
+            }
         ],
         "occ": [
             "",
@@ -16622,10 +16693,6 @@
         "collins": {
             "en": "Collins English Dictionary",
             "zh": "柯林斯英语词典"
-        },
-        "genealogy": {
-            "en": "Mathematics Genealogy Project",
-            "zh": "数学谱系项目"
         },
         "wikipedia": {
             "en": "Wikipedia",
