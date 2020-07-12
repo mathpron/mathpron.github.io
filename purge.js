@@ -27,7 +27,7 @@ function purge(file) {
 
 async function purgeAll() {
     let files = fs.readdirSync('.');
-    let exclude = [ 'build.js', 'purge.js', 'package.json' ];
+    let exclude = [ 'build.js', 'purge.js', 'new-entry.js', 'package.json' ];
     let toPurge = [];
     files.forEach(file => {
         // all files on jsdelivr except /fonts/* and /img/* are purged.

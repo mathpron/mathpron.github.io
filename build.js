@@ -37,7 +37,7 @@ async function build() {
     let commitId = (await git.revparse('@')).trim();
     
     let files = fs.readdirSync('.').concat(fs.readdirSync('./content').map(file => 'content/' + file));
-    let exclude = [ 'build.js', 'purge.js', 'package.json', 'yarn.lock' ],
+    let exclude = [ 'build.js', 'purge.js', 'new-entry.js', 'package.json', 'yarn.lock' ],
         excludeDir = [ '.github' ];
     let toMinify = [];
     files.forEach(file => {
