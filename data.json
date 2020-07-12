@@ -514,7 +514,7 @@
                         "type": "full-name",
                         "text": "Cahit Arf",
                         "prons": [
-                            "{{tr|orig}} {{ipa|tr|ˈd͡ʒa.hit̪ ˈaɹf|ˈd͡ʒa.hit ˈarf}} {{audio|tr-TR-cahit-arf.mp3}}"
+                            "{{tr|orig}} {{ipa|tr|ˈd͡ʒa.hit̪ ˈaz̸̞f|ˈd͡ʒa.hit ˈarf}} {{audio|tr-TR-cahit-arf.mp3}}"
                         ]
                     }
                 ],
@@ -550,7 +550,7 @@
                 "orth": [
                     "{{ru}}",
                     "> {{dict}} {{orth|ru|Влади́мир И́горевич Арно́льд}}",
-                    "> {{ru-curs}} {{orth|ru|Владимир Игоревич Арнольд}}",
+                    "> {{ru-curs}} {{orthi|ru|Владимир Игоревич Арнольд}}",
                     "> {{ru-sci}} {{orth|ru-Latn|Vladimir Igorevič Arnol’d}}",
                     "> {{ru-en}} {{orth|en|Vladimir Igorevich Arnold}}",
                     "*> {{ru-de}} {{orth|de|Wladimir Igorewitsch Arnold}}",
