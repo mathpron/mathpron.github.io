@@ -104,6 +104,15 @@
                         ]
                     }
                 ],
+                "orth": [
+                    "{{ru}}",
+                    "> {{dict}} {{orth|ru|И́горь Дми́триевич А́до}}",
+                    "> {{ru-curs}} {{orthi|ru|Игорь Дмитриевич Адо}}",
+                    "> {{ru-sci}} {{orth|ru-Latn|Igor’ Dmitrievič Ado}}",
+                    "> {{ru-en}} {{orth|en|Igor Dmitriyevich Ado}}",
+                    "*> {{ru-de}} {{orth|de|Igor Dmitrijewitsch Ado}}",
+                    "*> {{ru-fr}} {{orth|fr|Igor Dmitrievitch Ado}}"
+                ],
                 "links": [
                     "{{wiki|Igor_Dmitrievich_Ado}}",
                     "{{mgp|75425|Igor Ado}}"
@@ -237,7 +246,7 @@
                         "type": "family-name",
                         "text": "Alaoglu",
                         "prons": [
-                            "{{el|orig}} {{lang|el|Αλάογλου|Aláoglu}} {{ipa|el|a.ˈlao.ɣlu}} {{audio|el-GR-alaoglu.mp3}} {{ref|forvo|αλάογλου|el|Αλάογλου}}",
+                            "{{el|orig}} {{lang|el|Αλάογλου|Aláoglou}} {{ipa|el|a.ˈlao.ɣlu}} {{audio|el-GR-alaoglu.mp3}} {{ref|forvo|αλάογλου|el|Αλάογλου}}",
                             "{{en|aprx}} {{ipb|en|ə.ˈlaʊ.ɡluː}} {{audio|en-GB-alaoglu.mp3}}",
                             "* {{ja|tran}} {{lang|ja|アラオグル|Araoguru}}",
                             "* {{ru|tran}} {{lang|ru|Алаоглу|Alaoglu}}",
@@ -248,9 +257,15 @@
                         "type": "full-name",
                         "text": "Leonidas Alaoglu",
                         "prons": [
-                            "{{el|orig}} {{lang|el|Λεωνίδας Αλάογλου|Leonídas Aláoglu}} {{ipa|el|leo.ˈni.ðas a.ˈlao.ɣlu}} "
+                            "{{el|orig}} {{lang|el|Λεωνίδας Αλάογλου|Leonídas Aláoglou}} {{ipa|el|leo.ˈni.ðas a.ˈlao.ɣlu}} "
                         ]
                     }
+                ],
+                "orth": [
+                    "{{el}}",
+                    "> {{dict}} {{orth|el|Λεωνίδας Αλάογλου}}",
+                    "> {{el-iso-tl}} {{orth|el-Latn|Leōnídas Aláogloy}}",
+                    "> {{el-iso-tr}} {{orth|el-Latn|Leonídas Aláoglou}}"
                 ],
                 "links": [
                     "{{wiki|Leonidas_Alaoglu}}",
@@ -342,6 +357,15 @@
                         ]
                     }
                 ],
+                "orth": [
+                    "{{ru}}",
+                    "> {{dict}} {{orth|ru|Па́вел Серге́евич Алекса́ндров}}",
+                    "> {{ru-curs}} {{orthi|ru|Павел Сергеевич Александров}}",
+                    "> {{ru-sci}} {{orth|ru-Latn|Pavel Sergeevič Aleksandrov}}",
+                    "> {{ru-en}} {{orth|en|Pavel Sergeyevich Alexandrov (Aleksandrov)}}",
+                    "*> {{ru-de}} {{orth|de|Pawel Sergejewitsch Alexandrow (Aleksandrow)}}",
+                    "*> {{ru-fr}} {{orth|fr|Pavel Sergueïevitch Alexandrov (Aleksandrov)}}"
+                ],
                 "links": [
                     "{{wiki|Pavel_Alexandrov}}",
                     "{{mgp|24408|Pavel Alexandrov}}"
@@ -397,6 +421,15 @@
                         ]
                     }
                 ],
+                "orth": [
+                    "{{el-gre}}",
+                    "> {{dict}} {{orth|el|Απολλώνιος ο Περγαίος}}",
+                    "> {{el-iso-tl}} {{orth|el-Latn|Apollṓnios o Pergaíos}}",
+                    "> {{el-iso-tr}} {{orth|el-Latn|Apollónios o Pergaíos}}",
+                    "{{el-grc}}",
+                    "> {{dict}} {{orth|grc|Ἀ̆πολλώνῐος ὁ Περγαῖος}}",
+                    "> {{grc-sci}} {{orth|grc-Latn|Apollṓnios ho Pergaîos}}"
+                ],
                 "links": [
                     "{{wiki|Apollonius_of_Perga}}"
                 ]
@@ -425,7 +458,7 @@
                         "prons": [
                             "{{el|orig}}",
                             "> {{el-gre}} {{lang|el|Αρχιμήδης ο Συρακούσιος|Archimídis o Syrakúsios}} {{ipa|el|aɾ.çi.ˈmi.ðis o si.ɾa.ˈku.sios}} {{audio|el-GR-archimedes-o-syrakusios.mp3}}",
-                            "> {{el-grc|reconstructed}} {{lang|grc|Ἀρχιμήδης ὁ Συρακόσιος|Arkhimḗdēs ho Syrākósios}} {{ipb|grc|ar.kʰi.ˈmɛ̌ː.dɛːs ho sy.raː.ˈkó.si.os}}"
+                            "> {{el-grc|reconstructed}} {{lang|grc|Ἀρχιμήδης ὁ Συρακόσιος|Arkhimḗdēs ho Surākósios}} {{ipb|grc|ar.kʰi.ˈmɛ̌ː.dɛːs ho sy.raː.ˈkó.si.os}}"
                         ]
                     },
                     {
@@ -435,6 +468,15 @@
                             "{{en}} {{ipb|en|ˌɑː.kɪ.ˈmiː.djən}} {{ref|wikt|Archimedean}}"
                         ]
                     }
+                ],
+                "orth": [
+                    "{{el-gre}}",
+                    "> {{dict}} {{orth|el|Αρχιμήδης ο Συρακούσιος}}",
+                    "> {{el-iso-tl}} {{orth|el-Latn|Archimī́dīs o Syrakoýsios}}",
+                    "> {{el-iso-tr}} {{orth|el-Latn|Archimídis o Syrakoúsios}}",
+                    "{{el-grc}}",
+                    "> {{dict}} {{orth|grc|Ἀ̆ρχῐμήδης ὁ Σῠρᾱκόσῐος}}",
+                    "> {{grc-sci}} {{orth|grc-Latn|Arkhimḗdēs ho Surākósios}}"
                 ],
                 "links": [
                     "{{wiki|Archimedes}}"
@@ -491,6 +533,15 @@
                             "{{ru|orig}} {{lang|ru|Владимир Игоревич Арнольд|Vladimir Igorevich Arnold}} {{ipa|ru|vlɐ.ˈdʲi.mʲir ˈi.ɡə.rʲi.vʲit͡ɕ ɐr.ˈnolʲt}} {{audio|ru-RU-vladimir-igorevich-arnold.mp3}}"
                         ]
                     }
+                ],
+                "orth": [
+                    "{{ru}}",
+                    "> {{dict}} {{orth|ru|Влади́мир И́горевич Арно́льд}}",
+                    "> {{ru-curs}} {{orth|ru|Владимир Игоревич Арнольд}}",
+                    "> {{ru-sci}} {{orth|ru-Latn|Vladimir Igorevič Arnol’d}}",
+                    "> {{ru-en}} {{orth|en|Vladimir Igorevich Arnold}}",
+                    "*> {{ru-de}} {{orth|de|Wladimir Igorewitsch Arnold}}",
+                    "*> {{ru-fr}} {{orth|fr|Vladimir Igorevitch Arnold}}"
                 ],
                 "links": [
                     "{{wiki|Vladimir_Arnold}}",
@@ -704,6 +755,12 @@
                         ]
                     }
                 ],
+                "orth": [
+                    "{{ja}}",
+                    "> {{dict}} {{lang|ja|{{ruby|東屋|あずまや}} {{ruby|五郎|ごろう}}}}",
+                    "> {{ja-hep}} {{orth|ja-Latn|Azumaya Gorō}}",
+                    "> {{ja-ks}} {{orth|ja-Latn|Azumaya Gorô}}"
+                ],
                 "links": [
                     "{{wiki|Goro_Azumaya}}",
                     "{{mgp|9437|Goro Azumaya}}"
@@ -888,6 +945,15 @@
                         ]
                     }
                 ],
+                "orth": [
+                    "{{ru}}",
+                    "> {{dict}} {{orth|ru|Алекса́ндр Алекса́ндрович Бейлинсо́н}}",
+                    "> {{ru-curs}} {{orthi|ru|Александр Александрович Бейлинсон}}",
+                    "> {{ru-sci}} {{orth|ru-Latn|Aleksandr Aleksandrovič Bejlinson}}",
+                    "> {{ru-en}} {{orth|en|Alexander (Aleksandr) Alexandrovich (Aleksandrovich) Beilinson}}",
+                    "*> {{ru-de}} {{orth|de|Alexander (Aleksandr) Alexandrowitsch (Aleksandrowitsch) Beilinson}}",
+                    "*> {{ru-fr}} {{orth|fr|Alexandre (Aleksandr) Alexandrovitch (Aleksandrovitch) Beïlinson}}"
+                ],
                 "links": [
                     "{{wiki|Alexander_Beilinson}}",
                     "{{mgp|44354|Alexander Beilinson}}"
@@ -992,6 +1058,15 @@
                             "{{en}} {{ipb|en|ˌbɪ.rə.ˈzɪn.jən}}"
                         ]
                     }
+                ],
+                "orth": [
+                    "{{ru}}",
+                    "> {{dict}} {{orth|ru|Фе́ликс Алекса́ндрович Бере́зин}}",
+                    "> {{ru-curs}} {{orthi|ru|Феликс Александрович Березин}}",
+                    "> {{ru-sci}} {{orth|ru-Latn|Feliks Aleksandrovič Berezin}}",
+                    "> {{ru-en}} {{orth|en|Felix (Feliks) Alexandrovich (Aleksandrovich) Berezin}}",
+                    "*> {{ru-de}} {{orth|de|Felix (Feliks) Alexandrowitsch (Aleksandrowitsch) Beresin}}",
+                    "*> {{ru-fr}} {{orth|fr|Felix (Feliks) Alexandrovitch (Aleksandrovitch) Berezine}}"
                 ],
                 "links": [
                     "{{wiki|Felix_Berezin}}",
@@ -1140,6 +1215,19 @@
                             "{{ru|orig}} {{lang|ru|Иосиф Наумович Бернштейн|Iosif Naumovich Bernshtein}} {{ipa|ru|i.ˈo.sʲif nɐ.ˈu.mə.vʲit͡ɕ bʲirn.ˈʂtʲein}} {{audio|ru-RU-iosif-naumovich-bernstein.mp3}}"
                         ]
                     }
+                ],
+                "orth": [
+                    "{{he}} {{lang|he|יוסף ברנשטיין}}",
+                    "> {{dict}} {{orth|he|יוֹסֵף בֶּרְנְשְׁטֵיין}}",
+                    "> {{he-iso}} {{orth|he-Latn|Yōsēp̄ Bernšṭēyn}}",
+                    "> {{he-en}} {{orth|he-Latn|Yosef Bernshtein}}",
+                    "{{ru}}",
+                    "> {{dict}} {{orth|ru|Ио́сиф Нау́мович Бернште́йн}}",    
+                    "> {{ru-curs}} {{orthi|ru|Иосиф Наумович Бернштейн}}",
+                    "> {{ru-sci}} {{orth|ru-Latn|Iosif Naumovič Bernštejn}}",
+                    "> {{ru-en}} {{orth|en|Iosif Naumovich Bernshtein}}",
+                    "*> {{ru-de}} {{orth|de|Iossif Naumowitsch Bernschtein}}",
+                    "*> {{ru-fr}} {{orth|fr|Iossif Naumovitch Bernchteïn}}"
                 ],
                 "links": [
                     "{{wiki|Joseph_Bernstein}}",
@@ -1497,6 +1585,15 @@
                             "{{ru|orig}} {{lang|ru|Меер Феликсович Бокштейн|Meyer Feliksovich Bokshteyn}} {{ipa|ru|ˈmʲe.ir ˈfʲe.lʲik.sə.vʲit͡ɕ bɐk.ˈʂtʲein}} {{audio|ru-RU-meyer-felixovich-bockstein.mp3}}"
                         ]
                     }
+                ],
+                "orth": [
+                    "{{ru}}",
+                    "> {{dict}} {{orth|ru|Ме́ер Фе́ликсович Бокште́йн}}",
+                    "> {{ru-curs}} {{orthi|ru|Меер Феликсович Бокштейн}}",
+                    "> {{ru-sci}} {{orth|ru-Latn|Meer Feliksovič Bokštejn}}",
+                    "> {{ru-en}} {{orth|en|Meyer Felixovich (Feliksovich) Bokshtein}}",
+                    "*> {{ru-de}} {{orth|de|Mejer Felixowitsch (Feliksowitsch) Bokschtein}}",
+                    "*> {{ru-fr}} {{orth|fr|Meïer Felixovitch (Feliksovitch) Bokchteïn}}"
                 ],
                 "links": [
                     "{{wiki|Meyer_Bockstein}}",
@@ -1966,9 +2063,23 @@
                         "text": "Viktor Yakovlevich Bunyakovsky",
                         "prons": [
                             "{{ru|orig}} {{lang|ru|Виктор Яковлевич Буняковский|Viktor Yakovlevich Bunyakovsky}} {{ipa|ru|ˈvʲik.tər ˈja.kəv.lʲi.vʲit͡ɕ bu.nʲi.ˈkof.skʲii}} {{audio|ru-RU-victor-yakovlevich-bunyakovsky.mp3}}",
-                            "{{uk|orig}} {{lang|uk|Віктор Якович Буняковський|Viktor Yakovych Bunyakovskyi}} {{ipa|uk|ˈvik.tor ˈja.ko.vɨt͡ʃ bu.nʲa.ˈkov.sʲkɨi}} {{audio|uk-UA-victor-yakovlevich-bunyakovsky.mp3}}"
+                            "{{uk|orig}} {{lang|uk|Віктор Якович Буняковський|Viktor Yakovych Buniakovskyi}} {{ipa|uk|ˈvik.tor ˈja.ko.vɨt͡ʃ bu.nʲa.ˈkov.sʲkɨi}} {{audio|uk-UA-victor-yakovlevich-bunyakovsky.mp3}}"
                         ]
                     }
+                ],
+                "orth": [
+                    "{{ru}}",
+                    "> {{dict}} {{orth|ru|Ви́ктор Я́ковлевич Буняко́вский}}",
+                    "> {{ru-curs}} {{orthi|ru|Виктор Яковлевич Буняковский}}",
+                    "> {{ru-sci}} {{orth|ru-Latn|Viktor Jakovlevič Bunjakovskij}}",
+                    "> {{ru-en}} {{orth|en|Viktor Yakovlevich Bunyakovsky}}",
+                    "*> {{ru-de}} {{orth|de|Wiktor Jakowlewitsch Bunjakowski}}",
+                    "*> {{ru-fr}} {{orth|fr|Viktor Iakovlevitch Bouniakovski}}",
+                    "{{uk}}",
+                    "> {{dict}} {{orth|uk|Ві́ктор Я́кович Буняко́вський}}",
+                    "> {{uk-curs}} {{orthi|uk|Віктор Якович Буняковський}}",
+                    "> {{uk-sci}} {{orth|uk-Latn|Viktor Jakovyč Bunjakovskyj}}",
+                    "> {{uk-nat}} {{orth|uk-Latn|Viktor Yakovych Buniakovskyi}}"
                 ],
                 "links": [
                     "{{wiki|Viktor_Bunyakovsky}}",
@@ -2209,6 +2320,12 @@
                             "{{el|orig}} {{lang|el|Κωνσταντίνος Καραθεοδωρή|Konstantínos Karatheodorí}} {{ipa|el|kon.sta.ˈⁿdi.nos ka.ɾa.θeo.ðo.ˈɾi}} {{audio|el-GR-konstantinos-karatheodori.mp3}}"
                         ]
                     }
+                ],
+                "orth": [
+                    "{{el}}",
+                    "> {{dict}} {{orth|el|Κωνσταντίνος Καραθεοδωρή}}",
+                    "> {{el-iso-tl}} {{orth|el-Latn|Kōnstantínos Karatheodōrī́}}",
+                    "> {{el-iso-tr}} {{orth|el-Latn|Konstantínos Karatheodorí}}"
                 ],
                 "links": [
                     "{{wiki|Constantin_Carathéodory}}",
@@ -2631,7 +2748,7 @@
                     {
                         "type": "family-name",
                         "text": "Chebyshev",
-                        "alt": [ "Chebysheff", "Chebyshov", "Tchebychev", "Tchebycheff", "Tschebyschev", "Tschebyschef", "Tschebyscheff" ],
+                        "alt": [ "Chebysheff", "Chebyshov", "Tchebychev", "Tschebyschow" ],
                         "prons": [
                             "{{ru|orig}} {{lang|ru|Чебышёв|Chebyshov}} {{ipa|ru|t͡ɕi.bɨ.ˈʂof}} {{audio|ru-RU-chebyshev.mp3}}",
                             "{{en|aprx}} {{ipb|en|ˌt͡ʃɛb.i.ˈʃɒf}}",
@@ -2646,6 +2763,15 @@
                             "{{ru|orig}} {{lang|ru|Пафнутий Львович Чебышёв|Pafnuty Lvovich Chebyshov}} {{ipa|ru|pɐf.ˈnu.tʲii lʲˈvo.vʲit͡ɕ t͡ɕi.bɨ.ˈʂof}} {{audio|ru-RU-pafnuty-lvovich-chebyshev.mp3}}"
                         ]
                     }
+                ],
+                "orth": [
+                    "{{ru}}",
+                    "> {{dict}} {{orth|ru|Пафну́тий Льво́вич Чебышёв}}",
+                    "> {{ru-curs}} {{orthi|ru|Пафнутий Львович Чебышёв}}",
+                    "> {{ru-sci}} {{orth|ru-Latn|Pafnutij L’vovič Čebyšëv}}",
+                    "> {{ru-en}} {{orth|en|Pafnuty Lvovich Chebyshov}}",
+                    "*> {{ru-de}} {{orth|de|Pafnuti Lwowitsch Tschebyschow}}",
+                    "*> {{ru-fr}} {{orth|fr|Pafnouti Lvovitch Tchebychov}}"
                 ],
                 "links": [
                     "{{wiki|Pafnuty_Chebyshev}}",
@@ -2677,6 +2803,13 @@
                             "{{zh|orig}} {{lang|zh|陈省身|Chén Xǐngshēn}} {{ipa|zh|ˈt͡ʂʰən˧˥ ˌɕiɴ˨˩ ˈʂən˥}} {{audio|zh-CN-chen-xing-shen.mp3}}"
                         ]
                     }
+                ],
+                "orth": [
+                    "{{zh}}",
+                    "> {{dict}} {{lang|zh|陈省身}}",
+                    "> {{zh-pinyin}} {{lang|zh|Chén Xǐngshēn}}",
+                    "> {{zh-wg}} {{lang|zh|Chʻen Hsing-Shen}}",
+                    "> {{zh-gr}} {{lang|zh|Chern Shiing-Shen}}"
                 ],
                 "links": [
                     "{{wiki|Shiing-Shen_Chern}}",
@@ -2739,6 +2872,13 @@
                             "{{zh|orig}} {{lang|zh|周炜良|Zhōu Wěiliáng}} {{ipa|zh|ˈt͡ʂɤu˥ ˌwei˨˩ ˈljãɴ˧˥}} {{audio|zh-CN-zhou-wei-liang.mp3}}"
                         ]
                     }
+                ],
+                "orth": [
+                    "{{zh}}",
+                    "> {{dict}} {{lang|zh|周炜良}}",
+                    "> {{zh-pinyin}} {{lang|zh|Zhōu Wěiliáng}}",
+                    "> {{zh-wg}} {{lang|zh|Chou Wei-Liang}}",
+                    "> {{zh-gr}} {{lang|zh|Jou Woei-Lyang}}"
                 ],
                 "links": [
                     "{{wiki|Wei-Liang_Chow}}",
@@ -3523,6 +3663,15 @@
                         ]
                     }
                 ],
+                "orth": [
+                    "{{el-gre}}",
+                    "> {{dict}} {{orth|el|Διόφαντος ο Αλεξανδρεύς}}",
+                    "> {{el-iso-tl}} {{orth|el-Latn|Diófantos o Alexandreýs}}",
+                    "> {{el-iso-tr}} {{orth|el-Latn|Diófantos o Alexandréfs}}",
+                    "{{el-grc}}",
+                    "> {{dict}} {{orth|grc|Δῐόφᾰντος ὁ Ἀ̆λεξᾰνδρεύς}}",
+                    "> {{grc-sci}} {{orth|grc-Latn|Dióphantos ho Alexandreús}}"
+                ],
                 "links": [
                     "{{wiki|Diophantus}}"
                 ]
@@ -3672,6 +3821,20 @@
                         ]
                     }
                 ],
+                "orth": [
+                    "{{uk}}",
+                    "> {{dict}} {{orth|uk|Володи́мир Ге́ршонович Дрі́нфельд}}",
+                    "> {{uk-curs}} {{orthi|uk|Володимир Гершонович Дрінфельд}}",
+                    "> {{uk-sci}} {{orth|uk-Latn|Volodymyr Heršonovyč Drinfel’d}}",
+                    "> {{uk-nat}} {{orth|uk-Latn|Volodymyr Hershonovych Drinfeld}}",
+                    "{{ru}}",
+                    "> {{dict}} {{orth|ru|Влади́мир Ге́ршонович Дри́нфельд}}",
+                    "> {{ru-curs}} {{orthi|ru|Владимир Гершонович Дринфельд}}",
+                    "> {{ru-sci}} {{orth|ru-Latn|Vladimir Geršonovič Drinfel’d}}",
+                    "> {{ru-en}} {{orth|en|Vladimir Gershonovich Drinfeld}}",
+                    "*> {{ru-de}} {{orth|de|Wladimir Gerschonowitsch Drinfeld}}",
+                    "*> {{ru-fr}} {{orth|fr|Vladimir Guerchonovitch Drinfeld}}"
+                ],
                 "links": [
                     "{{wiki|Vladimir_Drinfeld}}",
                     "{{mgp|20646|Vladimir Drinfeld}}"
@@ -3699,6 +3862,15 @@
                             "{{ru|orig}} {{lang|ru|Евгений Борисович Дынкин|Yevgeny Borisovich Dynkin}} {{ipa|ru|jiv.ˈɡʲe.nʲii bɐ.ˈrʲi.sə.vʲit͡ɕ ˈdɨn.kʲin}} {{audio|ru-RU-evgeny-borisovich-dynkin.mp3}}"
                         ]
                     }
+                ],
+                "orth": [
+                    "{{ru}}",
+                    "> {{dict}} {{orth|ru|Евге́ний Бори́сович Ды́нкин}}",
+                    "> {{ru-curs}} {{orthi|ru|Евгений Борисович Дынкин}}",
+                    "> {{ru-sci}} {{orth|ru-Latn|Evgenij Borisovič Dynkin}}",
+                    "> {{ru-en}} {{orth|en|Yevgeny Borisovich Dynkin}}",
+                    "*> {{ru-de}} {{orth|de|Jewgeni Borissowitsch Dynkin}}",
+                    "*> {{ru-fr}} {{orth|fr|Ievgueni Borissovitch Dynkine}}"
                 ],
                 "links": [
                     "{{wiki|Eugene_Dynkin}}",
@@ -3758,6 +3930,15 @@
                             "{{ru|orig}} {{lang|ru|Дмитрий Фёдорович Егоров|Dmitry Fyodorovich Yegorov}} {{ipa|ru|dˈmʲit.rʲii ˈfʲo.də.rə.vʲit͡ɕ ji.ˈɡo.rəf}} {{audio|ru-RU-dmitri-fyodorovich-egorov.mp3}}"
                         ]
                     }
+                ],
+                "orth": [
+                    "{{ru}}",
+                    "> {{dict}} {{orth|ru|Дми́трий Фёдорович Его́ров}}",
+                    "> {{ru-curs}} {{orthi|ru|Дмитрий Фёдорович Егоров}}",
+                    "> {{ru-sci}} {{orth|ru-Latn|Dmitrij Fëdorovič Egorov}}",
+                    "> {{ru-en}} {{orth|en|Dmitry Fyodorovich Yegorov}}",
+                    "*> {{ru-de}} {{orth|de|Dmitri Fjodorowitsch Jegorow}}",
+                    "*> {{ru-fr}} {{orth|fr|Dmitri Fiodorovitch Iegorov}}"
                 ],
                 "links": [
                     "{{wiki|Dmitri_Egorov}}",
@@ -3940,9 +4121,18 @@
                         "prons": [
                             "{{el|orig}}",
                             "> {{el-gre|orig*}} {{lang|el|Ερατοσθένης ο Κυρηναίος|Eratosthénis o Kyrinaíos}} {{ipa|el|e.ɾa.tos.ˈθe.nis o ci.ɾi.ˈneos}} {{audio|el-GR-eratosthenes-o-kirinaios.mp3}}",
-                            "> {{el-grc|orig*|reconstructed}} {{lang|grc|Ἐρατοσθένης ὁ Κυρηναῖος|Eratosthénēs ho Kȳrēnaîos}} {{ipb|grc|e.ra.tos.ˈtʰé.nɛːs ho kyː.rɛː.ˈnâi.jos}}"
+                            "> {{el-grc|orig*|reconstructed}} {{lang|grc|Ἐρατοσθένης ὁ Κυρηναῖος|Eratosthénēs ho Kūrēnaîos}} {{ipb|grc|e.ra.tos.ˈtʰé.nɛːs ho kyː.rɛː.ˈnâi.jos}}"
                         ]
                     }
+                ],
+                "orth": [
+                    "{{el-gre}}",
+                    "> {{dict}} {{orth|el|Ερατοσθένης ο Κυρηναίος}}",
+                    "> {{el-iso-tl}} {{orth|el-Latn|Eratosthénīs o Kyrīnaíos}}",
+                    "> {{el-iso-tr}} {{orth|el-Latn|Eratosthénis o Kyrinaíos}}",
+                    "{{el-grc}}",
+                    "> {{dict}} {{orth|grc|Ἐρᾰτοσθένης ὁ Κῡρηναῖος}}",
+                    "> {{grc-sci}} {{orth|grc-Latn|Eratosthénēs ho Kūrēnaîos}}"
                 ],
                 "links": [
                     "{{wiki|Eratosthenes_of_Cyrene}}"
@@ -4012,6 +4202,15 @@
                             "{{en}} {{ipb|en|juː.ˈklɪ.djən}}"
                         ]
                     }
+                ],
+                "orth": [
+                    "{{el-gre}}",
+                    "> {{dict}} {{orth|el|Ευκλείδης ο Αλεξανδρεύς}}",
+                    "> {{el-iso-tl}} {{orth|el-Latn|Eykleídīs o Alexandreýs}}",
+                    "> {{el-iso-tr}} {{orth|el-Latn|Efkleídis o Alexandréfs}}",
+                    "{{el-grc}}",
+                    "> {{dict}} {{orth|grc|Εὐκλείδης ὁ Ἀ̆λεξᾰνδρεύς}}",
+                    "> {{grc-sci}} {{orth|grc-Latn|Eukleídēs ho Alexandreús}}"
                 ],
                 "links": [
                     "{{wiki|Euclid}}"
@@ -4472,6 +4671,12 @@
                         ]
                     }
                 ],
+                "orth": [
+                    "{{he}} {{lang|he|אברהם פרנקל}}",
+                    "> {{dict}} {{orth|he|אַבְרָהָם פְרֶנְקֶל}}",
+                    "> {{he-iso}} {{orth|he-Latn|ʾAḇrāhām Frenqel}}",
+                    "> {{he-en}} {{orth|he-Latn|Avraham Frenkel}}"
+                ],
                 "links": [
                     "{{wiki|Abraham_Fraenkel}}",
                     "{{mgp|37810|Adolf Fraenkel}}"
@@ -4789,6 +4994,12 @@
                         ]
                     }
                 ],
+                "orth": [
+                    "{{ja}}",
+                    "> {{dict}} {{lang|ja|{{ruby|深谷|ふかや}} {{ruby|賢治|けんじ}}}}",
+                    "> {{ja-hep}} {{orth|ja-Latn|Fukaya Kenji}}",
+                    "> {{ja-ks}} {{orth|ja-Latn|Hukaya Kenzi}}"
+                ],
                 "links": [
                     "{{wiki|Kenji_Fukaya}}",
                     "{{mgp|169578|Kenji Fukaya}}"
@@ -4818,6 +5029,15 @@
                             "{{ru|orig}} {{lang|ru|Борис Григорьевич Галёркин|Boris Grigoryevich Galyorkin}} {{ipa|ru|bɐ.ˈrʲis ɡrʲi.ˈɡo.rʲi.vʲit͡ɕ ɡɐ.ˈlʲor.kʲin}} {{audio|ru-RU-boris-grigoryevich-galerkin.mp3}}"
                         ]
                     }
+                ],
+                "orth": [
+                    "{{ru}}",
+                    "> {{dict}} {{orth|ru|Бори́с Григо́рьевич Галёркин}}",
+                    "> {{ru-curs}} {{orthi|ru|Борис Григорьевич Галёркин}}",
+                    "> {{ru-sci}} {{orth|ru-Latn|Boris Grigor’evič Galërkin}}",
+                    "> {{ru-en}} {{orth|en|Boris Grigoryevich Galyorkin}}",
+                    "*> {{ru-de}} {{orth|de|Boris Grigorjewitsch Galjorkin}}",
+                    "*> {{ru-fr}} {{orth|fr|Boris Grigorevitch Galiorkine}}"
                 ],
                 "links": [
                     "{{wiki|Boris_Galerkin}}",
@@ -4942,6 +5162,15 @@
                         ]
                     }
                 ],
+                "orth": [
+                    "{{ru}}",
+                    "> {{dict}} {{orth|ru|Изра́иль Моисе́евич Гельфа́нд}}",
+                    "> {{ru-curs}} {{orthi|ru|Израиль Моисеевич Гельфанд}}",
+                    "> {{ru-sci}} {{orth|ru-Latn|Izrail’ Moiseevič Gel’fand}}",
+                    "> {{ru-en}} {{orth|en|Izrail Moiseyevich Gelfand}}",
+                    "*> {{ru-de}} {{orth|de|Israil Moissejewitsch Gelfand}}",
+                    "*> {{ru-fr}} {{orth|fr|Izraïl Moïsseïevitch Guelfand}}"
+                ],
                 "links": [
                     "{{wiki|Israel_Gelfand}}",
                     "{{mgp|17512|Israil Gelfand}}"
@@ -4970,6 +5199,15 @@
                         ]
                     }
                 ],
+                "orth": [
+                    "{{ru}}",
+                    "> {{dict}} {{orth|ru|Серге́й Изра́илевич Гельфа́нд}}",
+                    "> {{ru-curs}} {{orthi|ru|Сергей Израилевич Гельфанд}}",
+                    "> {{ru-sci}} {{orth|ru-Latn|Sergej Izrailevič Gel’fand}}",
+                    "> {{ru-en}} {{orth|en|Sergei Izrailevich Gelfand}}",
+                    "*> {{ru-de}} {{orth|de|Sergei Israilewitsch Gelfand}}",
+                    "*> {{ru-fr}} {{orth|fr|Sergueï Izraïlevitch Guelfand}}"
+                ],
                 "links": [
                     "{{wiki|ru|Гельфанд,_Сергей_Израилевич}}",
                     "{{mgp|41991|Sergei Gelfand}}"
@@ -4997,6 +5235,15 @@
                             "{{ru|orig}} {{lang|ru|Александр Осипович Гельфонд|Aleksandr Osipovich Gelfond}} {{ipa|ru|ɐ.lʲik.ˈsandr ˈo.sʲi.pə.vʲit͡ɕ ˈɡʲelʲ.fənt}} {{audio|ru-RU-alexander-osipovich-gelfond.mp3}}"
                         ]
                     }
+                ],
+                "orth": [
+                    "{{ru}}",
+                    "> {{dict}} {{orth|ru|Алекса́ндр О́сипович Ге́льфонд}}",
+                    "> {{ru-curs}} {{orthi|ru|Александр Осипович Гельфонд}}",
+                    "> {{ru-sci}} {{orth|ru-Latn|Aleksandr Osipovič Gel’fond}}",
+                    "> {{ru-en}} {{orth|en|Alexander (Aleksandr) Osipovich Gelfond}}",
+                    "*> {{ru-de}} {{orth|de|Alexander (Aleksandr) Ossipowitsch Gelfond}}",
+                    "*> {{ru-fr}} {{orth|fr|Alexandre (Aleksandr) Ossipovitch Guelfond}}"
                 ],
                 "links": [
                     "{{wiki|Alexander_Gelfond}}",
@@ -5391,6 +5638,15 @@
                             "{{ru|orig}} {{lang|ru|Михаил Леонидович Громов|Mikhail Leonidovich Gromov}} {{ipa|ru|mʲi.xɐ.ˈil lʲi.ɐ.ˈnʲi.də.vʲit͡ɕ ˈɡro.məf}} {{audio|ru-RU-mikhail-leonidovich-gromov.mp3}}"
                         ]
                     }
+                ],
+                "orth": [
+                    "{{ru}}",
+                    "> {{dict}} {{orth|ru|Михаи́л Леони́дович Гро́мов}}",
+                    "> {{ru-curs}} {{orthi|ru|Михаил Леонидович Громов}}",
+                    "> {{ru-sci}} {{orth|ru-Latn|Mixail Leonidovič Gromov}}",
+                    "> {{ru-en}} {{orth|en|Mikhail Leonidovich Gromov}}",
+                    "*> {{ru-de}} {{orth|de|Michail Leonidowitsch Gromow}}",
+                    "*> {{ru-fr}} {{orth|fr|Mikhaïl Leonidovitch Gromov}}"
                 ],
                 "links": [
                     "{{wiki|Mikhail_Leonidovich_Gromov}}",
@@ -6204,6 +6460,12 @@
                         ]
                     }
                 ],
+                "orth": [
+                    "{{ja}}",
+                    "> {{dict}} {{lang|ja|{{ruby|広中|ひろなか}} {{ruby|平祐|へいすけ}}}}",
+                    "> {{ja-hep}} {{orth|ja-Latn|Hironaka Heisuke}}",
+                    "> {{ja-ks}} {{orth|ja-Latn|Hironaka Heisuke}}"
+                ],
                 "links": [
                     "{{wiki|Heisuke_Hironaka}}",
                     "{{mgp|18752|Heisuke Hironaka}}"
@@ -6556,6 +6818,12 @@
                         ]
                     }
                 ],
+                "orth": [
+                    "{{ja}}",
+                    "> {{dict}} {{lang|ja|{{ruby|伊藤|いとう}} {{ruby|清|きよし}}}}",
+                    "> {{ja-hep}} {{orth|ja-Latn|Itō Kiyoshi}}",
+                    "> {{ja-ks}} {{orth|ja-Latn|Itô Kiyosi}}"
+                ],
                 "links": [
                     "{{wiki|Kiyosi_Itô}}",
                     "{{mgp|93772|Kiyosi Ito}}"
@@ -6583,6 +6851,12 @@
                             "{{ja|orig|need-ver}} {{lang|ja|{{ruby|岩澤|いわさわ}} {{ruby|健吉|けんきち}}|Iwasawa Kenkichi}} {{ipa|ja|i.ꜛɰa.sa.ɰa keꜛn.ki̥.t͡ɕi}} {{audio|ja-JP-iwasawa-kenkichi.mp3}}"
                         ]
                     }
+                ],
+                "orth": [
+                    "{{ja}}",
+                    "> {{dict}} {{lang|ja|{{ruby|岩澤|いわさわ}} {{ruby|健吉|けんきち}}}}",
+                    "> {{ja-hep}} {{orth|ja-Latn|Iwasawa Kenkichi}}",
+                    "> {{ja-ks}} {{orth|ja-Latn|Iwasawa Kenkiti}}"
                 ],
                 "links": [
                     "{{wiki|Kenkichi_Iwasawa}}",
@@ -6797,6 +7071,15 @@
                         ]
                     }
                 ],
+                "orth": [
+                    "{{ru}}",
+                    "> {{dict}} {{orth|ru|Ви́ктор Ге́ршевич Кац}}",
+                    "> {{ru-curs}} {{orthi|ru|Виктор Гершевич Кац}}",
+                    "> {{ru-sci}} {{orth|ru-Latn|Viktor Gerševič Kac}}",
+                    "> {{ru-en}} {{orth|en|Viktor Gershevich Kats}}",
+                    "*> {{ru-de}} {{orth|de|Wiktor Gerschewitsch Kaz}}",
+                    "*> {{ru-fr}} {{orth|fr|Viktor Guerchevitch Kats}}"
+                ],
                 "links": [
                     "{{wiki|Victor_Kac}}",
                     "{{mgp|37054|Victor Kac}}"
@@ -6853,6 +7136,12 @@
                             "{{ja|orig}} {{lang|ja|{{ruby|角谷|かくたに}} {{ruby|静夫|しずお}}|Kakutani Shizuo}} {{ipa|ja|ka.ꜛkɯ̥.taꜜ.ni ɕi.ꜛzɯ.o}} {{audio|ja-JP-kakutani-shizuo.mp3}}"
                         ]
                     }
+                ],
+                "orth": [
+                    "{{ja}}",
+                    "> {{dict}} {{lang|ja|{{ruby|角谷|かくたに}} {{ruby|静夫|しずお}}}}",
+                    "> {{ja-hep}} {{orth|ja-Latn|Kakutani Shizuo}}",
+                    "> {{ja-ks}} {{orth|ja-Latn|Kakutani Sizuo}}"
                 ],
                 "links": [
                     "{{wiki|Shizuo_Kakutani}}",
@@ -6942,6 +7231,15 @@
                             "{{ru|orig}} {{lang|ru|Александр Яковлевич Хинчин|Aleksandr Yakovlevich Khinchin}} {{ipa|ru|ɐ.lʲik.ˈsandr ˈja.kəv.lʲi.vʲit͡ɕ ˈxʲin.t͡ɕin}} {{audio|ru-RU-alexandr-khinchin.mp3}}"
                         ]
                     }
+                ],
+                "orth": [
+                    "{{ru}}",
+                    "> {{dict}} {{orth|ru|Алекса́ндр Я́ковлевич Хи́нчин}}",
+                    "> {{ru-curs}} {{orthi|ru|Александр Яковлевич Хинчин}}",
+                    "> {{ru-sci}} {{orth|ru-Latn|Aleksandr Jakovlevič Xinčin}}",
+                    "> {{ru-en}} {{orth|en|Alexander (Aleksandr) Yakovlevich Khinchin}}",
+                    "*> {{ru-de}} {{orth|de|Alexander (Aleksandr) Jakowlewitsch Chintschin}}",
+                    "*> {{ru-fr}} {{orth|fr|Alexandre (Aleksandr) Iakovlevitch Khintchine}}"
                 ],
                 "links": [
                     "{{wiki|Aleksandr_Khinchin}}",
@@ -7115,6 +7413,15 @@
                         ]
                     }
                 ],
+                "orth": [
+                    "{{ru}}",
+                    "> {{dict}} {{orth|ru|Андре́й Никола́евич Колмого́ров}}",
+                    "> {{ru-curs}} {{orthi|ru|Андрей Николаевич Колмогоров}}",
+                    "> {{ru-sci}} {{orth|ru-Latn|Andrej Nikolaevič Kolmogorov}}",
+                    "> {{ru-en}} {{orth|en|Andrei Nikolayevich Kolmogorov}}",
+                    "*> {{ru-de}} {{orth|de|Andrei Nikolajewitsch Kolmogorow}}",
+                    "*> {{ru-fr}} {{orth|fr|Andreï Nikolaïevitch Kolmogorov}}"
+                ],
                 "links": [
                     "{{wiki|Andrey_Kolmogorov}}",
                     "{{mgp|10480|Andrei Kolmogorov}}"
@@ -7142,6 +7449,15 @@
                             "{{ru|orig}} {{lang|ru|Максим Львович Концевич|Maksim Lvovich Kontsevich}} {{ipa|ru|mɐk.ˈsʲim lʲˈvo.vʲit͡ɕ kɐn.ˈt͡se.vʲit͡ɕ}} {{audio|ru-RU-maxim-lvovich-kontsevich.mp3}}"
                         ]
                     }
+                ],
+                "orth": [
+                    "{{ru}}",
+                    "> {{dict}} {{orth|ru|Макси́м Льво́вич Конце́вич}}",
+                    "> {{ru-curs}} {{orthi|ru|Максим Львович Концевич}}",
+                    "> {{ru-sci}} {{orth|ru-Latn|Maksim L’vovič Koncevič}}",
+                    "> {{ru-en}} {{orth|en|Maxim (Maksim) Lvovich Kontsevich}}",
+                    "*> {{ru-de}} {{orth|de|Maxim (Maksim) Lwowitsch Konzewitsch}}",
+                    "*> {{ru-fr}} {{orth|fr|Maxime (Maksim) Lvovitch Kontsevitch}}"
                 ],
                 "links": [
                     "{{wiki|Maxim_Kontsevich}}",
@@ -7180,7 +7496,7 @@
             {
                 "title": "Kovalevskaya|, Sofya",
                 "wd": "Q184535",
-                "desc": "f|m|SE|1850|1891",
+                "desc": "f|m|RU|1850|1891",
                 "forms": [
                     {
                         "type": "family-name",
@@ -7199,6 +7515,15 @@
                             "{{ru|orig}} {{lang|ru|Софья Васильевна Ковалевская|Sofya Vasilyevna Kovalevskaya}} {{ipa|ru|ˈso.fʲiə vɐ.ˈsʲi.lʲiv.nə kə.vɐ.ˈlʲef.skə.jə}} {{audio|ru-RU-sofya-vacilyevna-kovalevskaya.mp3}}"
                         ]
                     }
+                ],
+                "orth": [
+                    "{{ru}}",
+                    "> {{dict}} {{orth|ru|Со́фья Васи́льевна Ковале́вская}}",
+                    "> {{ru-curs}} {{orthi|ru|Софья Васильевна Ковалевская}}",
+                    "> {{ru-sci}} {{orth|ru-Latn|Sof’ja Vasil’evna Kovalevskaja}}",
+                    "> {{ru-en}} {{orth|en|Sofya Vasilyevna Kovalevskaya}}",
+                    "*> {{ru-de}} {{orth|de|Sofja Wassiljewna Kowalewskaja}}",
+                    "*> {{ru-fr}} {{orth|fr|Sofia Vassilevna Kovalevskaïa}}"
                 ],
                 "links": [
                     "{{wiki|Sofya_Kovalevskaya}}",
@@ -8081,6 +8406,15 @@
                         ]
                     }
                 ],
+                "orth": [
+                    "{{ru}}",
+                    "> {{dict}} {{orth|ru|Никола́й Ива́нович Лобаче́вский}}",
+                    "> {{ru-curs}} {{orthi|ru|Николай Иванович Лобачевский}}",
+                    "> {{ru-sci}} {{orth|ru-Latn|Nikolaj Ivanovič Lobačevskij}}",
+                    "> {{ru-en}} {{orth|en|Nikolai Ivanovich Lobachevsky}}",
+                    "*> {{ru-de}} {{orth|de|Nikolai Iwanowitsch Lobatschewski}}",
+                    "*> {{ru-fr}} {{orth|fr|Nikolaï Ivanovitch Lobatchevski}}"
+                ],
                 "links": [
                     "{{wiki|Nikolai_Lobachevsky}}",
                     "{{mgp|146776|Nikolai Lobachevsky}}"
@@ -8286,6 +8620,15 @@
                         ]
                     }
                 ],
+                "orth": [
+                    "{{ru}}",
+                    "> {{dict}} {{orth|ru|Никола́й Никола́евич Лу́зин}}",
+                    "> {{ru-curs}} {{orthi|ru|Николай Николаевич Лузин}}",
+                    "> {{ru-sci}} {{orth|ru-Latn|Nikolaj Nikolaevič Luzin}}",
+                    "> {{ru-en}} {{orth|en|Nikolai Nikolayevich Luzin}}",
+                    "*> {{ru-de}} {{orth|de|Nikolai Nikolajewitsch Lusin}}",
+                    "*> {{ru-fr}} {{orth|fr|Nikolaï Nikolaïevitch Louzine}}"
+                ],
                 "links": [
                     "{{wiki|Nikolai_Luzin}}",
                     "{{mgp|10479|Nikolai Luzin}}"
@@ -8464,6 +8807,15 @@
                         ]
                     }
                 ],
+                "orth": [
+                    "{{ru}}",
+                    "> {{dict}} {{orth|ru|Анато́лий Ива́нович Ма́льцев}}",
+                    "> {{ru-curs}} {{orthi|ru|Анатолий Иванович Мальцев}}",
+                    "> {{ru-sci}} {{orth|ru-Latn|Anatolij Ivanovič Mal’cev}}",
+                    "> {{ru-en}} {{orth|en|Anatoly Ivanovich Maltsev}}",
+                    "*> {{ru-de}} {{orth|de|Anatoli Iwanowitsch Malzew}}",
+                    "*> {{ru-fr}} {{orth|fr|Anatoli Ivanovitch Maltsev}}"
+                ],
                 "links": [
                     "{{wiki|Anatoly_Maltsev}}",
                     "{{mgp|17520|Anatolij Mal'tsev}}"
@@ -8522,6 +8874,15 @@
                         ]
                     }
                 ],
+                "orth": [
+                    "{{ru}}",
+                    "> {{dict}} {{orth|ru|Ю́рий Ива́нович Ма́нин}}",
+                    "> {{ru-curs}} {{orthi|ru|Юрий Иванович Манин}}",
+                    "> {{ru-sci}} {{orth|ru-Latn|Jurij Ivanovič Manin}}",
+                    "> {{ru-en}} {{orth|en|Yury Ivanovich Manin}}",
+                    "*> {{ru-de}} {{orth|de|Juri Iwanowitsch Manin}}",
+                    "*> {{ru-fr}} {{orth|fr|Iouri Ivanovitch Manine}}"
+                ],
                 "links": [
                     "{{wiki|Yuri_Manin}}",
                     "{{mgp|44207|Yuri Manin}}"
@@ -8549,6 +8910,15 @@
                             "{{ru|orig}} {{lang|ru|Андрей Андреевич Марков|Andrey Andreyevich Markov}} {{ipa|ru|ɐn.ˈdrʲei ɐn.ˈdrʲei.vʲit͡ɕ ˈmar.kəf}} {{audio|ru-RU-andrey-andreyevich-markov.mp3}}"
                         ]
                     }
+                ],
+                "orth": [
+                    "{{ru}}",
+                    "> {{dict}} {{orth|ru|Андре́й Андре́евич Ма́рков}}",
+                    "> {{ru-curs}} {{orthi|ru|Андрей Андреевич Марков}}",
+                    "> {{ru-sci}} {{orth|ru-Latn|Andrej Andreevič Markov}}",
+                    "> {{ru-en}} {{orth|en|Andrei Andreyevich Markov}}",
+                    "*> {{ru-de}} {{orth|de|Andrei Andrejewitsch Markow}}",
+                    "*> {{ru-fr}} {{orth|fr|Andreï Andreïevitch Markov}}"
                 ],
                 "links": [
                     "{{wiki|Andrey_Markov}}",
@@ -8761,6 +9131,15 @@
                             "> {{el-grc|reconstructed}} {{lang|grc|Μενέλαος ὁ Ἀλεξανδρεύς|Menélāos ho Alexandreús}} {{ipb|grc|me.né.laː.os ho a.lek.san.ˈdrěus}}"
                         ]
                     }
+                ],
+                "orth": [
+                    "{{el-gre}}",
+                    "> {{dict}} {{orth|el|Μενέλαος ο Αλεξανδρεύς}}",
+                    "> {{el-iso-tl}} {{orth|el-Latn|Menélaos o Alexandreýs}}",
+                    "> {{el-iso-tr}} {{orth|el-Latn|Menélaos o Alexandréfs}}",
+                    "{{el-grc}}",
+                    "> {{dict}} {{orth|grc|Μενέλᾱος ὁ Ἀ̆λεξᾰνδρεύς}}",
+                    "> {{grc-sci}} {{orth|grc-Latn|Menélāos ho Alexandreús}}"
                 ],
                 "links": [
                     "{{wiki|Menelaus_of_Alexandria}}"
@@ -9148,6 +9527,12 @@
                         ]
                     }
                 ],
+                "orth": [
+                    "{{ja}}",
+                    "> {{dict}} {{lang|ja|{{ruby|森田|もりた}} {{ruby|紀一|きいち}}}}",
+                    "> {{ja-hep}} {{orth|ja-Latn|Morita Kiichi}}",
+                    "> {{ja-ks}} {{orth|ja-Latn|Morita Kiiti}}"
+                ],
                 "links": [
                     "{{wiki|Kiiti_Morita}}",
                     "{{mgp|30034|Ki-iti Morita}}"
@@ -9329,9 +9714,15 @@
                         "type": "full-name",
                         "text": "Jun-iti Nagata",
                         "prons": [
-                            "{{ja|orig}} {{lang|ja|{{ruby|長田|ながた}} {{ruby|潤一|じゅんいち}}|Nagata Jun-ichi}} {{ipa|ja|na.ꜛŋa.ta ʑɯꜛn.i.t͡ɕi}} {{audio|ja-JP-nagata-junichi.mp3}}"
+                            "{{ja|orig}} {{lang|ja|{{ruby|長田|ながた}} {{ruby|潤一|じゅんいち}}|Nagata Jun’ichi}} {{ipa|ja|na.ꜛŋa.ta ʑɯꜛn.i.t͡ɕi}} {{audio|ja-JP-nagata-junichi.mp3}}"
                         ]
                     }
+                ],
+                "orth": [
+                    "{{ja}}",
+                    "> {{dict}} {{lang|ja|{{ruby|長田|ながた}} {{ruby|潤一|じゅんいち}}}}",
+                    "> {{ja-hep}} {{orth|ja-Latn|Nagata Jun’ichi}}",
+                    "> {{ja-ks}} {{orth|ja-Latn|Nagata Zyun’iti}}"
                 ],
                 "links": [
                     "{{wiki|Jun-iti_Nagata}}",
@@ -9360,6 +9751,12 @@
                             "{{ja|orig}} {{lang|ja|{{ruby|永田|ながた}} {{ruby|雅宜|まさよし}}}} {{ipa|ja|na.ꜛŋa.ta ma.ꜛsaꜜ.jo.ɕi}} {{audio|ja-JP-nagata-masayoshi.mp3}}"
                         ]
                     }
+                ],
+                "orth": [
+                    "{{ja}}",
+                    "> {{dict}} {{lang|ja|{{ruby|永田|ながた}} {{ruby|雅宜|まさよし}}}}",
+                    "> {{ja-hep}} {{orth|ja-Latn|Nagata Masayoshi}}",
+                    "> {{ja-ks}} {{orth|ja-Latn|Nagata Masayosi}}"
                 ],
                 "links": [
                     "{{wiki|Masayoshi_Nagata}}",
@@ -9392,6 +9789,20 @@
                         ]
                     }
                 ],
+                "orth": [
+                    "{{uk}}",
+                    "> {{dict}} {{orth|uk|Ма́рко Ароно́вич На́ймарк}}",
+                    "> {{uk-curs}} {{orthi|uk|Марко Аронович Наймарк}}",
+                    "> {{uk-sci}} {{orth|uk-Latn|Marko Aronovyč Najmark}}",
+                    "> {{uk-nat}} {{orth|uk-Latn|Marko Aronovych Naimark}}",
+                    "{{ru}}",
+                    "> {{dict}} {{orth|ru|Марк Аро́нович На́ймарк}}",
+                    "> {{ru-curs}} {{orthi|ru|Марк Аронович Наймарк}}",
+                    "> {{ru-sci}} {{orth|ru-Latn|Mark Aronovič Najmark}}",
+                    "> {{ru-en}} {{orth|en|Mark Aronovich Naimark}}",
+                    "*> {{ru-de}} {{orth|de|Mark Aronowitsch Naimark}}",
+                    "*> {{ru-fr}} {{orth|fr|Mark Aronovitch Naïmark}}"
+                ],
                 "links": [
                     "{{wiki|Mark_Naimark}}",
                     "{{mgp|74288|Mark Naimark}}"
@@ -9419,6 +9830,12 @@
                             "{{ja|orig}} {{lang|ja|{{ruby|中山|なかやま}} {{ruby|正|ただし}}|Nakayama Tadashi}} {{ipa|ja|na.ꜛka.ja.ma taꜜ.da.ɕi}} {{audio|ja-JP-nakayama-tadashi.mp3}}"
                         ]
                     }
+                ],
+                "orth": [
+                    "{{ja}}",
+                    "> {{dict}} {{lang|ja|{{ruby|中山|なかやま}} {{ruby|正|ただし}}}}",
+                    "> {{ja-hep}} {{orth|ja-Latn|Nakayama Tadashi}}",
+                    "> {{ja-ks}} {{orth|ja-Latn|Nakayama Tadasi}}"
                 ],
                 "links": [
                     "{{wiki|Tadashi_Nakayama_(mathematician)}}",
@@ -9721,6 +10138,20 @@
                         ]
                     }
                 ],
+                "orth": [
+                    "{{uk}}",
+                    "> {{dict}} {{orth|uk|Миха́йло Васи́льович Острогра́дський}}",
+                    "> {{uk-curs}} {{orthi|uk|Михайло Васильович Остроградський}}",
+                    "> {{uk-sci}} {{orth|uk-Latn|Mychajlo Vasyl’ovyč Ostrohradskyj}}",
+                    "> {{uk-nat}} {{orth|uk-Latn|Mykhailo Vasylovych Ostrohradskyi}}",
+                    "{{ru}}",
+                    "> {{dict}} {{orth|ru|Михаи́л Васи́льевич Острогра́дский}}",
+                    "> {{ru-curs}} {{orthi|ru|Михаил Васильевич Остроградский}}",
+                    "> {{ru-sci}} {{orth|ru-Latn|Mixail Vasil’evič Ostrogradskij}}",
+                    "> {{ru-en}} {{orth|en|Mikhail Vasilyevich Ostrogradsky}}",
+                    "*> {{ru-de}} {{orth|de|Michail Wassiljewitsch Ostrogradski}}",
+                    "*> {{ru-fr}} {{orth|fr|Mikhaïl Vassilevitch Ostrogradski}}"
+                ],
                 "links": [
                     "{{wiki|Mikhail_Ostrogradsky}}"
                 ]
@@ -9811,6 +10242,15 @@
                             "> {{el-grc|reconstructed}} {{lang|grc|Πάππος ὁ Ἀλεξανδρεύς|Páppos ho Alexandreús}} {{ipb|grc|ˈpap.pos ho a.lek.san.ˈdrěus}}"
                         ]
                     }
+                ],
+                "orth": [
+                    "{{el-gre}}",
+                    "> {{dict}} {{orth|el|Πάππος ο Αλεξανδρεύς}}",
+                    "> {{el-iso-tl}} {{orth|el-Latn|Páppos o Alexandreýs}}",
+                    "> {{el-iso-tr}} {{orth|el-Latn|Páppos o Alexandréfs}}",
+                    "{{el-grc}}",
+                    "> {{dict}} {{orth|grc|Πᾰ́ππος ὁ Ἀ̆λεξᾰνδρεύς}}",
+                    "> {{grc-sci}} {{orth|grc-Latn|Páppos ho Alexandreús}}"
                 ],
                 "links": [
                     "{{wiki|Pappus_of_Alexandria}}"
@@ -9926,6 +10366,15 @@
                             "{{ru|orig}} {{lang|ru|Григорий Яковлевич Перельман|Grigory Yakovlevich Perelman}} {{ipa|ru|ɡrʲi.ˈɡo.rʲii ˈja.kəv.lʲi.vʲit͡ɕ pʲi.rʲilʲ.ˈman}} {{audio|ru-RU-grigori-yakovlevich-perelman.mp3}}"
                         ]
                     }
+                ],
+                "orth": [
+                    "{{ru}}",
+                    "> {{dict}} {{orth|ru|Григо́рий Я́ковлевич Перельма́н}}",
+                    "> {{ru-curs}} {{orthi|ru|Григорий Яковлевич Перельман}}",
+                    "> {{ru-sci}} {{orth|ru-Latn|Grigorij Jakovlevič Perel’man}}",
+                    "> {{ru-en}} {{orth|en|Grigory Yakovlevich Perelman}}",
+                    "*> {{ru-de}} {{orth|de|Grigori Jakowlewitsch Perelman}}",
+                    "*> {{ru-fr}} {{orth|fr|Grigori Iakovlevitch Perelman}}"
                 ],
                 "links": [
                     "{{wiki|Grigori_Perelman}}",
@@ -10335,6 +10784,15 @@
                         ]
                     }
                 ],
+                "orth": [
+                    "{{ru}}",
+                    "> {{dict}} {{orth|ru|Лев Семёнович Понтря́гин}}",
+                    "> {{ru-curs}} {{orthi|ru|Лев Семёнович Понтрягин}}",
+                    "> {{ru-sci}} {{orth|ru-Latn|Lev Semënovič Pontrjagin}}",
+                    "> {{ru-en}} {{orth|en|Lev Semyonovich Pontryagin}}",
+                    "*> {{ru-de}} {{orth|de|Lew Semjonowitsch Pontrjagin}}",
+                    "*> {{ru-fr}} {{orth|fr|Lev Semionovitch Pontriaguine}}"
+                ],
                 "links": [
                     "{{wiki|Lev_Pontryagin}}",
                     "{{mgp|49073|Lev Pontryagin}}"
@@ -10361,6 +10819,15 @@
                             "{{ru|orig}} {{lang|ru|Михаил Михайлович Постников|Mikhail Mikhailovich Postnikov}} {{ipa|ru|mʲi.xɐ.ˈiɫ mʲi.ˈxai.lə.vʲit͡ɕ ˈpos.nʲi.kəf}} {{audio|ru-RU-mikhail-mikhailovich-postnikov.mp3}}"
                         ]
                     }
+                ],
+                "orth": [
+                    "{{ru}}",
+                    "> {{dict}} {{orth|ru|Михаи́л Миха́йлович По́стников}}",
+                    "> {{ru-curs}} {{orthi|ru|Михаил Михайлович Постников}}",
+                    "> {{ru-sci}} {{orth|ru-Latn|Mixail Mixajlovič Postnikov}}",
+                    "> {{ru-en}} {{orth|en|Mikhail Mikhailovich Postnikov}}",
+                    "*> {{ru-de}} {{orth|de|Michail Michailowitsch Postnikow}}",
+                    "*> {{ru-fr}} {{orth|fr|Mikhaïl Mikhaïlovitch Postnikov}}"
                 ],
                 "links": [
                     "{{wiki|Mikhail_Postnikov}}",
@@ -10424,6 +10891,15 @@
                             "{{en}} {{ipb|en|ˈklɔː.diəs ˈtɒl.ə.mi}}"
                         ]
                     }
+                ],
+                "orth": [
+                    "{{el-gre}}",
+                    "> {{dict}} {{orth|el|Κλαύδιος Πτολεμαίος}}",
+                    "> {{el-iso-tl}} {{orth|el-Latn|Klaýdios Ptolemaíos}}",
+                    "> {{el-iso-tr}} {{orth|el-Latn|Klávdios Ptolemaíos}}",
+                    "{{el-grc}}",
+                    "> {{dict}} {{orth|grc|Κλαύδῐος Πτολεμαῖος}}",
+                    "> {{grc-sci}} {{orth|grc-Latn|Klaúdios Ptolemaîos}}"
                 ],
                 "links": [
                     "{{wiki|Claudius_Ptolemy}}"
@@ -10509,7 +10985,7 @@
                         "prons": [
                             "{{el|orig}}",
                             "> {{el-gre|orig*}} {{lang|el|Πυθαγόρας ο Σάμος|Pythagóras o Sámos}} {{ipa|el|pi.θa.ˈɣo.ɾas o ˈsa.mos}} {{audio|el-GR-pythagoras-o-samos.mp3}}",
-                            "> {{el-grc|orig*|reconstructed}} {{lang|grc|Πυθαγόρας ὁ Σάμος|Pȳthagórās ho Sámos}} {{ipb|grc|pyː.tʰa.ˈɡó.raːs ho ˈsá.mos}}"
+                            "> {{el-grc|orig*|reconstructed}} {{lang|grc|Πυθαγόρας ὁ Σάμος|Pūthagórās ho Sámos}} {{ipb|grc|pyː.tʰa.ˈɡó.raːs ho ˈsá.mos}}"
                         ]
                     },
                     {
@@ -10519,6 +10995,15 @@
                             "{{en}} {{ipb|en|paɪ.ˌθæɡ.ə.ˈriː.ən}} {{ref|collins|pythagorean|Pythagorean}}"
                         ]
                     }
+                ],
+                "orth": [
+                    "{{el-gre}}",
+                    "> {{dict}} {{orth|el|Πυθαγόρας ο Σάμος}}",
+                    "> {{el-iso-tl}} {{orth|el-Latn|Pythagóras o Sámos}}",
+                    "> {{el-iso-tr}} {{orth|el-Latn|Pythagóras o Sámos}}",
+                    "{{el-grc}}",
+                    "> {{dict}} {{orth|grc|Πῡθᾰγόρᾱς ὁ Σᾰ́μος}}",
+                    "> {{grc-sci}} {{orth|grc-Latn|Pūthagórās ho Sámos}}"
                 ],
                 "links": [
                     "{{wiki|Pythagoras}}"
@@ -11082,6 +11567,12 @@
                         ]
                     }
                 ],
+                "orth": [
+                    "{{ja}}",
+                    "> {{dict}} {{lang|ja|{{ruby|佐藤|さとう}} {{ruby|幹夫|みきお}}}}",
+                    "> {{ja-hep}} {{orth|ja-Latn|Satō Mikio}}",
+                    "> {{ja-ks}} {{orth|ja-Latn|Satô Mikio}}"
+                ],
                 "links": [
                     "{{wiki|Mikio_Sato}}",
                     "{{mgp|19282|Mikio Sato}}"
@@ -11314,6 +11805,12 @@
                             "{{de|orig}} {{ipa|de|ˈʔɪ.saɪ ˈʃuːʁ}} {{audio|de-DE-issai-schur.mp3}}"
                         ]
                     }
+                ],
+                "orth": [
+                    "{{he}} {{lang|he|ישי שור}}",
+                    "> {{dict}} {{orth|he|יִשַׁי שׁוֹר}}",
+                    "> {{he-iso}} {{orth|he-Latn|Yišay Šōr}}",
+                    "> {{he-en}} {{orth|he-Latn|Yishai Shor}}"
                 ],
                 "links": [
                     "{{wiki|Issai_Schur}}",
@@ -11637,6 +12134,15 @@
                         ]
                     }
                 ],
+                "orth": [
+                    "{{ru}}",
+                    "> {{dict}} {{orth|ru|И́горь Ростисла́вович Шафаре́вич}}",
+                    "> {{ru-curs}} {{orthi|ru|Игорь Ростиславович Шафаревич}}",
+                    "> {{ru-sci}} {{orth|ru-Latn|Igor’ Rostislavovič Šafarevič}}",
+                    "> {{ru-en}} {{orth|en|Igor Rostislavovich Shafarevich}}",
+                    "*> {{ru-de}} {{orth|de|Igor Rostislawowitsch Schafarewitsch}}",
+                    "*> {{ru-fr}} {{orth|fr|Igor Rostislavovitch Chafarevitch}}"
+                ],
                 "links": [
                     "{{wiki|Igor_Shafarevich}}",
                     "{{mgp|24594|Igor Shafarevich}}"
@@ -11694,6 +12200,12 @@
                             "{{ja|orig}} {{lang|ja|{{ruby|志村|しむら}} {{ruby|五郎|ごろう}}|Shimura Gorō}} {{ipa|ja|ɕiꜜ.mɯ.ɾa ɡoꜜ.ɾoː}} {{audio|ja-JP-shimura-goro.mp3}}"
                         ]
                     }
+                ],
+                "orth": [
+                    "{{ja}}",
+                    "> {{dict}} {{lang|ja|{{ruby|志村|しむら}} {{ruby|五郎|ごろう}}}}",
+                    "> {{ja-hep}} {{orth|ja-Latn|Shimura Gorō}}",
+                    "> {{ja-ks}} {{orth|ja-Latn|Simura Gorô}}"
                 ],
                 "links": [
                     "{{wiki|Goro_Shimura}}",
@@ -11873,6 +12385,15 @@
                         ]
                     }
                 ],
+                "orth": [
+                    "{{ru}}",
+                    "> {{dict}} {{orth|ru|Ю́рий Миха́йлович Смирно́в}}",
+                    "> {{ru-curs}} {{orthi|ru|Юрий Михайлович Смирнов}}",
+                    "> {{ru-sci}} {{orth|ru-Latn|Jurij Mixajlovič Smirnov}}",
+                    "> {{ru-en}} {{orth|en|Yury Mikhailovich Smirnov}}",
+                    "*> {{ru-de}} {{orth|de|Juri Michailowitsch Smirnow}}",
+                    "*> {{ru-fr}} {{orth|fr|Iouri Mikhaïlovitch Smirnov}}"
+                ],
                 "links": [
                     "{{wiki|ru|Смирнов,_Юрий_Михайлович_(учёный)}}",
                     "{{mgp|93970|Yuriĭ Smirnov}}"
@@ -11900,6 +12421,15 @@
                             "{{ru|orig}} {{lang|ru|Сергей Львович Соболев|Sergei Lvovich Sobolev}} {{ipa|ru|sʲir.ˈɡʲei lʲˈvo.vʲit͡ɕ ˈso.bə.lʲif}} {{audio|ru-RU-sergei-lvovich-sobolev.mp3}}"
                         ]
                     }
+                ],
+                "orth": [
+                    "{{ru}}",
+                    "> {{dict}} {{orth|ru|Серге́й Льво́вич Со́болев}}",
+                    "> {{ru-curs}} {{orthi|ru|Сергей Львович Соболев}}",
+                    "> {{ru-sci}} {{orth|ru-Latn|Sergej L’vovič Sobolev}}",
+                    "> {{ru-en}} {{orth|en|Sergei Lvovich Sobolev}}",
+                    "*> {{ru-de}} {{orth|de|Sergei Lwowitsch Sobolew}}",
+                    "*> {{ru-fr}} {{orth|fr|Sergueï Lvovitch Sobolev}}"
                 ],
                 "links": [
                     "{{wiki|Sergei_Sobolev}}",
@@ -12462,6 +12992,12 @@
                         ]
                     }
                 ],
+                "orth": [
+                    "{{ja}}",
+                    "> {{dict}} {{lang|ja|{{ruby|谷山|たにやま}} {{ruby|豊|ゆたか}}}}",
+                    "> {{ja-hep}} {{orth|ja-Latn|Taniyama Yutaka}}",
+                    "> {{ja-ks}} {{orth|ja-Latn|Taniyama Yutaka}}"
+                ],
                 "links": [
                     "{{wiki|Yutaka_Taniyama}}"
                 ],
@@ -12792,6 +13328,15 @@
                         ]
                     }
                 ],
+                "orth": [
+                    "{{ru}}",
+                    "> {{dict}} {{orth|ru|Андре́й Никола́евич Ти́хонов}}",
+                    "> {{ru-curs}} {{orthi|ru|Андрей Николаевич Тихонов}}",
+                    "> {{ru-sci}} {{orth|ru-Latn|Andrej Nikolaevič Tixonov}}",
+                    "> {{ru-en}} {{orth|en|Andrei Nikolayevich Tikhonov}}",
+                    "*> {{ru-de}} {{orth|de|Andrei Nikolajewitsch Tichonow}}",
+                    "*> {{ru-fr}} {{orth|fr|Andreï Nikolaïevitch Tikhonov}}"
+                ],
                 "links": [
                     "{{wiki|Andrey_Nikolayevich_Tikhonov}}",
                     "{{mgp|58042|Andrei Tikhonov}}"
@@ -12917,6 +13462,13 @@
                         ]
                     }
                 ],
+                "orth": [
+                    "{{zh}}",
+                    "> {{dict}} {{lang|zh|曾炯之}}",
+                    "> {{zh-pinyin}} {{lang|zh|Zēng Jiǒngzhī}}",
+                    "> {{zh-wg}} {{lang|zh|Tseng Chiung-Chih}}",
+                    "> {{zh-gr}} {{lang|zh|Tzeng Jeong-Jy}}"
+                ],
                 "links": [
                     "{{wiki|Chiungtze_C._Tsen}}",
                     "{{mgp|54295|Chiungtze Tsen}}"
@@ -12952,6 +13504,13 @@
                             "{{en}} {{ipb|en|ˈlɒr.ɪŋ ˈwuː ˈljæŋ ˈtuː}}"
                         ]
                     }
+                ],
+                "orth": [
+                    "{{zh}}",
+                    "> {{dict}} {{lang|zh|杜武亮}}",
+                    "> {{zh-pinyin}} {{lang|zh|Dù Wǔliàng}}",
+                    "> {{zh-wg}} {{lang|zh|Tu Wu-Liang}}",
+                    "> {{zh-gr}} {{lang|zh|Duh Wuu-Lianq}}"
                 ],
                 "links": [
                     "{{wiki|Loring_W._Tu}}",
@@ -13041,6 +13600,15 @@
                             "{{ru|orig}} {{lang|ru|Павел Самуилович Урысон|Pavel Samuilovich Uryson}} {{ipa|ru|ˈpa.vʲiɫ sə.mu.ˈi.lə.vʲit͡ɕ u.rɨ.ˈson}} {{audio|ru-RU-pavel-samuilovich-urysohn.mp3}}"
                         ]
                     }
+                ],
+                "orth": [
+                    "{{ru}}",
+                    "> {{dict}} {{orth|ru|Па́вел Самуи́лович Урысо́н}}",
+                    "> {{ru-curs}} {{orthi|ru|Павел Самуилович Урысон}}",
+                    "> {{ru-sci}} {{orth|ru-Latn|Pavel Samuilovič Uryson}}",
+                    "> {{ru-en}} {{orth|en|Pavel Samuilovich Uryson}}",
+                    "*> {{ru-de}} {{orth|de|Pawel Samuilowitsch Uryson}}",
+                    "*> {{ru-fr}} {{orth|fr|Pavel Samouïlovitch Ouryson}}"
                 ],
                 "links": [
                     "{{wiki|Pavel_Urysohn}}",
@@ -13346,6 +13914,15 @@
                         ]
                     }
                 ],
+                "orth": [
+                    "{{ru}}",
+                    "> {{dict}} {{orth|ru|Ива́н Матве́евич Виногра́дов}}",
+                    "> {{ru-curs}} {{orthi|ru|Иван Матвеевич Виноградов}}",
+                    "> {{ru-sci}} {{orth|ru-Latn|Ivan Matveevič Vinogradov}}",
+                    "> {{ru-en}} {{orth|en|Ivan Matveyevich Vinogradov}}",
+                    "*> {{ru-de}} {{orth|de|Iwan Matwejewitsch Winogradow}}",
+                    "*> {{ru-fr}} {{orth|fr|Ivan Matveïevitch Vinogradov}}"
+                ],
                 "links": [
                     "{{wiki|Ivan_Vinogradov}}",
                     "{{mgp|161844|Ivan Vinogradov}}"
@@ -13401,6 +13978,15 @@
                             "{{ru|orig}} {{lang|ru|Владимир Александрович Воеводский|Vladimir Aleksandrovich Voyevodsky}} {{ipa|ru|vlɐ.ˈdʲi.mʲir ɐ.lʲik.ˈsan.drə.vʲit͡ɕ və.ji.ˈvot͡s.kʲii}} {{audio|ru-RU-vladimir-alexandrovich-voevodsky.mp3}}"
                         ]
                     }
+                ],
+                "orth": [
+                    "{{ru}}",
+                    "> {{dict}} {{orth|ru|Влади́мир Алекса́ндрович Воево́дский}}",
+                    "> {{ru-curs}} {{orthi|ru|Владимир Александрович Воеводский}}",
+                    "> {{ru-sci}} {{orth|ru-Latn|Vladimir Aleksandrovič Voevodskij}}",
+                    "> {{ru-en}} {{orth|en|Vladimir Alexandrovich (Aleksandrovich) Voyevodsky}}",
+                    "*> {{ru-de}} {{orth|de|Wladimir Alexandrowitsch (Aleksandrowitsch) Wojewodski}}",
+                    "*> {{ru-fr}} {{orth|fr|Vladimir Alexandrovitch (Aleksandrovitch) Voïevodski}}"
                 ],
                 "links": [
                     "{{wiki|Vladimir_Voevodsky}}",
@@ -14012,6 +14598,13 @@
                         ]
                     }
                 ],
+                "orth": [
+                    "{{zh}}",
+                    "> {{dict}} {{lang|zh|丘成桐}}",
+                    "> {{zh-pinyin}} {{lang|zh|Qiū Chéngtóng}}",
+                    "> {{zh-yale}} {{lang|zh|Yāu Sìhngtùhng}}",
+                    "> {{zh-jyut}} {{lang|zh|Jau<sup>1</sup> Sing<sup>4</sup> Tung<sup>4</sup>}}"
+                ],
                 "links": [
                     "{{wiki|Shing-Tung_Yau}}",
                     "{{mgp|18758|Shing-Tung Yau}}"
@@ -14039,6 +14632,12 @@
                             "{{ja|orig}} {{lang|ja|{{ruby|米田|よねだ}} {{ruby|信夫|のぶお}}|Yoneda Nobuo}} {{ipa|ja|joꜜ.ne.da no.ꜛβɯ.o}} {{audio|ja-JP-yoneda-nobuo.mp3}}"
                         ]
                     }
+                ],
+                "orth": [
+                    "{{ja}}",
+                    "> {{dict}} {{lang|ja|{{ruby|米田|よねだ}} {{ruby|信夫|のぶお}}}}",
+                    "> {{ja-hep}} {{orth|ja-Latn|Yoneda Nobuo}}",
+                    "> {{ja-ks}} {{orth|ja-Latn|Yoneda Nobuo}}"
                 ],
                 "links": [
                     "{{wiki|Nobuo_Yoneda}}",
@@ -14104,6 +14703,15 @@
                         ]
                     }
                 ],
+                "orth": [
+                    "{{ru}}",
+                    "> {{dict}} {{orth|ru|О́шер Зари́цкий}}",
+                    "> {{ru-curs}} {{orthi|ru|Ошер Зарицкий}}",
+                    "> {{ru-sci}} {{orth|ru-Latn|Ošer Zarickij}}",
+                    "> {{ru-en}} {{orth|en|Osher Zaritsky}}",
+                    "*> {{ru-de}} {{orth|de|Oscher Sarizki}}",
+                    "*> {{ru-fr}} {{orth|fr|Ocher Zaritski}}"
+                ],
                 "links": [
                     "{{wiki|Oscar_Zariski}}",
                     "{{mgp|18926|Oscar Zariski}}"
@@ -14165,6 +14773,15 @@
                         ]
                     }
                 ],
+                "orth": [
+                    "{{el-gre}}",
+                    "> {{dict}} {{orth|el|Ζήνων ο Ελεάτης}}",
+                    "> {{el-iso-tl}} {{orth|el-Latn|Zī́nōn o Eleátīs}}",
+                    "> {{el-iso-tr}} {{orth|el-Latn|Zínon o Eleátis}}",
+                    "{{el-grc}}",
+                    "> {{dict}} {{orth|grc|Ζήνων ὁ Ἐλεᾱ́της}}",
+                    "> {{grc-sci}} {{orth|grc-Latn|Zḗnōn ho Eleā́tēs}}"
+                ],
                 "links": [
                     "{{wiki|Zeno_of_Elea}}"
                 ]
@@ -14222,6 +14839,15 @@
                         ]
                     }
                 ],
+                "orth": [
+                    "{{ru}}",
+                    "> {{dict}} {{orth|ru|Никола́й Его́рович Жуко́вский}}",
+                    "> {{ru-curs}} {{orthi|ru|Николай Егорович Жуковский}}",
+                    "> {{ru-sci}} {{orth|ru-Latn|Nikolaj Egorovič Žukovskij}}",
+                    "> {{ru-en}} {{orth|en|Nikolai Yegorovich Zhukovsky}}",
+                    "*> {{ru-de}} {{orth|de|Nikolai Jegorowitsch Schukowski}}",
+                    "*> {{ru-fr}} {{orth|fr|Nikolaï Iegorovitch Joukovski}}"
+                ],
                 "links": [
                     "{{wiki|Nikolay_Zhukovsky_(scientist)}}",
                     "{{mgp|102058|Nikolai Zhukovski}}"
@@ -14249,6 +14875,15 @@
                         ]
                     }
                 ],
+                "orth": [
+                    "{{ru}}",
+                    "> {{dict}} {{orth|ru|Бори́с Ио́сифович Зи́льбер}}",
+                    "> {{ru-curs}} {{orthi|ru|Борис Иосифович Зильбер}}",
+                    "> {{ru-sci}} {{orth|ru-Latn|Boris Iosifovič Zil’ber}}",
+                    "> {{ru-en}} {{orth|en|Boris Iosifovich Zilber}}",
+                    "*> {{ru-de}} {{orth|de|Boris Iossifowitsch Silber}}",
+                    "*> {{ru-fr}} {{orth|fr|Boris Iossifovitch Zilber}}"
+                ],
                 "links": [
                     "{{wiki|Boris_Zilber}}",
                     "{{mgp|61237|Boris Zil'ber}}"
@@ -14275,6 +14910,15 @@
                             "{{ru|orig}} {{lang|ru|Владимир Антонович Зорич|Vladimir Antonovich Zorich}} {{ipa|ru|vlɐ.ˈdʲi.mʲir ɐn.ˈto.nə.vʲit͡ɕ ˈzo.rʲit͡ɕ}} {{audio|ru-RU-vladimir-antonovich-zorich.mp3}}"
                         ]
                     }
+                ],
+                "orth": [
+                    "{{ru}}",
+                    "> {{dict}} {{orth|ru|Влади́мир Анто́нович Зо́рич}}",
+                    "> {{ru-curs}} {{orthi|ru|Владимир Антонович Зорич}}",
+                    "> {{ru-sci}} {{orth|ru-Latn|Vladimir Antonovič Zorič}}",
+                    "> {{ru-en}} {{orth|en|Vladimir Antonovich Zorich}}",
+                    "*> {{ru-de}} {{orth|de|Wladimir Antonowitsch Soritsch}}",
+                    "*> {{ru-fr}} {{orth|fr|Vladimir Antonovitch Zoritch}}"
                 ],
                 "links": [
                     "{{wiki|Vladimir_A._Zorich}}"
@@ -15551,6 +16195,102 @@
             "en": "$1 transliteration",
             "zh": "$1转写"
         },
+        "tran-el-iso-tl": {
+            "en": "ISO transliteration",
+            "zh": "ISO 转写"
+        },
+        "tran-el-iso-tr": {
+            "en": "ISO transcription",
+            "zh": "ISO 转录"
+        },
+        "tran-grc-sci": {
+            "en": "Scientific transliteration",
+            "zh": "科学转写"
+        },
+        "tran-he-iso": {
+            "en": "ISO transliteration",
+            "zh": "ISO 转写"
+        },
+        "tran-he-en": {
+            "en": "{{lang-code|en}} English transcription",
+            "zh": "{{lang-code|en}} 英语转录"
+        },
+        "tran-ja-kanji": {
+            "en": "Kanji",
+            "zh": "汉字"
+        },
+        "tran-ja-hira": {
+            "en": "Hiragana",
+            "zh": "平假名"
+        },
+        "tran-ja-kata": {
+            "en": "Katakana",
+            "zh": "片假名"
+        },
+        "tran-ja-hep": {
+            "en": "Hepburn romanization",
+            "zh": "平文式罗马字"
+        },
+        "tran-ja-ks": {
+            "en": "Kunrei-shiki romanization",
+            "zh": "训令式罗马字"
+        },
+        "tran-ru-curs": {
+            "en": "Cursive form",
+            "zh": "手写体"
+        },
+        "tran-ru-sci": {
+            "en": "Scientific transliteration",
+            "zh": "科学转写"
+        },
+        "tran-ru-en": {
+            "en": "{{lang-code|en}} English transcription",
+            "zh": "{{lang-code|en}} 英语转录"
+        },
+        "tran-ru-de": {
+            "en": "{{lang-code|de}} German transcription",
+            "zh": "{{lang-code|de}} 德语转录"
+        },
+        "tran-ru-fr": {
+            "en": "{{lang-code|fr}} French transcription",
+            "zh": "{{lang-code|fr}} 法语转录"
+        },
+        "tran-uk-curs": {
+            "en": "Cursive form",
+            "zh": "手写体"
+        },
+        "tran-uk-sci": {
+            "en": "Scientific transliteration",
+            "zh": "科学转写"
+        },
+        "tran-uk-nat": {
+            "en": "National transliteration",
+            "zh": "官方转写"
+        },
+        "tran-yi-yivo": {
+            "en": "YIVO transcription",
+            "zh": "YIVO 转录"
+        },
+        "tran-zh-gr": {
+            "en": "Gwoyeu Romatzyh",
+            "zh": "国语罗马字"
+        },
+        "tran-zh-wg": {
+            "en": "Wade–Giles",
+            "zh": "威妥玛拼音"
+        },
+        "tran-zh-pinyin": {
+            "en": "Pinyin",
+            "zh": "汉语拼音"
+        },
+        "tran-zh-yale": {
+            "en": "Yale romanization",
+            "zh": "耶鲁粤语拼音"
+        },
+        "tran-zh-jyut": {
+            "en": "Jyutping",
+            "zh": "粤拼"
+        },
         "tag-orig": {
             "en": "original language",
             "zh": "源语言"
@@ -15590,6 +16330,10 @@
         "header-pronunciation": {
             "en": "Pronunciation",
             "zh": "读音"
+        },
+        "header-orthography": {
+            "en": "Orthography",
+            "zh": "书写"
         },
         "header-external-links": {
             "en": "External links",
@@ -15906,6 +16650,10 @@
         "tag-reconstructed": {
             "en": "reconstructed",
             "zh": "重构的发音"
+        },
+        "dict-form": {
+            "en": "Dictionary form",
+            "zh": "字典形式"
         },
         "ipa-consonant-template": {
             "en": "$s $l $L $p $m $h $n $b $w $f $r $A $B $j $g $q $e $d $D $v $2 $1$z$a",

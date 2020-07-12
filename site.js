@@ -827,6 +827,41 @@ function loadIndex(initial) {
     changeIpaType(ipaType);
 }
 
+function appendPronList(array, $content, expanderGroup) {
+    let anyStarred = false;
+
+    const $list = $('<ul class="pron-list">');
+    array.forEach(function (str) {
+        let level = 0, starred = false;
+        if (str.startsWith('*')) { starred = true; str = str.substring(1); }
+        while (str.startsWith('>')) { level++; str = str.substring(1); }
+        str = str.trim();
+        // starred item in user's language becomes unstarred
+        starred &= !( str.startsWith('{{' + langShort + '|') || str.startsWith('{{' + langShort + '}') );
+        anyStarred |= starred; 
+        
+        $list.append($('<li class="level-' + level + (starred ? ' pron-optional-' + expanderGroup + ' hidden' : '') + '">').html( expandTemplates(str) ));
+    });
+    $content.append($list);
+
+    if (anyStarred) {
+        const $expander = $( '<div><span class="expander">⏷ ' + getString('show-more') + '<span></div>' );
+        $content.append($expander);
+        $expander.find('.expander').data('expanded', 'false').data('target', 'pron-optional-' + expanderGroup).click(function () {
+            const $this = $(this), target = $this.data('target');
+            if ($this.data('expanded') === 'true') {
+                $this.data('expanded', 'false').text('⏷ ' + getString('show-more'));
+                $('li.' + target).addClass('hidden');
+            } else {
+                $this.data('expanded', 'true').text('⏶ ' + getString('show-less'));
+                $('li.' + target).removeClass('hidden');
+            }
+        });
+
+        expanderGroup++;
+    }
+}
+
 function loadActiveItem() {
     if (!activeItem) return;
     activeReferences = [];
@@ -899,48 +934,24 @@ function loadActiveItem() {
         $content.append($('<div class="content-article">').html( expandTemplates(content) ));
     }
 
+    let expanderGroup = 0;
     if (activeItem.forms) {
         $content.append($( '<h2>' + getString('header-pronunciation') + '</h2>' ));
-        let expanderGroup = 0;
         activeItem.forms.forEach(function (form) {
-            let anyStarred = false;
             $content.append($( '<h3>' + form.text + ' <span class="text-tag h3-space-before">' + getString('form-type-' + form.type) + '</span>' + '</h3>' ));
             if (form.alt) {
                 $content.append($('<div class="alternative-spellings">').html( getString('alternative-spellings') + ' ' + form.alt.map(alt => '<span class="alternative-spelling">' + htmlEncode(alt) + '</span>').join(', ') ));
             }
             if (form.prons) {
-                const $list = $('<ul class="pron-list">');
-                form.prons.forEach(function (str) {
-                    let level = 0, starred = false;
-                    if (str.startsWith('*')) { starred = true; str = str.substring(1); }
-                    while (str.startsWith('>')) { level++; str = str.substring(1); }
-                    str = str.trim();
-                    // starred item in user's language becomes unstarred
-                    starred &= !( str.startsWith('{{' + langShort + '|') || str.startsWith('{{' + langShort + '}') );
-                    anyStarred |= starred; 
-                    
-                    $list.append($('<li class="level-' + level + (starred ? ' pron-optional-' + expanderGroup + ' hidden' : '') + '">').html( expandTemplates(str) ));
-                });
-                $content.append($list);
-            }
-
-            if (anyStarred) {
-                const $expander = $( '<div><span class="expander">⏷ ' + getString('show-more') + '<span></div>' );
-                $content.append($expander);
-                $expander.find('.expander').data('expanded', 'false').data('target', 'pron-optional-' + expanderGroup).click(function () {
-                    const $this = $(this), target = $this.data('target');
-                    if ($this.data('expanded') === 'true') {
-                        $this.data('expanded', 'false').text('⏷ ' + getString('show-more'));
-                        $('li.' + target).addClass('hidden');
-                    } else {
-                        $this.data('expanded', 'true').text('⏶ ' + getString('show-less'));
-                        $('li.' + target).removeClass('hidden');
-                    }
-                });
-
+                appendPronList(form.prons, $content, expanderGroup);
                 expanderGroup++;
             }
         });
+    }
+
+    if (activeItem.orth) {
+        $content.append($( '<h2>' + getString('header-orthography') + '</h2>' ));
+        appendPronList(activeItem.orth, $content, expanderGroup);
     }
 
     if (activeItem.links) {
@@ -1385,6 +1396,7 @@ function expandTemplates(str, mode) {
                     if (template) {
                         let result = '', realName = template.name, goOn, ignoreSpace;
                         if (realName !== 'tran' && data.strings['lang-' + realName]) realName = '-lang';
+                        else if (data.strings['tran-' + realName]) realName = '-tran';
                         
                         switch (realName) {
                             case '-lang':
@@ -1398,8 +1410,17 @@ function expandTemplates(str, mode) {
                                 goOn = true;
                                 ignoreSpace = true;
                                 break;
+                            case '-tran':
+                                result = '<span class="tran-name">' + expandTemplates( getString('tran-' + template.name) ) + '</span>' + getString('colon');
+                                ignoreSpace = true;
+                                break;
                             case 'audio':
                                 result = '<span class="audio no-select">🔊<audio preload="none" src="/audio/' + template.args[0] + '"></audio></span>';
+                                break;
+                            case 'dict':
+                                result = getString('dict-form') + getString('colon');
+                                goOn = true;
+                                ignoreSpace = true;
                                 break;
                             case 'ipa':
                                 needIpaSelector = needIpaSelector || 'std';
@@ -1445,6 +1466,13 @@ function expandTemplates(str, mode) {
                                 // prohibit '_' in link text, for convenience working with wikipedia links
                                 result = '<a target="_blank" href="' + encodeURI(template.args[0]) + '">' + (template.args[1] ? expandTemplates(template.args[1]).replaceAll('_', ' ') : htmlEncode(template.args[0])) + '</a>';
                                 goOn = true;
+                                break;
+                            case 'orth':
+                            case 'orthi':
+                                let orth = htmlEncode(template.args[1]);
+                                if (realName === 'orthi') orth = '<i>' + orth + '</i>';
+                                var rtl = ['ar', 'fa', 'he', 'yi'].includes(template.args[0]);
+                                result = '<span class="orthography" lang="' + template.args[0] + '"' + (rtl ? ' dir="rtl"' : '') + '>' + orth + '</span>';
                                 break;
                             case 'raise':
                                 result = '<span style="line-height:1;vertical-align:' + encodeURI(template.args[0]) + ';">' + expandTemplates(template.args[1]) + '</span>';

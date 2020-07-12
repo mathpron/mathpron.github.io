@@ -992,6 +992,16 @@ table.ipa-chart .rotate {
     white-space: nowrap;
 }
 
+span.orthography {
+    margin: 0 .2em;
+}
+
+span.orthography:lang(grc):not(:lang(grc-Latn)),
+span.orthography:lang(he):not(:lang(he-Latn)) {
+    font-size: 120%;
+    line-height: 1;
+}
+
 @media (hover: none) {
     .banner-container > a {
         display: none;
