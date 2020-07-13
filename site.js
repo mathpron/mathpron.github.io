@@ -637,6 +637,8 @@ function onHashChange() {
         }
     }
 
+    setMetaDescription( hash.length > 1 ? hash.replaceAll('_', ' ') : '' );
+
     if (window.location.hash === selfHashChange && selfHashChange) { // change made by code
         return;
     }
@@ -1363,6 +1365,12 @@ function animateLoadActiveItem() {
     if ($('html').scrollTop() > $('.content').offset().top) {
         $('html').animate({ scrollTop: $('.content').offset().top }, 300);
     }
+}
+
+function setMetaDescription(title) {
+    $('meta[name=description]').attr('content', title ? 
+        title + ' - Mathpron, a pronunciation dictionary of mathematicians\' names.' :
+        'A pronunciation dictionary of mathematicians\' names, with IPA transcriptions and audio samples.');
 }
 
 function langName(lang) {
