@@ -1369,7 +1369,7 @@ function animateLoadActiveItem() {
 
 function setMetaDescription(title) {
     $('meta[name=description]').attr('content', title ? 
-        title + ' - Mathpron, a pronunciation dictionary of mathematicians\' names.' :
+        title + ' – Mathpron, a pronunciation dictionary of mathematicians\' names.' :
         'A pronunciation dictionary of mathematicians\' names, with IPA transcriptions and audio samples.');
 }
 
