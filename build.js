@@ -99,21 +99,6 @@ async function build() {
 
                         content = content.replace('src="./site.js"', `src="${jsDelivr}/site.js"`)
                             .replace('href="./site.css"', `href="${jsDelivr}/site.css"`);
-
-                        // write the title of all entries into index.html, for indexing by search engines
-                        let dataJson = JSON.parse(fs.readFileSync('data.json')), allEntries = '';
-                        for (let i = 0; i < 26; i++) {
-                            let letter = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'[i];
-                            let entries = dataJson.items[letter];
-                            if (!entries) continue;
-
-                            entries.forEach(entry => {
-                                if (entry.title) { allEntries += ' | ' + entry.title.replace(/^([^,]+)\|, ([^,]+)$/, '$2 $1').replace('|', ''); }
-                            });
-                        }
-                        allEntries = allEntries.substr(3).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-
-                        content = content.replace('$$$$$', allEntries);
                     }
 
                     let htmlResult = htmlMinifier.minify(content, {
