@@ -112,7 +112,7 @@ function initialise() {
     // initialise hashes and index
     $.each(data.items, function (key, value) {
         value.forEach(function (item) {
-            let name = item.title.replaceAll('|', '').replaceAll(' ', '_');
+            let name = item.title.replaceAll('|', '').replaceAll(' ', '_').replace(/[‘’]/g, "'");
 
             if (item.forms) {
                 let entryId = allEntries.push({
@@ -624,14 +624,26 @@ function backtrackSearch(text, words, fuzzy, wordLimit, computeHl) {
 } 
 
 function onHashChange() {
-    if (decodeURI(window.location.hash) === selfHashChange && selfHashChange) { // change made by code
+    let hash = (window.location.hash || '#').substring(1);
+    if (window.location.search) {
+        let href = window.location.href;
+        let params = new URL(href).searchParams;
+        if (params.has('i')) {
+            if (hash) {
+                window.history.pushState('', '', href.replace(/\?.+$/, '') + '#' + hash);
+            } else {
+                hash = params.get('i');
+            }
+        }
+    }
+
+    if (window.location.hash === selfHashChange && selfHashChange) { // change made by code
         return;
     }
     selfHashChange = '';
 
     $('.tabs-container .tab').removeClass('tab-selected');
 
-    const hash = (decodeURI(window.location.hash) || '#').substring(1);
     if (hash.length === 1 && data.items[hash]) {
         activeInitial = hash;
         $('.tabs-container .tab[data-header=' + hash + ']').addClass('tab-selected');
@@ -1339,7 +1351,7 @@ function onIndexItemClick() {
 
 function animateLoadActiveItem() {
     $('.content').animate({ opacity: 0 }, 200, 'linear', function () {
-        selfHashChange = '#' + activeItem.title.replace('|', '').replaceAll(' ', '_')
+        selfHashChange = '#' + activeItem.title.replace('|', '').replaceAll(' ', '_').replace(/[‘’]/g, "'");
         window.location.hash = selfHashChange;
         $('.tab-selected').removeClass('tab-selected');
         loadActiveItem();
