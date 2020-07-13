@@ -624,7 +624,7 @@ function backtrackSearch(text, words, fuzzy, wordLimit, computeHl) {
 } 
 
 function onHashChange() {
-    let hash = (window.location.hash || '#').substring(1);
+    let hash = (decodeURI(window.location.hash) || '#').substring(1);
     if (window.location.search) {
         let href = window.location.href;
         let params = new URL(href).searchParams;
@@ -639,7 +639,7 @@ function onHashChange() {
 
     setMetaDescription( hash.length > 1 ? hash.replaceAll('_', ' ') : '' );
 
-    if (window.location.hash === selfHashChange && selfHashChange) { // change made by code
+    if (decodeURI(window.location.hash) === selfHashChange && selfHashChange) { // change made by code
         return;
     }
     selfHashChange = '';
