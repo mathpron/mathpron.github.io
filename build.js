@@ -122,6 +122,27 @@ async function build() {
         }
     }
 
+    // generate site map
+    let dataJson = JSON.parse(fs.readFileSync('data.json')), allEntries = [];
+    for (let i = 0; i < 26; i++) {
+        let letter = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'[i];
+        let entries = dataJson.items[letter];
+        if (!entries) continue;
+
+        entries.forEach(entry => {
+            if (entry.title) { 
+                allEntries.push( entry.title.replace('|', '').replace(/ /g, '_').replace(/[‘’]/g, "'") ); 
+            }
+        });
+    }
+    
+    let siteMap = `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://mathpron.github.io/</loc></url>`;
+    allEntries.forEach(entry => {
+        siteMap += `<url><loc>https://mathpron.github.io/?i=${ encodeURIComponent(entry).replace(/%2C/g, ',').replace(/'/g, '&apos;') }</loc></url>`;
+    });
+    siteMap += '</urlset>';
+    fs.writeFileSync('sitemap.xml', siteMap);
+
     if (!hasErrors) {
         console.log('Committing to \'master\'...');
         await git.add('./*').commit(`Update to ${commitId}`);
