@@ -637,7 +637,7 @@ function onHashChange() {
         }
     }
 
-    setMetaDescription( hash.length > 1 ? hash.replaceAll('_', ' ') : '' );
+    setMetaDescription(hash);
 
     if (decodeURI(window.location.hash) === selfHashChange && selfHashChange) { // change made by code
         return;
@@ -888,7 +888,7 @@ function loadActiveItem() {
         activeItem['alt-title'][langShort] || 
         activeItem['alt-title']['en'] || 
         activeItem.title : activeItem.title;
-    document.title = h1Text.replace('|', '') + ' - ' + getString('title');
+    document.title = h1Text.replace('|', '') + ' - ' + getString('title') + ' - ' + getString('title-text');
     let h1Html = h1Text.replace('|,', ',|').replace(/\|(.*)/, '<span class="h1-lighter">$1</span>');
     if (!activeItem.forms) h1Html = '<span class="no-sc">' + h1Html + '</span>';
     $('#the-h1').removeClass('index-h1').html(h1Html);
@@ -1367,16 +1367,43 @@ function animateLoadActiveItem() {
     }
 }
 
-function setMetaDescription(title) {
-    $('meta[name=description]').attr('content', title ? 
-        title + ' – Mathpron, a pronunciation dictionary of mathematicians\' names.' :
-        'A pronunciation dictionary of mathematicians\' names, with IPA transcriptions and audio samples.');
+function setMetaDescription(hash) {
+    let str = '';
+    if (hash && hash.length > 1) {
+        let item = hashes[hash].item;
+        if (item.forms) {
+            item.forms.forEach(form => {
+                let prons = form.prons;
+                let laText = '';
+                if (!prons) return;
+
+                for (var i = 0; i < prons.length; i++) {
+                    let pron = prons[i];
+                    // give Latin an exception
+                    let match = /\{\{lang\|la\b[^|}]*\|([^|}]+)\}\}/.exec(pron);
+                    if (match) {
+                        laText = match[1];
+                    }
+                    match = /^[> ]*\{\{([^|}+]+)[^|}]*\|orig[^}]*\}\} \{\{ip[ab]\|[^|}]+\|()([^}]+)\}\}/.exec(pron)
+                        || /^[> ]*\{\{([^|}+]+)[^|}]*\|orig[^}]*\}\} (.*?) \{\{ip[ab]\|[^|}]+\|([^}]+)\}\}/.exec(pron);
+                    if (match) { 
+                        str += ((/^la\b/.test(match[1]) && laText) ? laText : form.text) +
+                            ' (' + langName(match[1], 'en') + '): ' + getPlainIpa(match[1], match[3], 'broad') + '. ';
+                    }
+                }
+            });
+        }
+    }
+    str = str || 'A pronunciation dictionary of mathematicians\' names, with IPA transcriptions and audio samples.';
+    str = str.substr(0, 144).replace(/ [^ ]*$/, '');
+
+    $('meta[name=description]').attr('content', str);
 }
 
-function langName(lang) {
+function langName(lang, outLang) {
     const name = data.strings['lang-' + lang];
     if (!name) return lang;
-    return name[langLong] || name[langShort] || name['en'] || lang;
+    return name[outLang || ''] || name[langLong] || name[langShort] || name['en'] || lang;
 }
 
 function getString(stringId) {
@@ -1578,9 +1605,10 @@ function expandTemplates(str, mode) {
     return str;
 }
 
-function debugIpa(lang, str) {
-    // for use in console
-    return $('<div>').html(getIpa(str || '', lang, 'std')).text();
+function getPlainIpa(lang, str, mode) {
+    str = str || '';
+    if (str.includes('|')) str = '<' + str.replaceAll('|', '/') + '>';
+    return $('<div>').html(getIpa(str || '', lang, mode || 'std')).text();
 }
 
 function getIpa(str, lang, mode) {
