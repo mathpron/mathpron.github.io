@@ -859,7 +859,7 @@ function appendPronList(array, $content, expanderGroup) {
     $content.append($list);
 
     if (anyStarred) {
-        const $expander = $( '<div><span class="expander">⏷ ' + getString('show-more') + '<span></div>' );
+        const $expander = $( '<div><span class="expander no-select">⏷ ' + getString('show-more') + '<span></div>' );
         $content.append($expander);
         $expander.find('.expander').data('expanded', 'false').data('target', 'pron-optional-' + expanderGroup).click(function () {
             const $this = $(this), target = $this.data('target');
@@ -952,7 +952,7 @@ function loadActiveItem() {
     if (activeItem.forms) {
         $content.append($( '<h2>' + getString('header-pronunciation') + '</h2>' ));
         activeItem.forms.forEach(function (form) {
-            $content.append($( '<h3>' + form.text + ' <span class="text-tag h3-space-before">' + getString('form-type-' + form.type) + '</span>' + '</h3>' ));
+            $content.append($( '<h3>' + form.text + ' <span class="text-tag h3-space-before"><span class="hidden-inline">(</span>' + getString('form-type-' + form.type) + '<span class="hidden-inline">)</span></span>' + '</h3>' ));
             if (form.alt) {
                 $content.append($('<div class="alternative-spellings">').html( getString('alternative-spellings') + ' ' + form.alt.map(alt => '<span class="alternative-spelling">' + htmlEncode(alt) + '</span>').join(', ') ));
             }
@@ -1450,8 +1450,8 @@ function expandTemplates(str, mode) {
                                 let name = langName(template.name), plainName = name;
                                 if (template.args[0] === 'aprx' || template.args[0] === 'tran') { template.args.splice(0, 1); }
                                 while (template.args[0] && template.args[0].endsWith('*')) { template.args.splice(0, 1); }
-                                result = '<span class="lang-code-light" lang="" title="' + plainName + '">' + 
-                                    template.name.replace(/\+.+/, '') + '</span> ' + 
+                                result = '<span class="lang-code-light" lang="" title="' + plainName + '"><span class="hidden-inline">[</span>' + 
+                                    template.name.replace(/\+.+/, '') + '<span class="hidden-inline">]</span></span> ' + 
                                     template.args.map(arg => expandTemplates('{{tag' + (arg === 'orig' ? '-green' : arg.startsWith('need-') ? '-red' : '') + '|' + getString('tag-' + arg) + '}}')).join(' ') + 
                                     ' <span class="lang-name">' + expandTemplates(name) + '</span>' + getString('colon');
                                 goOn = true;
@@ -1506,7 +1506,7 @@ function expandTemplates(str, mode) {
                                 break;
                             case 'lang-code':
                                 let langCodeName = langName(template.args[0]);
-                                result = '<span class="lang-code-light" lang="" title="' + langCodeName + '">' + template.args[0] + '</span>';
+                                result = '<span class="lang-code-light" lang="" title="' + langCodeName + '"><span class="hidden-inline">[</span>' + template.args[0] + '<span class="hidden-inline">]</span></span>';
                                 goOn = true;
                                 break;
                             case 'link':
@@ -1563,7 +1563,7 @@ function expandTemplates(str, mode) {
                             case 'tag':
                             case 'tag-red':
                             case 'tag-green':
-                                result = '<span class="text-' + realName + '">' + expandTemplates(template.args.join(' ')) + '</span>';
+                                result = '<span class="text-' + realName + '"><span class="hidden-inline">(</span>' + expandTemplates(template.args.join(' ')) + '<span class="hidden-inline">)</span></span>';
                                 goOn = true;
                                 break;
                             default:

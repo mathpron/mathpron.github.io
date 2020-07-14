@@ -165,6 +165,10 @@ header {
     font-size: 0;
 }
 
+.hidden-inline {
+    font-size: 0;
+}
+
 .banner-container {
     display: flex;
     flex-direction: column;
