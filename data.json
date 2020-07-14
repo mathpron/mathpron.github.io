@@ -426,8 +426,8 @@
                         "text": "Apollonius of Perga",
                         "prons": [
                             "{{el|orig}}",
-                            "> {{el-gre}} {{lang|el|Απολλώνιος ο Περγαίος|Apollónios o Pergaíos}} {{ipa|el|a.po.ˈlo.ɲos o peɾ.ˈʝeos}} {{audio|el-GR-apollonios-o-pergaios.mp3}}",
-                            "> {{el-grc|reconstructed}} {{lang|grc|Ἀπολλώνιος ὁ Περγαῖος|Apollṓnios ho Pergaîos}} {{ipb|grc|a.pol.ˈlɔ̌ː.ni.os ho per.ˈɡâi.jos}}"
+                            "> {{el-gre|orig*}} {{lang|el|Απολλώνιος ο Περγαίος|Apollónios o Pergaíos}} {{ipa|el|a.po.ˈlo.ɲos o peɾ.ˈʝeos}} {{audio|el-GR-apollonios-o-pergaios.mp3}}",
+                            "> {{el-grc|orig*|reconstructed}} {{lang|grc|Ἀπολλώνιος ὁ Περγαῖος|Apollṓnios ho Pergaîos}} {{ipb|grc|a.pol.ˈlɔ̌ː.ni.os ho per.ˈɡâi.jos}}"
                         ]
                     }
                 ],
@@ -468,8 +468,8 @@
                         "text": "Archimedes of Syracuse",
                         "prons": [
                             "{{el|orig}}",
-                            "> {{el-gre}} {{lang|el|Αρχιμήδης ο Συρακούσιος|Archimídis o Syrakúsios}} {{ipa|el|aɾ.çi.ˈmi.ðis o si.ɾa.ˈku.sios}} {{audio|el-GR-archimedes-o-syrakusios.mp3}}",
-                            "> {{el-grc|reconstructed}} {{lang|grc|Ἀρχιμήδης ὁ Συρακόσιος|Arkhimḗdēs ho Surākósios}} {{ipb|grc|ar.kʰi.ˈmɛ̌ː.dɛːs ho sy.raː.ˈkó.si.os}}"
+                            "> {{el-gre|orig*}} {{lang|el|Αρχιμήδης ο Συρακούσιος|Archimídis o Syrakúsios}} {{ipa|el|aɾ.çi.ˈmi.ðis o si.ɾa.ˈku.sios}} {{audio|el-GR-archimedes-o-syrakusios.mp3}}",
+                            "> {{el-grc|orig*|reconstructed}} {{lang|grc|Ἀρχιμήδης ὁ Συρακόσιος|Arkhimḗdēs ho Surākósios}} {{ipb|grc|ar.kʰi.ˈmɛ̌ː.dɛːs ho sy.raː.ˈkó.si.os}}"
                         ]
                     },
                     {
@@ -797,7 +797,7 @@
                         "text": "Baer",
                         "prons": [
                             "{{de|orig}} {{ipa|de|ˈbɛːʁ}}, {{ipa|de|ˈbeːʁ}} {{audio|de-DE-baer-2.mp3}}",
-                            "{{en|aprx}} {{ipb|en|ˈbɛr}} {{audio|en-GB-bear.mp3}}",
+                            "{{en|aprx}} {{ipb|en|ˈbɛər}} {{audio|en-GB-bear.mp3}}",
                             "* {{ja|tran}} {{lang|ja|ベーア|Bēa}}",
                             "* {{ru|tran}} {{lang|ru|Бэр|Ber}}",
                             "* {{zh|tran}} {{lang|zh|贝尔|Bèi’ěr}}"
@@ -827,7 +827,7 @@
                         "text": "Baire",
                         "prons": [
                             "{{fr|orig}} {{ipa|fr|ˈbɛʁ}} {{audio|fr-FR-baire.mp3}}",
-                            "{{en|aprx}} {{ipb|en|ˈbɛr}} {{audio|en-GB-bear.mp3}}",
+                            "{{en|aprx}} {{ipb|en|ˈbɛər}} {{audio|en-GB-bear.mp3}}",
                             "* {{ja|tran}} {{lang|ja|ベール|Bēru}}",
                             "* {{ru|tran}} {{lang|ru|Бэр|Ber}}",
                             "* {{zh|tran}} {{lang|zh|贝尔|Bèi’ěr}}"
@@ -963,7 +963,7 @@
                     },
                     {
                         "type": "full-name",
-                        "text": "Alexander Beilinson",
+                        "text": "Alexander Alexandrovich Beilinson",
                         "prons": [
                             "{{ru|orig}} {{lang|ru|Александр Александрович Бейлинсон|Aleksandr Aleksandrovich Beilinson}} {{ipa|ru|ɐ.lʲik.ˈsandr ɐ.lʲik.ˈsan.drə.vʲit͡ɕ bʲi.lʲin.ˈson}} {{audio|ru-RU-alexander-alexandrovich-beilinson.mp3}}"
                         ]
@@ -1110,7 +1110,7 @@
                         "prons": [
                             "{{fr|orig}} {{ipa|fr|bɛʁ.nu.ˈji}} {{audio|fr-FR-bernoulli.mp3}}",
                             "{{de|orig}} {{ipa|de|bɛʁ.ˈnʊ.li}} {{ref|duden-6}} {{audio|de-DE-bernoulli.mp3}}",
-                            "{{en|aprx}} {{ipb|en|bɛr.ˈnuː.li}} {{ref|collins|bernoulli|Bernoulli}} {{audio|en-GB-bernoulli.mp3}}",
+                            "{{en|aprx}} {{ipb|en|bɛər.ˈnuː.li}} {{ref|collins|bernoulli|Bernoulli}} {{audio|en-GB-bernoulli.mp3}}",
                             "* {{ja|tran}} {{lang|ja|ベルヌーイ|Berunūi}}",
                             "* {{ru|tran}} {{lang|ru|Бернулли|Bernulli}}",
                             "* {{zh|tran}} {{lang|zh|伯努利|Bónǔlì}}"
@@ -1141,7 +1141,7 @@
                         "prons": [
                             "{{fr|orig}} {{ipa|fr|bɛʁ.nu.ˈji}} {{audio|fr-FR-bernoulli.mp3}}",
                             "{{de|orig}} {{ipa|de|bɛʁ.ˈnʊ.li}} {{ref|duden-6}} {{audio|de-DE-bernoulli.mp3}}",
-                            "{{en|aprx}} {{ipb|en|bɛr.ˈnuː.li}} {{ref|collins|bernoulli|Bernoulli}} {{audio|en-GB-bernoulli.mp3}}",
+                            "{{en|aprx}} {{ipb|en|bɛər.ˈnuː.li}} {{ref|collins|bernoulli|Bernoulli}} {{audio|en-GB-bernoulli.mp3}}",
                             "* {{ja|tran}} {{lang|ja|ベルヌーイ|Berunūi}}",
                             "* {{ru|tran}} {{lang|ru|Бернулли|Bernulli}}",
                             "* {{zh|tran}} {{lang|zh|伯努利|Bónǔlì}}"
@@ -1172,7 +1172,7 @@
                         "prons": [
                             "{{fr|orig}} {{ipa|fr|bɛʁ.nu.ˈji}} {{audio|fr-FR-bernoulli.mp3}}",
                             "{{de|orig}} {{ipa|de|bɛʁ.ˈnʊ.li}} {{ref|duden-6}} {{audio|de-DE-bernoulli.mp3}}",
-                            "{{en|aprx}} {{ipb|en|bɛr.ˈnuː.li}} {{ref|collins|bernoulli|Bernoulli}} {{audio|en-GB-bernoulli.mp3}}",
+                            "{{en|aprx}} {{ipb|en|bɛər.ˈnuː.li}} {{ref|collins|bernoulli|Bernoulli}} {{audio|en-GB-bernoulli.mp3}}",
                             "* {{ja|tran}} {{lang|ja|ベルヌーイ|Berunūi}}",
                             "* {{ru|tran}} {{lang|ru|Бернулли|Bernulli}}",
                             "* {{zh|tran}} {{lang|zh|伯努利|Bónǔlì}}"
@@ -1274,7 +1274,7 @@
                         "text": "Bertini",
                         "prons": [
                             "{{it|orig}} {{ipa|it|ber.ˈti.ni}} {{ref|dipi|Bertini}} {{audio|it-IT-bertini.mp3}}",
-                            "{{en|aprx}} {{ipb|en|bɛr.ˈtiː.ni}}",
+                            "{{en|aprx}} {{ipb|en|bɛər.ˈtiː.ni}}",
                             "* {{ja|tran}} {{lang|ja|ベルティーニ|Berutīni}}",
                             "* {{ru|tran}} {{lang|ru|Бертини|Bertini}}",
                             "* {{zh|tran}} {{lang|zh|贝尔蒂尼|Bèi’ěrdìní}}"
@@ -1304,7 +1304,7 @@
                         "text": "Bertrand",
                         "prons": [
                             "{{fr|orig}} {{ipa|fr|bɛʁ̥.ˈtʁɑ̃}} {{audio|fr-FR-bertrand.mp3}}",
-                            "{{en|aprx}} {{ipb|en|bɛr.ˈtrɑːn}}",
+                            "{{en|aprx}} {{ipb|en|bɛər.ˈtrɑːn}}",
                             "* {{ja|tran}} {{lang|ja|ベルトラン|Berutoran}}",
                             "* {{ru|tran}} {{lang|ru|Бертран|Bertran}}",
                             "* {{zh|tran}} {{lang|zh|伯特兰|Bótèlán}}"
@@ -2556,7 +2556,7 @@
                         "text": "Casimir",
                         "prons": [
                             "{{nl|orig}} {{ipa|nl|ˈkaː.ʑi.miɹ}} {{audio|nl-NL-casimir.mp3}}",
-                            "{{en|aprx}} {{ipb|en|ˈkæʒ.ɪ.ˌmɪr}}",
+                            "{{en|aprx}} {{ipb|en|ˈkæʒ.ɪ.ˌmɪər}}",
                             "* {{ja|tran}} {{lang|ja|カシミール|Kashimīru}}",
                             "* {{ru|tran}} {{lang|ru|Казимир|Kazimir}}",
                             "* {{zh|tran}} {{lang|zh|卡西米尔|Kǎxīmǐ’ěr}}"
@@ -3250,7 +3250,7 @@
                         "text": "d’Alembert",
                         "prons": [
                             "{{fr|orig}} {{ipa|fr|da.lɑ̃.ˈbɛʁ}} {{audio|fr-FR-dalembert.mp3}}",
-                            "{{en|aprx}} {{ipb|en|ˌdæl.əm.ˈbɛr}}",
+                            "{{en|aprx}} {{ipb|en|ˌdæl.əm.ˈbɛər}}",
                             "* {{ja|tran}} {{lang|ja|ダランベール|Daranbēru}}",
                             "* {{ru|tran}} {{lang|ru|д’Аламбер|d’Alamber}}",
                             "* {{zh|tran}} {{lang|zh|达朗贝尔|Dálǎngbèi’ěr}}"
@@ -3750,8 +3750,8 @@
                         "text": "Diophantus of Alexandria",
                         "prons": [
                             "{{el|orig}}",
-                            "> {{el-gre}} {{lang|el|Διόφαντος ο Αλεξανδρεύς|Diófantos o Alexandréfs}} {{ipa|el|ði.ˈo.fa.ⁿdos o a.lek.san.ˈðɾefs}} {{audio|el-GR-diophantus-o-alexandrefs.mp3}}",
-                            "> {{el-grc|reconstructed}} {{lang|grc|Διόφαντος ὁ Ἀλεξανδρεύς|Dióphantos ho Alexandreús}} {{ipb|grc|di.ˈó.pʰan.tos ho a.lek.san.ˈdrěus}}"
+                            "> {{el-gre|orig*}} {{lang|el|Διόφαντος ο Αλεξανδρεύς|Diófantos o Alexandréfs}} {{ipa|el|ði.ˈo.fa.ⁿdos o a.lek.san.ˈðɾefs}} {{audio|el-GR-diophantus-o-alexandrefs.mp3}}",
+                            "> {{el-grc|orig*|reconstructed}} {{lang|grc|Διόφαντος ὁ Ἀλεξανδρεύς|Dióphantos ho Alexandreús}} {{ipb|grc|di.ˈó.pʰan.tos ho a.lek.san.ˈdrěus}}"
                         ]
                     },
                     {
@@ -4260,7 +4260,7 @@
                         "text": "Erdős",
                         "prons": [
                             "{{hu|orig}} {{ipa|hu|ˈɛɾ.døːʃ}} {{audio|hu-HU-erdos.mp3}}",
-                            "{{en|aprx}} {{ipb|en|ˈɛr.ˌdɜːʃ}}",
+                            "{{en|aprx}} {{ipb|en|ˈɛər.ˌdɜːʃ}}",
                             "* {{ja|tran}} {{lang|ja|エルデシュ|Erudeshu}}",
                             "* {{ru|tran}} {{lang|ru|Эрдёш|Erdyosh}}",
                             "* {{zh|tran}} {{lang|zh|埃尔德什|Āi’ěrdéshí}}"
@@ -4304,8 +4304,8 @@
                         "text": "Euclid of Alexandria",
                         "prons": [
                             "{{el|orig}}",
-                            "> {{el-gre}} {{lang|el|Ευκλείδης ο Αλεξανδρεύς|Efkleídis o Alexandréfs}} {{ipa|el|ef.ˈkli.ðis o a.lek.san.ˈðɾefs}} {{audio|el-GR-euclid-o-alexandrefs.mp3}}",
-                            "> {{el-grc|reconstructed}} {{lang|grc|Εὐκλείδης ὁ Ἀλεξανδρεύς|Eukleídēs ho Alexandreús}} {{ipb|grc|eu.ˈklěː.dɛːs ho a.lek.san.ˈdrěus}}"
+                            "> {{el-gre|orig*}} {{lang|el|Ευκλείδης ο Αλεξανδρεύς|Efkleídis o Alexandréfs}} {{ipa|el|ef.ˈkli.ðis o a.lek.san.ˈðɾefs}} {{audio|el-GR-euclid-o-alexandrefs.mp3}}",
+                            "> {{el-grc|orig*|reconstructed}} {{lang|grc|Εὐκλείδης ὁ Ἀλεξανδρεύς|Eukleídēs ho Alexandreús}} {{ipb|grc|eu.ˈklěː.dɛːs ho a.lek.san.ˈdrěus}}"
                         ]
                     },
                     {
@@ -4549,7 +4549,7 @@
                         "text": "Fejér",
                         "prons": [
                             "{{hu|orig}} {{ipa|hu|ˈfɛ.jeːɾ}} {{ref|wikt|Fejér|Hungarian}} {{audio|hu-HU-fejer.mp3}}",
-                            "{{en|aprx}} {{ipb|en|ˈfeɪ.jɪr}}",
+                            "{{en|aprx}} {{ipb|en|ˈfeɪ.jɪər}}",
                             "* {{ja|tran}} {{lang|ja|フェイェール|Feiēru}}",
                             "* {{ru|tran}} {{lang|ru|Фейер|Feyer}}",
                             "* {{zh|tran}} {{lang|zh|费耶|Fèiyē}}"
@@ -4580,7 +4580,7 @@
                         "text": "Fermat",
                         "prons": [
                             "{{fr|orig}} {{ipa|fr|fɛʁ.ˈma}} {{audio|fr-FR-fermat.mp3}}",
-                            "{{en|aprx}} {{ipb|en|fɛr.ˈmɑː}}",
+                            "{{en|aprx}} {{ipb|en|fɛər.ˈmɑː}}",
                             "* {{ja|tran}} {{lang|ja|フェルマー|Ferumā}}",
                             "* {{ru|tran}} {{lang|ru|Ферма|Ferma}}",
                             "* {{zh|tran}} {{lang|zh|费马|Fèimǎ}}"
@@ -6720,7 +6720,7 @@
                         "text": "Hirzebruch",
                         "prons": [
                             "{{de|orig}} {{ipa|de|ˈhɪʁ.t͡sə.ˌbʁʊχ}} {{ref|duden-6}} {{audio|de-DE-hirzebruch.mp3}}",
-                            "{{en|aprx}} {{ipb|en|ˈhɪr.tsə.ˌbruːk}}",
+                            "{{en|aprx}} {{ipb|en|ˈhɪər.tsə.ˌbruːk}}",
                             "* {{ja|tran}} {{lang|ja|ヒルツェブルフ|Hirutseburufu}}",
                             "* {{ru|tran}} {{lang|ru|Хирцебрух|Khirtsebrukh}}",
                             "* {{zh|tran}} {{lang|zh|希策布鲁赫|Xīcèbùlǔhè}}"
@@ -6930,7 +6930,7 @@
                         "text": "Hurwitz",
                         "prons": [
                             "{{de|orig}} {{ipa|de|ˈhʊʁ.vɪt͡s}} {{audio|de-DE-hurwitz.mp3}}",
-                            "{{en|aprx}} {{ipb|en|ˈhʊr.vɪts}}",
+                            "{{en|aprx}} {{ipb|en|ˈhʊər.vɪts}}",
                             "* {{ja|tran}} {{lang|ja|フルヴィッツ|Furuvittsu}}",
                             "* {{ru|tran}} {{lang|ru|Гурвиц|Gurvits}}",
                             "* {{zh|tran}} {{lang|zh|赫尔维茨|Hè’ěrwéicí}}"
@@ -7511,7 +7511,7 @@
                         "text": "Kirchhoff",
                         "prons": [
                             "{{de|orig}} {{ipa|de|ˈkɪʁç.ˌhɔf}} {{ref|duden-6}} {{audio|de-DE-kirchhoff.mp3}}",
-                            "{{en|aprx}} {{ipb|en|ˈkɪr.ˌkɒf}}",
+                            "{{en|aprx}} {{ipb|en|ˈkɪər.ˌkɒf}}",
                             "* {{ja|tran}} {{lang|ja|キルヒホフ|Kiruhihofu}}",
                             "* {{ru|tran}} {{lang|ru|Кирхгоф|Kirkhgof}}",
                             "* {{zh|tran}} {{lang|zh|基尔霍夫|Jī’ěrhuòfū}}"
@@ -9406,8 +9406,8 @@
                         "text": "Menelaus of Alexandria",
                         "prons": [
                             "{{el|orig}}",
-                            "> {{el-gre}} {{lang|el|Μενέλαος ο Αλεξανδρεύς|Menélaos o Alexandrefs}} {{ipa|el|me.ˈne.laos o a.lek.san.ˈðɾefs}}",
-                            "> {{el-grc|reconstructed}} {{lang|grc|Μενέλαος ὁ Ἀλεξανδρεύς|Menélāos ho Alexandreús}} {{ipb|grc|me.né.laː.os ho a.lek.san.ˈdrěus}}"
+                            "> {{el-gre|orig*}} {{lang|el|Μενέλαος ο Αλεξανδρεύς|Menélaos o Alexandrefs}} {{ipa|el|me.ˈne.laos o a.lek.san.ˈðɾefs}}",
+                            "> {{el-grc|orig*|reconstructed}} {{lang|grc|Μενέλαος ὁ Ἀλεξανδρεύς|Menélāos ho Alexandreús}} {{ipb|grc|me.né.laː.os ho a.lek.san.ˈdrěus}}"
                         ]
                     }
                 ],
@@ -9739,7 +9739,7 @@
                         "type": "family-name",
                         "text": "Moore",
                         "prons": [
-                            "{{en|orig}} {{ipb|en|ˈmʊr}}",
+                            "{{en|orig}} {{ipb|en|ˈmʊər}}",
                             "> {{en-GB}} {{ipa|en-GB|ˈmɔː}} {{audio|en-GB-moore.mp3}}",
                             "> {{en-US|orig*}} {{ipa|en-US|ˈmɔːɹ}} {{audio|en-US-moore.mp3}}",
                             "* {{ja|tran}} {{lang|ja|ムーア|Mūa}}",
@@ -9751,7 +9751,7 @@
                         "type": "full-name",
                         "text": "Eliakim Hastings Moore",
                         "prons": [
-                            "{{en|orig}} {{ipb|en|ɪ.ˈlaɪ.ə.kɪm ˈheɪ.stɪŋz ˈmʊr}}", 
+                            "{{en|orig}} {{ipb|en|ɪ.ˈlaɪ.ə.kɪm ˈheɪ.stɪŋz ˈmʊər}}", 
                             "> {{en-GB}} {{ipa|en-GB|ɪ.ˈlɑɪ.ə.kɪm ˈhɛɪ.stɪŋz ˈmɔː}} {{audio|en-GB-eliakim-hastings-moore.mp3}}",
                             "> {{en-US}} {{ipa|en-US|ə.ˈlaɪ.ə.kəm ˈheɪ.stɪŋz ˈmɔːɹ}} {{audio|en-US-eliakim-hastings-moore.mp3}}"
                         ]
@@ -10545,8 +10545,8 @@
                         "text": "Pappus of Alexandria",
                         "prons": [
                             "{{el|orig}}",
-                            "> {{el-gre}} {{lang|el|Πάππος ο Αλεξανδρεύς|Páppos o Alexandrefs}} {{ipa|el|ˈpa.pos o a.lek.san.ˈðɾefs}} {{audio|el-GR-pappus-o-alexandrevs.mp3}}",
-                            "> {{el-grc|reconstructed}} {{lang|grc|Πάππος ὁ Ἀλεξανδρεύς|Páppos ho Alexandreús}} {{ipb|grc|ˈpap.pos ho a.lek.san.ˈdrěus}}"
+                            "> {{el-gre|orig*}} {{lang|el|Πάππος ο Αλεξανδρεύς|Páppos o Alexandrefs}} {{ipa|el|ˈpa.pos o a.lek.san.ˈðɾefs}} {{audio|el-GR-pappus-o-alexandrevs.mp3}}",
+                            "> {{el-grc|orig*|reconstructed}} {{lang|grc|Πάππος ὁ Ἀλεξανδρεύς|Páppos ho Alexandreús}} {{ipb|grc|ˈpap.pos ho a.lek.san.ˈdrěus}}"
                         ]
                     }
                 ],
@@ -10665,7 +10665,7 @@
                         "text": "Perelman",
                         "prons": [
                             "{{ru|orig}} {{lang|ru|Перельман|Perelman}} {{ipa|ru|pʲi.rʲilʲ.ˈman}} {{audio|ru-RU-perelman.mp3}}",
-                            "{{en|aprx}} {{ipb|en|ˌpɪr.əl.ˈmɑːn}}",
+                            "{{en|aprx}} {{ipb|en|ˌpɛr.əl.ˈmɑːn}}",
                             "* {{ja|tran}} {{lang|ja|ペレルマン|Pereruman}}",
                             "* {{zh|tran}} {{lang|zh|佩雷尔曼|Pèiléi’ěrmàn}}"
                         ]
@@ -11211,8 +11211,8 @@
                         "text": "Claudius Ptolemy",
                         "prons": [
                             "{{el|orig}}",
-                            "> {{el-gre}} {{lang|el|Κλαύδιος Πτολεμαίος|Klávdios Ptolemaíos}} {{ipa|el|ˈklav.ðios pto.le.ˈmeos}} {{audio|el-GR-klaudios-ptolemaios.mp3}}",
-                            "> {{el-grc|reconstructed}} {{lang|grc|Κλαύδιος Πτολεμαῖος|Klaúdios Ptolemaîos}} {{ipb|grc|ˈklǎu.di.os pto.le.ˈmâi.os}}",
+                            "> {{el-gre|orig*}} {{lang|el|Κλαύδιος Πτολεμαίος|Klávdios Ptolemaíos}} {{ipa|el|ˈklav.ðios pto.le.ˈmeos}} {{audio|el-GR-klaudios-ptolemaios.mp3}}",
+                            "> {{el-grc|orig*|reconstructed}} {{lang|grc|Κλαύδιος Πτολεμαῖος|Klaúdios Ptolemaîos}} {{ipb|grc|ˈklǎu.di.os pto.le.ˈmâi.os}}",
                             "{{en}} {{ipb|en|ˈklɔː.diəs ˈtɒl.ə.mi}}"
                         ]
                     }
@@ -11534,7 +11534,7 @@
                         "text": "Ricci-Curbastro",
                         "prons": [
                             "{{it|orig}} {{ipa|it|ˈrit͡ʃ.t͡ʃi kur.ˈbas.tro}} {{audio|it-IT-ricci-curbastro.mp3}}",
-                            "{{en|aprx}} {{ipb|en|ˈriː.t͡ʃiː kʊr.ˈbɑːs.trəʊ}}",
+                            "{{en|aprx}} {{ipb|en|ˈriː.t͡ʃiː kʊər.ˈbɑːs.trəʊ}}",
                             "* {{ja|tran}} {{lang|ja|リッチ゠クルバストロ|Ritchi-Kurubasutoro}}",
                             "* {{ru|tran}} {{lang|ru|Риччи-Курбастро|Ricchi-Kurbastro}}",
                             "* {{zh|tran}} {{lang|zh|里奇-库尔巴斯托罗|Lǐqí-Kù’ěrbāsītuōluó}}"
@@ -12172,7 +12172,7 @@
                         "prons": [
                             "{{he|orig}} {{lang|he|שור|Shor}} {{ipa|he|ˈʃoʁ}} {{audio|he-IL-shor.mp3}} {{ref|forvo|שור|he|{{lang|he|שור}}}}",
                             "{{de|orig}} {{ipa|de|ˈʃuːʁ}} {{audio|de-DE-schur.mp3}}",
-                            "{{en|aprx}} {{ipb|en|ˈʃʊr}}",
+                            "{{en|aprx}} {{ipb|en|ˈʃʊər}}",
                             "* {{ja|tran}} {{lang|ja|シューア|Shūa}}",
                             "* {{ru|tran}} {{lang|ru|Шур|Shur}}",
                             "* {{zh|tran}} {{lang|zh|舒尔|Shū’ěr}}"
@@ -12422,7 +12422,7 @@
                         "text": "Serre",
                         "prons": [
                             "{{fr|orig}} {{ipa|fr|ˈsɛʁ}} {{audio|fr-FR-serre.mp3}}",
-                            "{{en|aprx}} {{ipb|en|ˈsɛr}}",
+                            "{{en|aprx}} {{ipb|en|ˈsɛər}}",
                             "* {{ja|tran}} {{lang|ja|セール|Sēru}}",
                             "* {{ru|tran}} {{lang|ru|Серр|Serr}}",
                             "* {{zh|tran}} {{lang|zh|塞尔|Sài’ěr}}"
@@ -12482,7 +12482,7 @@
                         "text": "Severi",
                         "prons": [
                             "{{it|orig}} {{ipa|it|se.ˈvɛ.ri}} {{ref|dipi|Severi}} {{audio|it-IT-severi.mp3}}",
-                            "{{en|aprx}} {{ipb|en|sɪ.ˈvɛr.i}}",
+                            "{{en|aprx}} {{ipb|en|sɪ.ˈvɛər.i}}",
                             "* {{ja|tran}} {{lang|ja|セヴィリ|Seviri}}",
                             "* {{ru|tran}} {{lang|ru|Севери|Severi}}",
                             "* {{zh|tran}} {{lang|zh|塞维利|Sàiwéilì}}"
@@ -12645,7 +12645,7 @@
                         "text": "Sierpiński",
                         "prons": [
                             "{{pl|orig}} {{ipa|pl|ɕɛɾ.ˈpiȷ̃.skʲi}} {{audio|pl-PL-sierpinski.mp3}}",
-                            "{{en|aprx}} {{ipb|en|ʃɛr.ˈpɪn.ski}}",
+                            "{{en|aprx}} {{ipb|en|ʃɛər.ˈpɪn.ski}}",
                             "* {{ja|tran}} {{lang|ja|シェルピニスキ|Sherupinisuki}}",
                             "* {{ru|tran}} {{lang|ru|Серпинский|Serpinsky}}",
                             "* {{zh|tran}} {{lang|zh|谢尔宾斯基|Xiè’ěrbīnsījī}}"
@@ -12771,7 +12771,7 @@
                         "text": "Smirnov",
                         "prons": [
                             "{{ru|orig}} {{lang|ru|Смирнов|Smirnov}} {{ipa|ru|smʲir.ˈnof}} {{audio|ru-RU-smirnov.mp3}}",
-                            "{{en|aprx}} {{ipb|en|ˈsmɪr.nəf}}",
+                            "{{en|aprx}} {{ipb|en|ˈsmɪər.nəf}}",
                             "* {{zh|tran}} {{lang|zh|斯米尔诺夫|Sīmǐ’ěrnuòfū}}"
                         ]
                     },
@@ -14182,7 +14182,7 @@
                         "text": "Verdier",
                         "prons": [
                             "{{fr|orig}} {{ipa|fr|vɛʁ.ˈdje}} {{audio|fr-FR-verdier.mp3}}",
-                            "{{en|aprx}} {{ipb|en|ˈvɛr.di.ˌeɪ}}",
+                            "{{en|aprx}} {{ipb|en|ˈvɛər.di.ˌeɪ}}",
                             "* {{ja|tran}} {{lang|ja|ヴェルディエ|Verudie}}",
                             "* {{ru|tran}} {{lang|ru|Вердье|Verdye}}",
                             "* {{zh|tran}} {{lang|zh|韦迪耶|Wéidíyē}}"
@@ -14316,8 +14316,8 @@
                         "text": "Leopold Vietoris",
                         "prons": [
                             "{{de|orig}}",
-                            "> {{de-DE}} {{ipa|de|ˈleː.o.ˌpɔlt ˌviː.ˈtoː.ʁɪs}} {{audio|de-DE-leopold-vietoris.mp3}}",
-                            "> {{de-AT}} {{ipa|de-AT|ˈleː.o.ˌpo̞l̪t̪ ˌviə̟.ˈt̪oː.ʁɪs̪|ˈleː.o.pɔlt viə.ˈtoː.ʁɪs}} {{ref|1}}"
+                            "> {{de-DE|orig*}} {{ipa|de|ˈleː.o.ˌpɔlt ˌviː.ˈtoː.ʁɪs}} {{audio|de-DE-leopold-vietoris.mp3}}",
+                            "> {{de-AT|orig*}} {{ipa|de-AT|ˈleː.o.ˌpo̞l̪t̪ ˌviə̟.ˈt̪oː.ʁɪs̪|ˈleː.o.pɔlt viə.ˈtoː.ʁɪs}} {{ref|1}}"
                         ]
                     }
                 ],
@@ -15050,8 +15050,8 @@
                         "text": "Shing-Tung Yau",
                         "prons": [
                             "{{zh|orig}}",
-                            "> {{zh-yue}} {{lang|yue|丘成桐|Yāu Sìhngtùhng}} {{ipa|yue|ˈjɐu˥ ˌs̪eɴ˨˩ ˈt̪ʰʊɴ˨˩}}",
-                            "> {{zh-cmn}} {{lang|zh|丘成桐|Qiū Chéngtóng}} {{ipa|zh|ˈt͡ɕʰɤu˥ ˌt͡ʂʰɤɴ˧˥ ˈtʰuɴ˧˥}} {{audio|zh-CN-qiu-cheng-tong.mp3}}"
+                            "> {{zh-yue|orig*}} {{lang|yue|丘成桐|Yāu Sìhngtùhng}} {{ipa|yue|ˈjɐu˥ ˌs̪eɴ˨˩ ˈt̪ʰʊɴ˨˩}}",
+                            "> {{zh-cmn|orig*}} {{lang|zh|丘成桐|Qiū Chéngtóng}} {{ipa|zh|ˈt͡ɕʰɤu˥ ˌt͡ʂʰɤɴ˧˥ ˈtʰuɴ˧˥}} {{audio|zh-CN-qiu-cheng-tong.mp3}}"
                         ]
                     }
                 ],
@@ -15229,8 +15229,8 @@
                         "text": "Zeno of Elea",
                         "prons": [
                             "{{el|orig}}",
-                            "> {{el-gre}} {{lang|el|Ζήνων ο Ελεάτης|Zínon o Eleátis}} {{ipa|el|ˈzi.non o e.le.ˈa.tis}} {{audio|el-GR-zenon-o-eleatis.mp3}} {{ref|forvo|ζήνων_ο_ελεάτης|el|Ζήνων ο Ελεάτης}}",
-                            "> {{el-grc|reconstructed}} {{lang|grc|Ζήνων ὁ Ἐλεάτης|Zḗnōn ho Eleā́tēs}} {{ipb|grc|ˈzdɛ̌ː.nɔːn ho e.le.ˈǎː.tɛːs}}"
+                            "> {{el-gre|orig*}} {{lang|el|Ζήνων ο Ελεάτης|Zínon o Eleátis}} {{ipa|el|ˈzi.non o e.le.ˈa.tis}} {{audio|el-GR-zenon-o-eleatis.mp3}} {{ref|forvo|ζήνων_ο_ελεάτης|el|Ζήνων ο Ελεάτης}}",
+                            "> {{el-grc|orig*|reconstructed}} {{lang|grc|Ζήνων ὁ Ἐλεάτης|Zḗnōn ho Eleā́tēs}} {{ipb|grc|ˈzdɛ̌ː.nɔːn ho e.le.ˈǎː.tɛːs}}"
                         ]
                     }
                 ],
@@ -15853,9 +15853,6 @@
             "broad": [
                 ["[ʔʰʷ̠̯]", ""],
                 ["ɫ", "l"],
-                ["ɪr", "ɪər"],
-                ["ʊr", "ʊər"],
-                ["ɛr", "ɛər"],
                 ["ɑr", "ɑːr"],
                 ["[ɔo]r", "ɔːr"],
                 ["ɜr", "ɜːr"],
