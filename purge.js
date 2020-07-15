@@ -1,5 +1,6 @@
 const fs = require('fs');
 const request = require('request');
+const { execSync } = require('child_process');
 
 const jsDelivrPurge = 'https://purge.jsdelivr.net/gh/mathpron/mathpron.github.io@master';
 
@@ -26,12 +27,17 @@ function purge(file) {
 }
 
 async function purgeAll() {
-    let files = fs.readdirSync('.');
+    let diff = execSync('git diff-tree --no-commit-id --name-status -r master').toString().split('\n')
+        .filter(value => value.startsWith('M'))
+        .map(value => value.replace(/^M/, '').trim());
+        
+    let files = fs.readdirSync('.')
+        .concat(fs.readdirSync('./content').map(file => 'content/' + file))
+        .concat(fs.readdirSync('./fonts').map(file => 'fonts/' + file));
     let exclude = [ 'build.js', 'purge.js', 'new-entry.js', 'package.json' ];
     let toPurge = [];
     files.forEach(file => {
-        // all files on jsdelivr except /fonts/* and /img/* are purged.
-        if (/\.(css|html|js|json)$/.test(file) && !exclude.includes(file)) {
+        if (/\.(css|html|js|json|woff2)$/.test(file) && diff.includes(file) && !exclude.includes(file)) {
             toPurge.push(file);
         }
     });
