@@ -1,4 +1,5 @@
 const fs = require('fs');
+const request = require('request');
 const { execSync } = require('child_process');
 const git = require('simple-git')();
 const terser = require('terser');
@@ -18,6 +19,36 @@ function minifyCssAsync(css) {
             resolve(result.css); 
         }, reject);
     });
+}
+
+function requestAsync(url) {
+    return new Promise((resolve, reject) => {
+        request({
+            url: url,
+            headers: {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0'
+            }
+        }, (error, _response, body) => {
+            if (error) {
+                reject(error);
+                return;
+            }
+            resolve(body);
+        });
+    });
+}
+
+function formatDate(date) {
+    var month = '' + (date.getUTCMonth() + 1),
+        day = '' + date.getUTCDate(),
+        year = date.getUTCFullYear();
+
+    if (month.length < 2) 
+        month = '0' + month;
+    if (day.length < 2) 
+        day = '0' + day;
+
+    return [year, month, day].join('-');
 }
 
 async function build() {
@@ -123,23 +154,36 @@ async function build() {
     }
 
     // generate site map
-    let dataJson = JSON.parse(fs.readFileSync('data.json')), allEntries = [];
+    let dataJson = JSON.parse(fs.readFileSync('data.json'));
+    let oldData = JSON.parse( await requestAsync('https://mathpron.github.io/data.json') ),
+        oldSiteMap = await requestAsync('https://mathpron.github.io/sitemap.xml');
+    let today = formatDate(new Date());
+    let siteMap = `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://mathpron.github.io/</loc><lastmod>${today}</lastmod></url>`;
+
     for (let i = 0; i < 26; i++) {
         let letter = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'[i];
         let entries = dataJson.items[letter];
         if (!entries) continue;
 
+        let oldEntries = JSON.stringify(oldData.items[letter] || []);
+
         entries.forEach(entry => {
-            if (entry.title) { 
-                allEntries.push( entry.title.replace('|', '').replace(/ /g, '_').replace(/[‘’]/g, "'") ); 
+            if (!entry.title) return;
+             
+            let entryTitle = entry.title.replace('|', '').replace(/ /g, '_').replace(/[‘’]/g, "'");
+            let entryUrl = `https://mathpron.github.io/?i=${ encodeURIComponent(entryTitle).replace(/%2C/g, ',').replace(/'/g, '&apos;') }`;
+            let lastMod = today;
+            if (oldEntries.includes( JSON.stringify(entry) )) {
+                let index = oldSiteMap.indexOf(entryUrl + '</loc><lastmod>');
+                if (index !== -1) {
+                    lastMod = oldSiteMap.substr(index + (entryUrl + '</loc><lastmod>').length, 10);
+                }
             }
+
+            siteMap += `<url><loc>${ entryUrl }</loc><lastmod>${ lastMod }</lastmod></url>`;
         });
     }
     
-    let siteMap = `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://mathpron.github.io/</loc></url>`;
-    allEntries.forEach(entry => {
-        siteMap += `<url><loc>https://mathpron.github.io/?i=${ encodeURIComponent(entry).replace(/%2C/g, ',').replace(/'/g, '&apos;') }</loc></url>`;
-    });
     siteMap += '</urlset>';
     fs.writeFileSync('sitemap.xml', siteMap);
 
