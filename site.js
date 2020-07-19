@@ -1369,7 +1369,7 @@ function animateLoadActiveItem() {
 
 function setMetaDescription(hash) {
     let str = '';
-    if (hash && hash.length > 1) {
+    if (hash && hash.length > 1 && hashes[hash]) {
         let item = hashes[hash].item;
         if (item.forms) {
             item.forms.forEach(form => {
@@ -1395,7 +1395,7 @@ function setMetaDescription(hash) {
         }
     }
     str = str || 'A pronunciation dictionary of mathematicians\' names, with IPA transcriptions and audio samples.';
-    str = str.substr(0, 144).replace(/ [^ ]*$/, '');
+    str = str.substr(0, 160).replace(/ [^ ]*$/, '');
 
     $('meta[name=description]').attr('content', str);
 }
