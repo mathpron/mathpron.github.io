@@ -7532,6 +7532,44 @@
                 ]
             },
             {
+                "title": "Kirillov|, Alexandre",
+                "wd": "Q925405",
+                "desc": "m|m|SU RU|1936|",
+                "forms": [
+                    {
+                        "type": "family-name",
+                        "text": "Kirillov",
+                        "prons": [
+                            "{{ru|orig}} {{lang|ru|Кириллов|Kirillov}} {{ipa|ru|kʲi.ˈrʲi.ləf}} {{audio|ru-RU-kirillov.mp3}}",
+                            "{{en|aprx}} {{ipb|en|kɪ.ˈrɪl.əf}}",
+                            "* {{ja|tran}} {{lang|ja|キリロフ|Kirirofu}}",
+                            "* {{zh|tran}} {{lang|zh|基里洛夫|Jīlǐluòfū}}"
+                        ]
+                    },
+                    {
+                        "type": "full-name",
+                        "text": "Alexandr Alexandrovich Kirillov",
+                        "prons": [
+                            "{{ru|orig}} {{lang|ru|Александр Александрович Кириллов|Aleksandr Aleksandrovich Kirillov}} {{ipa|ru|ɐ.lʲik.ˈsandr ɐ.lʲik.ˈsan.drə.vʲit͡ɕ kʲi.ˈrʲi.ləf}} {{audio|ru-RU-alexandr-kirillov.mp3}}"
+                        ]
+                    }
+                ],
+                "orth": [
+                    "{{ru}}",
+                    "> {{dict}} {{orth|ru|Алекса́ндр Алекса́ндрович Кири́ллов}}",
+                    "> {{ru-curs}} {{orthi|ru|Александр Александрович Кириллов}}",
+                    "> {{ru-sci}} {{orth|ru-Latn|Aleksandr Aleksandrovič Kirillov}}",
+                    "> {{ru-en}} {{orth|en|Alexander (Aleksandr) Alexandrovich (Aleksandrovich) Kirillov}}",
+                    "*> {{ru-de}} {{orth|de|Alexander (Aleksandr) Alexandrowitsch (Aleksandrowitsch) Kirillow}}",
+                    "*> {{ru-fr}} {{orth|fr|Alexandre (Aleksandr) Alexandrovitch (Aleksandrovitch) Kirillov}}"
+                ],
+                "links": [
+                    "{{wiki|Alexandre_Kirillov}}",
+                    "{{mgp|25063|Alexandre Kirillov}}",
+                    "{{mt|Kirillov|Alexander Aleksandrovich Kirillov}}"
+                ]
+            },
+            {
                 "title": "Klein|, Felix",
                 "wd": "Q76641",
                 "desc": "m|m|DE|1849|1925",
@@ -8961,6 +8999,38 @@
                 "links": [
                     "{{wiki|Francis_Sowerby_Macaulay}}",
                     "{{mt|Macaulay|Francis Macaulay}}"
+                ]
+            },
+            {
+                "title": "Mackey|, George",
+                "wd": "Q1384643",
+                "desc": "m|m|US|1916|2006",
+                "forms": [
+                    {
+                        "type": "family-name",
+                        "text": "Mackey",
+                        "prons": [
+                            "{{en|orig}} {{ipb|en|ˈmæk.i}}",
+                            "> {{en-GB}} {{ipa|en-GB|ˈmæk.i}} {{audio|en-GB-mackey.mp3}}",
+                            "> {{en-US|orig*}} {{ipa|en-US|ˈmæk.i}} {{audio|en-US-mackey.mp3}}",
+                            "* {{ja|tran}} {{lang|ja|マッケイ|Makkei}}",
+                            "* {{zh|tran}} {{lang|zh|麦基|Màijī}}"
+                        ]
+                    },
+                    {
+                        "type": "full-name",
+                        "text": "George Whitelaw Mackey",
+                        "prons": [
+                            "{{en|orig}} {{ipb|en|ˈd͡ʒɔːrd͡ʒ ˈhwaɪt.ˌlɔː ˈmæk.i}}",
+                            "> {{en-GB}} {{ipa|en-GB|ˈd͡ʒɔːd͡ʒ ˈwaɪʔt.ˌlɔː ˈmæk.i}} {{audio|en-GB-george-whitelaw-mackey.mp3}}",
+                            "> {{en-US}} {{ipa|en-US|ˈd͡ʒɔːɹd͡ʒ ˈwaɪt.ˌlɑː ˈmæk.i}} {{audio|en-US-george-whitelaw-mackey.mp3}}"
+                        ]
+                    }
+                ],
+                "links": [
+                    "{{wiki|George_Mackey}}",
+                    "{{mgp|22868|George Mackey}}",
+                    "{{mt|Mackey|George Mackey}}"
                 ]
             },
             {
@@ -10930,6 +11000,36 @@
                     "{{wiki|Michel_Plancherel}}",
                     "{{mgp|57704|Michel Plancherel}}",
                     "{{mt|Plancherel|Michel Plancherel}}"
+                ]
+            },
+            {
+                "title": "Planck|, Max",
+                "wd": "Q9021",
+                "desc": "m|p|DE|1858|1947",
+                "forms": [
+                    {
+                        "type": "family-name",
+                        "text": "Planck",
+                        "prons": [
+                            "{{de|orig}} {{ipa|de|ˈplaŋk}} {{audio|de-DE-planck.mp3}}",
+                            "{{en|aprx}} {{ipb|en|ˈplæŋk}}",
+                            "* {{ja|tran}} {{lang|ja|プランク|Puranku}}",
+                            "* {{ru|tran}} {{lang|ru|Планк|Plank}}",
+                            "* {{zh|tran}} {{lang|zh|普朗克|Pǔlǎngkè}}"
+                        ]
+                    },
+                    {
+                        "type": "full-name",
+                        "text": "Max Karl Ernst Ludwig Planck",
+                        "prons": [
+                            "{{de|orig}} {{ipa|de|ˈmaks ˈkaʁl ˈʔɛʁnst ˈluːt.vɪç ˈplaŋk}} {{audio|de-DE-max-planck.mp3}}"
+                        ]
+                    }
+                ],
+                "links": [
+                    "{{wiki|Max_Planck}}",
+                    "{{mgp|20750|Max Planck}}",
+                    "{{mt|Planck|Max Planck}}"
                 ]
             },
             {
@@ -15881,7 +15981,7 @@
             ],
             "std": [
                 ["r", "ɹ"],
-                ["([ptk]|t͡ʃ)(?=([.ˈˌlɹw]*)([iɪeɛæaɑɒɔoʊuyᵻəɜɐʉᵿɵɯʌjw]|[mnŋlɫ]̩))", "$1ʰ"],
+                ["([ptk]|t͡ʃ)(?=([lɹw]*|[.ˈˌ]*)([iɪeɛæaɑɒɔoʊuyᵻəɜɐʉᵿɵɯʌjw]|[mnŋlɫ]̩))", "$1ʰ"],
                 ["([sʃ][.ˈˌ]*([ptk]|t͡ʃ))ʰ", "$1"],
                 ["([bvðdzʒɡ])̥?(?=((d͡)?[bvðdzʒɡ])*($|\\.w|\\.*[pfθtsʃkbvðdzʒɡ]| [ˈˌ]*[^ˈˌiɪeɛæaɑɒɔoʊuyᵻəɜɐʉᵿɵɯʌ]))", "$1̥"],
                 ["([ptʃk]ʰ?[.ˈˌ]*[lɹw])̥?(?!̩)", "$1̥"],
