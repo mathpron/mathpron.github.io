@@ -158,7 +158,7 @@ async function build() {
     let oldData = JSON.parse( await requestAsync('https://mathpron.github.io/data.json') ),
         oldSiteMap = await requestAsync('https://mathpron.github.io/sitemap.xml');
     let today = formatDate(new Date());
-    let siteMap = `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://mathpron.github.io/</loc><lastmod>${today}</lastmod></url>`;
+    let siteMap = `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://mathpron.github.io/</loc></url>`;
 
     for (let i = 0; i < 26; i++) {
         let letter = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'[i];
