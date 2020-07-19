@@ -565,7 +565,7 @@ function backtrackSearch(text, words, fuzzy, wordLimit, computeHl) {
         let word = words[index];
         let textHl = word;
         if (word[0] === "'" && text[0] !== "'") text = "'" + text;
-        if (text[0] !== word[0]) continue;
+        if (text[0] !== word[0] || (word[0] === "'" && text[1] !== word[1])) continue;
         let newWords = [], firstWordScore = 0;
         for (let i = 0; i < words.length; i++) { if (i !== index) newWords.push(words[i]); }
 
