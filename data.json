@@ -2936,7 +2936,7 @@
                         "alt": ["Zhou"],
                         "prons": [
                             "{{zh|orig}} {{lang|zh|周|Zhōu}} {{ipa|zh|ˈt͡ʂɤu˥}} {{audio|zh-CN-zhou.mp3}}",
-                            "{{en|aprx}} {{ipb|en|ˈd͡ʒəʊ}} {{audio|en-GB-chow.mp3}}",
+                            "{{en|aprx}} {{ipb|en|ˈt͡ʃaʊ}}",
                             "* {{ja|tran}} {{lang|ja|{{ruby|周|しゅう}}|Shū}}, {{lang|ja|チョウ|Chō}}",
                             "* {{ru|tran}} {{lang|ru|Чжоу|Chzhou}}"
                         ]
@@ -13778,7 +13778,7 @@
                         "text": "Tits",
                         "prons": [
                             "{{fr|orig}} {{ipa|fr|ˈtit͡s}} {{audio|fr-FR-tits.mp3}}",
-                            "{{en|aprx}} {{ipb|en|ˈtɪts}}",
+                            "{{en|aprx}} {{ipb|en|ˈtiːts}}",
                             "* {{ja|tran}} {{lang|ja|ティッツ|Tittsu}}",
                             "* {{ru|tran}} {{lang|ru|Титс|Tits}}",
                             "* {{zh|tran}} {{lang|zh|蒂茨|Dìcí}}"
@@ -15078,7 +15078,7 @@
                         "text": "Yoneda",
                         "prons": [
                             "{{ja|orig}} {{lang|ja|米田|Yoneda}} {{ipa|ja|joꜜ.ne.da}} {{audio|ja-JP-yoneda.mp3}}",
-                            "{{en|aprx}} {{ipb|en|ˈjəʊ.neɪ.də}}",
+                            "{{en|aprx}} {{ipb|en|ˈjəʊ.nɪ.də}}",
                             "* {{ru|tran}} {{lang|ru|Ёнэда|Yoneda}}",
                             "* {{zh|tran}} {{lang|zh|米田|Mǐtián}}"
                         ]
@@ -16254,7 +16254,6 @@
         },
         "no": {
             "broad": [
-                ["[ʏy](?!ʷ)", "ʉ"],
                 ["ɾ", "r"],
                 ["ɫ", "l"],
                 ["[̪ʰ]", ""]
@@ -16434,7 +16433,8 @@
         },
         "zh": {
             "broad": [
-                ["[̪̃ˈˌ]", ""]
+                ["[̪̃ˈˌ]", ""],
+                ["ɤu", "ou"]
             ],
             "std": [
                 ["([tds])(?![̥̊]*̪|͡)", "$1̪"],
@@ -16448,8 +16448,8 @@
                 ["yn", "ɥʏ̃n"],
                 ["wei", "we̠ɪ"],
                 ["ei", "ɛɪ"],
-                ["jɤu", "jɤ̹ʊ"],
-                ["ɤu", "ɤ̞͗ʊ"],
+                ["j[ɤo]u", "jɤ̹ʊ"],
+                ["[ɤo]u", "ɤ̞͗ʊ"],
                 ["wai", "wae̞"],
                 ["ai", "a̟e̞"],
                 ["jau", "jao̞"],
