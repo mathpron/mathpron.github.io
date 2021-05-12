@@ -20,7 +20,7 @@
     "autoprefixer": "^9.8.0",
     "cssnano": "^4.1.10",
     "html-minifier": "^4.0.0",
-    "postcss": "^7.0.32",
+    "postcss": "^8.2.10",
     "request": "^2.88.2",
     "simple-git": "^2.6.0",
     "terser": "^4.7.0"
