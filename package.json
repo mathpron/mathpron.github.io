@@ -22,7 +22,7 @@
     "html-minifier": "^4.0.0",
     "postcss": "^7.0.32",
     "request": "^2.88.2",
-    "simple-git": "^2.6.0",
+    "simple-git": "^3.5.0",
     "terser": "^4.7.0"
   }
 }
