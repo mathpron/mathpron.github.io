@@ -23,6 +23,6 @@
     "postcss": "^7.0.36",
     "request": "^2.88.2",
     "simple-git": "^3.5.0",
-    "terser": "^4.7.0"
+    "terser": "^4.8.1"
   }
 }
